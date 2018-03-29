@@ -1,0 +1,211 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset="utf-8">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+<script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
+<!--AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.-->
+<link rel="canonical" href="/pwamp">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<style amp-custom>
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFFFFF;}
+
+.show-content {display: inline;}
+.hide-content {display: none;}
+.products-list amp-list > div {
+  /* overflow: auto; */
+}
+.products_container {padding: 15px 10px 20px;}
+.products_container a {text-decoration: none; color: #000;}
+.total-results {text-align: center;}
+.total-results span {color: #a9133d;}
+.product-tile {width: 45%; float: left; padding: 7px 7px 30px;}
+/* .product-tile-inner {box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);} */
+.whishlist-box {width: 42%; position: absolute; z-index: 1;}
+.whishlist-icon {margin-right: 5px; margin-top: 5px; float: right; height: 20px; width: 20px; background: url('data:image/svg+xml;utf8,<svg fill="#a91f3d" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>');}
+.product-new, .product-inoffer {text-align: center; line-height: 12px; font-size: 10px; color: #fff; padding: 3px; position: absolute;}
+.product-new { background-color: #a9143c; z-index: 1;}
+.product-inoffer {background-color: #f4c300; z-index: 2;}
+.product-nostock span {margin: 25% 5%; font-size: 12px; font-weight: 600; position: absolute; padding: 3px 5px; z-index: 4;
+    text-align: center; border: 1px solid #e4e4e4; background-color: #fff; color: #ff1c47; display: block; max-width: 105px; width: 100%;}
+.overlay-opaque {opacity: 0.3;}
+.product-info {margin-top: 20px;}
+.brand-name, .product-name, .product-price {
+  margin: 4px 0;
+  /* padding: 0 5px; */
+}
+.brand-name {color: #999; font-size: 14px;}
+.product-name {font-size: 12px; height: 32px; overflow: hidden; color: #000;}
+.product-price {font-size: 12px;}
+.product-price .price-mrp {float: left; margin-right: 10px;}
+.price-strikeoff {text-decoration: line-through; color: #969696;}
+.product-price .price-mop {float: right; color: #a91f3d; padding-left: 10px;}
+.product-price .price-discount {color: #a91f3d;}
+.pagination-links a {color: #000; padding: 5px 10px;}
+.showing-pages {margin-right: 20px;}
+.page-numbers span {background-color: #fff; width: 29px; height: 29px; display: inline-block; text-align: center; line-height: 29px; border-radius: 15px;}
+.page-numbers span:first-child {background-color: #a91f3d; color: #fff;}
+.disable-link {pointer-events: none; opacity: 0.5;}
+
+/*Scroll To Top - CSS*/
+.scrollToTop {
+  color: #fff;
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background: #a91f3d;
+  z-index: 9999;
+  bottom: 60px;
+  right: 20px;
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+}
+#plp-marker {
+  position: absolute;
+  top: 100px;
+  width: 0px;
+  height: 0px;
+}
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+
+<body>
+  <amp-animation id="showAnim" layout="nodisplay">
+    <script type="application/json">
+      {
+        "duration": "200ms",
+         "fill": "both",
+         "iterations": "1",
+         "direction": "alternate",
+         "animations": [
+           {
+             "selector": "#scrollToTopButton",
+             "keyframes": [
+               { "opacity": "1", "visibility": "visible" }
+             ]
+           }
+         ]
+      }
+    </script>
+  </amp-animation>
+
+  <amp-animation id="hideAnim" layout="nodisplay">
+     <script type="application/json">
+       {
+         "duration": "200ms",
+           "fill": "both",
+           "iterations": "1",
+           "direction": "alternate",
+           "animations": [
+             {
+               "selector": "#scrollToTopButton",
+               "keyframes": [
+                 { "opacity": "0", "visibility": "hidden" }
+               ]
+             }
+           ]
+       }
+     </script>
+   </amp-animation>
+
+   <div id="plp-marker">
+     <amp-position-observer
+        on="enter:hideAnim.start; exit:showAnim.start"
+        layout="nodisplay">
+      </amp-position-observer>
+  </div>
+<div id="productsListContainer" class="products-list">
+  <amp-list src="/json/bag_plp_modified.json" width="auto" height="600" layout="fixed-height">
+    <template type="amp-mustache">
+  <div class="products_container">
+    <p class="total-results">Showing <span>"{{pagination.totalResults}}"</span> items for <span class="">"Bag"</span></p>
+    {{#searchresult}}
+        <div class="product-tile">
+          <div class="product-tile-inner">
+            <div class="whishlist-box">
+              <span class="whishlist-icon">
+                &nbsp;
+              </span>
+            </div>
+            <div class="hide-content" [class]="{{inStockFlag}} ? 'hide-content' : 'product-nostock'">
+              <span>Not Available</span>
+            </div>
+            <div class="hide-content" [class]="{{isOfferExisting}} ? 'product-inoffer' : 'hide-content'">ON <br />OFFER</div>
+            <div class="hide-content" [class]="{{productTag.newProduct}} ? 'product-new' : 'hide-content'">NEW</div>
+            <a href="https://www.tatacliq.com/p-{{productId}}">
+              <amp-img src="{{imageURL}}" class="" [class]="{{inStockFlag}} ? '' : 'overlay-opaque'" width="252" height="374"
+                layout="responsive"></amp-img>
+            </a>
+            <div class="product-info">
+                <!-- {{#variantOptions}}
+                  <a href="{{colorcode}}">{{colorname}}
+                  <svg width="15" height="15">
+                    <rect width="15" height="15" style= "fill:#0000FF;stroke-width:3;stroke:rgb(204, 211, 217)" />
+                  </svg>
+                  </a>
+                {{/variantOptions}} -->
+              <p class="brand-name">{{brandname}}</p>
+              <p class="product-name">{{productname}}</p>
+              <p class="product-price">
+                <span class="price-mrp" [class]="{{mrpPrice.doubleValue}} != {{sellingPrice.doubleValue}} ? 'price-mrp price-strikeoff' : 'price-mrp'">{{mrpPrice.formattedValueNoDecimal}}</span>
+                <span class="hide-content" [class]="{{mrpPrice.doubleValue}} != {{sellingPrice.doubleValue}} ? 'price-mop' : 'hide-content'">{{sellingPrice.formattedValueNoDecimal}}</span>
+                <span class="hide-content" [class]="{{mrpPrice.doubleValue}} != {{sellingPrice.doubleValue}} ? 'price-discount' : 'hide-content'">(-{{discountPercent}}%)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+    {{/searchresult}}
+    <p class="pagination-links">
+      <span class="showing-pages">Pages <span [text]="{{pagination.currentPage}}+1"></span> of {{pagination.totalPages}}</span>
+      <a class="disable-link" [class]="{{pagination.previousPage}} != 0 ? '' : 'disable-link'"
+        href="https://www.tatacliq.com/search/page-{{pagination.previousPage}}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse&text=bag&searchCategory=">Prev</a>
+        <span class="page-numbers">
+          {{#pagination.showPages}}
+          <span>
+            {{.}}
+          </span>
+          {{/pagination.showPages}}
+        </span>
+      <a class="disable-link" [class]="{{pagination.totalPages}} > {{pagination.nextPage}} ? '' : 'disable-link'"
+        href="https://www.tatacliq.com/search/page-{{pagination.nextPage}}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse&text=bag&searchCategory=">Next</a>
+    </p>
+  </div>
+  </template>
+  </amp-list>
+</div>
+
+<!-- Scroll to Top -->
+<button id="scrollToTopButton" on="tap:productsListContainer.scrollTo(duration=200)" class="scrollToTop">	&#9650; TOP</button>
+</body>
+
+</html>

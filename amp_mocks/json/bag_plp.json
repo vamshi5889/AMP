@@ -1,0 +1,3098 @@
+{
+  "items": [
+    {
+      "type": "productSearchPageWsDto",
+      "status": "Success",
+      "categoryCode": "all",
+      "currentQuery": {
+        "query": {
+          "value": "bag:relevance:isLuxuryProduct:false"
+        },
+        "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse"
+      },
+      "facetdata": [
+        {
+          "category": true,
+          "key": "brand",
+          "multiSelect": true,
+          "name": "Brand",
+          "priority": 12700,
+          "values": [
+            {
+              "count": 31,
+              "name": "109 F",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00014",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00014",
+              "value": "MBH16A00014"
+            },
+            {
+              "count": 503,
+              "name": "Addons",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00003",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00003",
+              "value": "MBH16W00003"
+            },
+            {
+              "count": 4,
+              "name": "Aerollit",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E01449",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E01449",
+              "value": "MBH12E01449"
+            },
+            {
+              "count": 77,
+              "name": "Aldo",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16F00012",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16F00012",
+              "value": "MBH16F00012"
+            },
+            {
+              "count": 47,
+              "name": "American Tourister",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00012",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00012",
+              "value": "MBH16W00012"
+            },
+            {
+              "count": 25,
+              "name": "Aristocrat",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00259",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00259",
+              "value": "MBH16W00259"
+            },
+            {
+              "count": 2325,
+              "name": "Baggit",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00023",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00023",
+              "value": "MBH16W00023"
+            },
+            {
+              "count": 101,
+              "name": "BagsRUs",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00264",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00264",
+              "value": "MBH16W00264"
+            },
+            {
+              "count": 67,
+              "name": "Bern",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00027",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00027",
+              "value": "MBH16W00027"
+            },
+            {
+              "count": 1,
+              "name": "Bombay Paisley",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00174",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00174",
+              "value": "MBH16A00174"
+            },
+            {
+              "count": 54,
+              "name": "CAT",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00312",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00312",
+              "value": "MBH16W00312"
+            },
+            {
+              "count": 845,
+              "name": "Caprese",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00035",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00035",
+              "value": "MBH16W00035"
+            },
+            {
+              "count": 14,
+              "name": "Clean Planet",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00044",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00044",
+              "value": "MBH16W00044"
+            },
+            {
+              "count": 3,
+              "name": "Croma",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00048",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00048",
+              "value": "MBH12E00048"
+            },
+            {
+              "count": 64,
+              "name": "Cross",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00048",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00048",
+              "value": "MBH16W00048"
+            },
+            {
+              "count": 37,
+              "name": "DC",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00262",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00262",
+              "value": "MBH16W00262"
+            },
+            {
+              "count": 572,
+              "name": "Da Milano",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00051",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00051",
+              "value": "MBH16W00051"
+            },
+            {
+              "count": 2,
+              "name": "DailyObjects",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E01022",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E01022",
+              "value": "MBH12E01022"
+            },
+            {
+              "count": 999,
+              "name": "Esbeda",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00066",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00066",
+              "value": "MBH16W00066"
+            },
+            {
+              "count": 259,
+              "name": "Fastrack",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00072",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00072",
+              "value": "MBH16W00072"
+            },
+            {
+              "count": 715,
+              "name": "Fossil",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00077",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00077",
+              "value": "MBH16W00077"
+            },
+            {
+              "count": 8,
+              "name": "Fusion Beats",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00003",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00003",
+              "value": "MBH16A00003"
+            },
+            {
+              "count": 59,
+              "name": "Globus",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00348",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00348",
+              "value": "MBH16A00348"
+            },
+            {
+              "count": 1452,
+              "name": "Hidesign",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00101",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00101",
+              "value": "MBH16W00101"
+            },
+            {
+              "count": 71,
+              "name": "India Circus",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00106",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00106",
+              "value": "MBH16W00106"
+            },
+            {
+              "count": 182,
+              "name": "JanSport",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00283",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00283",
+              "value": "MBH16W00283"
+            },
+            {
+              "count": 250,
+              "name": "Kara",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00113",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00113",
+              "value": "MBH16W00113"
+            },
+            {
+              "count": 12,
+              "name": "Label Ritu Kumar",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16B10071",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16B10071",
+              "value": "MBH16B10071"
+            },
+            {
+              "count": 791,
+              "name": "Lavie",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00122",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00122",
+              "value": "MBH16W00122"
+            },
+            {
+              "count": 34,
+              "name": "Leather Effect",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00249",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00249",
+              "value": "MBH16W00249"
+            },
+            {
+              "count": 140,
+              "name": "Leather Zentrum",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00124",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00124",
+              "value": "MBH16W00124"
+            },
+            {
+              "count": 54,
+              "name": "LensCoat",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E01021",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E01021",
+              "value": "MBH12E01021"
+            },
+            {
+              "count": 1,
+              "name": "Lesk",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00308",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00308",
+              "value": "MBH16W00308"
+            },
+            {
+              "count": 933,
+              "name": "Lino Perros",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00130",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00130",
+              "value": "MBH16W00130"
+            },
+            {
+              "count": 110,
+              "name": "Lomond",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00242",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00242",
+              "value": "MBH16W00242"
+            },
+            {
+              "count": 87,
+              "name": "LowePro",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00268",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00268",
+              "value": "MBH12E00268"
+            },
+            {
+              "count": 1,
+              "name": "Microware",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E01468",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E01468",
+              "value": "MBH12E01468"
+            },
+            {
+              "count": 57,
+              "name": "Mohawk",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00252",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00252",
+              "value": "MBH16W00252"
+            },
+            {
+              "count": 4,
+              "name": "National Geographic",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00391",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00391",
+              "value": "MBH12E00391"
+            },
+            {
+              "count": 16,
+              "name": "Neopack",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00056",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00056",
+              "value": "MBH12E00056"
+            },
+            {
+              "count": 67,
+              "name": "Pavers England",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16F00006",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16F00006",
+              "value": "MBH16F00006"
+            },
+            {
+              "count": 1,
+              "name": "Philips",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00006",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00006",
+              "value": "MBH12E00006"
+            },
+            {
+              "count": 110,
+              "name": "Puma",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00168",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00168",
+              "value": "MBH16A00168"
+            },
+            {
+              "count": 23,
+              "name": "Quick Brown Fox",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00310",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00310",
+              "value": "MBH16W00310"
+            },
+            {
+              "count": 4,
+              "name": "Raymond",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00209",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00209",
+              "value": "MBH16A00209"
+            },
+            {
+              "count": 13,
+              "name": "Red Tape",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16F00070",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16F00070",
+              "value": "MBH16F00070"
+            },
+            {
+              "count": 102,
+              "name": "Rossoyuki",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00167",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00167",
+              "value": "MBH16W00167"
+            },
+            {
+              "count": 100,
+              "name": "Satya Paul",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00044",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00044",
+              "value": "MBH16A00044"
+            },
+            {
+              "count": 175,
+              "name": "Skybags",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00180",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00180",
+              "value": "MBH16W00180"
+            },
+            {
+              "count": 273,
+              "name": "Steve Madden",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00261",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00261",
+              "value": "MBH16W00261"
+            },
+            {
+              "count": 1,
+              "name": "Stuffcool",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00050",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00050",
+              "value": "MBH12E00050"
+            },
+            {
+              "count": 1,
+              "name": "Targus",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00046",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00046",
+              "value": "MBH12E00046"
+            },
+            {
+              "count": 235,
+              "name": "Tarusa",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00197",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00197",
+              "value": "MBH16W00197"
+            },
+            {
+              "count": 239,
+              "name": "Teakwood Leathers",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16F00258",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16F00258",
+              "value": "MBH16F00258"
+            },
+            {
+              "count": 6,
+              "name": "The Cranberry Club",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH11A00639",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH11A00639",
+              "value": "MBH11A00639"
+            },
+            {
+              "count": 194,
+              "name": "Toniq",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00208",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00208",
+              "value": "MBH16W00208"
+            },
+            {
+              "count": 34,
+              "name": "Vanguard",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12E00103",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00103",
+              "value": "MBH12E00103"
+            },
+            {
+              "count": 155,
+              "name": "Viari",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00217",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00217",
+              "value": "MBH16W00217"
+            },
+            {
+              "count": 53,
+              "name": "Vie",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16W00220",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16W00220",
+              "value": "MBH16W00220"
+            },
+            {
+              "count": 107,
+              "name": "Westside",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH16A00004",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH16A00004",
+              "value": "MBH16A00004"
+            },
+            {
+              "count": 1,
+              "name": "Wildcraft",
+              "query": "bag:relevance:isLuxuryProduct:false:brand:MBH12F00106",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12F00106",
+              "value": "MBH12F00106"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "price",
+          "multiSelect": false,
+          "name": "Price",
+          "priority": 12600,
+          "values": [
+            {
+              "count": 2232,
+              "name": "₹0-₹1,000",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹0-₹1,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B90-%E2%82%B91%2C000",
+              "value": "₹0-₹1,000"
+            },
+            {
+              "count": 5513,
+              "name": "₹1,001-₹2,000",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹1,001-₹2,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B91%2C001-%E2%82%B92%2C000",
+              "value": "₹1,001-₹2,000"
+            },
+            {
+              "count": 3913,
+              "name": "₹2,001-₹5,000",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹2,001-₹5,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B92%2C001-%E2%82%B95%2C000",
+              "value": "₹2,001-₹5,000"
+            },
+            {
+              "count": 914,
+              "name": "₹5,001-₹10,000",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹5,001-₹10,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B95%2C001-%E2%82%B910%2C000",
+              "value": "₹5,001-₹10,000"
+            },
+            {
+              "count": 317,
+              "name": "₹10,001-₹20,000",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹10,001-₹20,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B910%2C001-%E2%82%B920%2C000",
+              "value": "₹10,001-₹20,000"
+            },
+            {
+              "count": 9,
+              "name": "₹20,001-₹30,000",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹20,001-₹30,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B920%2C001-%E2%82%B930%2C000",
+              "value": "₹20,001-₹30,000"
+            },
+            {
+              "count": 6,
+              "name": "₹1,001-₹1,500",
+              "query": "bag:relevance:isLuxuryProduct:false:price:₹1,001-₹1,500",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B91%2C001-%E2%82%B91%2C500",
+              "value": "₹1,001-₹1,500"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "colour",
+          "multiSelect": false,
+          "name": "Colour",
+          "priority": 12400,
+          "values": [
+            {
+              "count": 729,
+              "name": "Beige",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Beige_F5F5DC",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABeige_F5F5DC",
+              "value": "Beige_F5F5DC"
+            },
+            {
+              "count": 2454,
+              "name": "Black",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Black_000000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlack_000000",
+              "value": "Black_000000"
+            },
+            {
+              "count": 968,
+              "name": "Blue",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Blue_0000FF",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlue_0000FF",
+              "value": "Blue_0000FF"
+            },
+            {
+              "count": 2250,
+              "name": "Brown",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Brown_A52A2A",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABrown_A52A2A",
+              "value": "Brown_A52A2A"
+            },
+            {
+              "count": 36,
+              "name": "Coral",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Coral_FF7F50",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ACoral_FF7F50",
+              "value": "Coral_FF7F50"
+            },
+            {
+              "count": 318,
+              "name": "Gold",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Gold_FFD700",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AGold_FFD700",
+              "value": "Gold_FFD700"
+            },
+            {
+              "count": 484,
+              "name": "Green",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Green_008000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AGreen_008000",
+              "value": "Green_008000"
+            },
+            {
+              "count": 529,
+              "name": "Grey",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Grey_808080",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AGrey_808080",
+              "value": "Grey_808080"
+            },
+            {
+              "count": 26,
+              "name": "Khaki",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Khaki_F0E68C",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AKhaki_F0E68C",
+              "value": "Khaki_F0E68C"
+            },
+            {
+              "count": 303,
+              "name": "Maroon",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Maroon_800000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AMaroon_800000",
+              "value": "Maroon_800000"
+            },
+            {
+              "count": 67,
+              "name": "Metallic",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Metallic_D4AF37",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AMetallic_D4AF37",
+              "value": "Metallic_D4AF37"
+            },
+            {
+              "count": 46,
+              "name": "Multicolor",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Multi_multi",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AMulti_multi",
+              "value": "Multi_multi"
+            },
+            {
+              "count": 631,
+              "name": "Navy",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Navy_000080",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ANavy_000080",
+              "value": "Navy_000080"
+            },
+            {
+              "count": 246,
+              "name": "Orange",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Orange_FFA500",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AOrange_FFA500",
+              "value": "Orange_FFA500"
+            },
+            {
+              "count": 94,
+              "name": "Peach",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Peach_ffcba4",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3APeach_ffcba4",
+              "value": "Peach_ffcba4"
+            },
+            {
+              "count": 11,
+              "name": "Pewter",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Pewter_8c9094",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3APewter_8c9094",
+              "value": "Pewter_8c9094"
+            },
+            {
+              "count": 657,
+              "name": "Pink",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Pink_FFC0CB",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3APink_FFC0CB",
+              "value": "Pink_FFC0CB"
+            },
+            {
+              "count": 158,
+              "name": "Purple",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Purple_800080",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3APurple_800080",
+              "value": "Purple_800080"
+            },
+            {
+              "count": 1141,
+              "name": "Red",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Red_FF0000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ARed_FF0000",
+              "value": "Red_FF0000"
+            },
+            {
+              "count": 87,
+              "name": "Silver",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Silver_e4e4e4",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ASilver_e4e4e4",
+              "value": "Silver_e4e4e4"
+            },
+            {
+              "count": 779,
+              "name": "Tan",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Tan_d2691e",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ATan_d2691e",
+              "value": "Tan_d2691e"
+            },
+            {
+              "count": 85,
+              "name": "Turquoise",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Turquoise_40E0D0",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ATurquoise_40E0D0",
+              "value": "Turquoise_40E0D0"
+            },
+            {
+              "count": 286,
+              "name": "White",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:White_FFFFFF",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AWhite_FFFFFF",
+              "value": "White_FFFFFF"
+            },
+            {
+              "count": 325,
+              "name": "Yellow",
+              "query": "bag:relevance:isLuxuryProduct:false:colour:Yellow_FFFF00",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AYellow_FFFF00",
+              "value": "Yellow_FFFF00"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "size",
+          "multiSelect": false,
+          "name": "Size",
+          "priority": 11900,
+          "values": [
+            {
+              "count": 1,
+              "name": "1-2 Y",
+              "query": "bag:relevance:isLuxuryProduct:false:size:1-2 Y",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Asize%3A1-2+Y",
+              "value": "1-2 Y"
+            },
+            {
+              "count": 2,
+              "name": "2-4 Y",
+              "query": "bag:relevance:isLuxuryProduct:false:size:2-4 Y",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Asize%3A2-4+Y",
+              "value": "2-4 Y"
+            },
+            {
+              "count": 2,
+              "name": "4-6 Y",
+              "query": "bag:relevance:isLuxuryProduct:false:size:4-6 Y",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Asize%3A4-6+Y",
+              "value": "4-6 Y"
+            },
+            {
+              "count": 1,
+              "name": "6-8 Y",
+              "query": "bag:relevance:isLuxuryProduct:false:size:6-8 Y",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Asize%3A6-8+Y",
+              "value": "6-8 Y"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "Occasion",
+          "multiSelect": false,
+          "name": "Occasion",
+          "priority": 6300,
+          "values": [
+            {
+              "count": 6,
+              "name": "Party",
+              "query": "bag:relevance:isLuxuryProduct:false:Occasion:occasionkidswearparty",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AOccasion%3Aoccasionkidswearparty",
+              "value": "occasionkidswearparty"
+            },
+            {
+              "count": 7114,
+              "name": "casual",
+              "query": "bag:relevance:isLuxuryProduct:false:Occasion:casual",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AOccasion%3Acasual",
+              "value": "casual"
+            },
+            {
+              "count": 926,
+              "name": "formal",
+              "query": "bag:relevance:isLuxuryProduct:false:Occasion:formal",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AOccasion%3Aformal",
+              "value": "formal"
+            },
+            {
+              "count": 354,
+              "name": "party",
+              "query": "bag:relevance:isLuxuryProduct:false:Occasion:party",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AOccasion%3Aparty",
+              "value": "party"
+            },
+            {
+              "count": 9,
+              "name": "sport",
+              "query": "bag:relevance:isLuxuryProduct:false:Occasion:sport",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AOccasion%3Asport",
+              "value": "sport"
+            },
+            {
+              "count": 90,
+              "name": "wedding",
+              "query": "bag:relevance:isLuxuryProduct:false:Occasion:wedding",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AOccasion%3Awedding",
+              "value": "wedding"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "walletSize",
+          "multiSelect": false,
+          "name": "Bag Size",
+          "priority": 1000,
+          "values": [
+            {
+              "count": 325,
+              "name": "Extra Large",
+              "query": "bag:relevance:isLuxuryProduct:false:walletSize:Extra Large",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AwalletSize%3AExtra+Large",
+              "value": "Extra Large"
+            },
+            {
+              "count": 75,
+              "name": "Extra Small",
+              "query": "bag:relevance:isLuxuryProduct:false:walletSize:Extra Small",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AwalletSize%3AExtra+Small",
+              "value": "Extra Small"
+            },
+            {
+              "count": 1514,
+              "name": "Large",
+              "query": "bag:relevance:isLuxuryProduct:false:walletSize:Large",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AwalletSize%3ALarge",
+              "value": "Large"
+            },
+            {
+              "count": 7780,
+              "name": "Medium",
+              "query": "bag:relevance:isLuxuryProduct:false:walletSize:Medium",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AwalletSize%3AMedium",
+              "value": "Medium"
+            },
+            {
+              "count": 2,
+              "name": "Mini",
+              "query": "bag:relevance:isLuxuryProduct:false:walletSize:Mini",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AwalletSize%3AMini",
+              "value": "Mini"
+            },
+            {
+              "count": 2989,
+              "name": "Small",
+              "query": "bag:relevance:isLuxuryProduct:false:walletSize:Small",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AwalletSize%3ASmall",
+              "value": "Small"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "bagType",
+          "multiSelect": false,
+          "name": "Bag Type",
+          "priority": 1000,
+          "values": [
+            {
+              "count": 617,
+              "name": "Backpacks",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Backpacks",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ABackpacks",
+              "value": "Backpacks"
+            },
+            {
+              "count": 3,
+              "name": "Baguette",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Baguette",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ABaguette",
+              "value": "Baguette"
+            },
+            {
+              "count": 1600,
+              "name": "Bi-Fold",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Bi-Fold",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ABi-Fold",
+              "value": "Bi-Fold"
+            },
+            {
+              "count": 105,
+              "name": "Bowlers",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Bowlers",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ABowlers",
+              "value": "Bowlers"
+            },
+            {
+              "count": 1,
+              "name": "Brief",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Brief",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ABrief",
+              "value": "Brief"
+            },
+            {
+              "count": 20,
+              "name": "Bucket",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Bucket",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ABucket",
+              "value": "Bucket"
+            },
+            {
+              "count": 155,
+              "name": "Case",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Case",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ACase",
+              "value": "Case"
+            },
+            {
+              "count": 361,
+              "name": "Clutches",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Clutches",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AClutches",
+              "value": "Clutches"
+            },
+            {
+              "count": 45,
+              "name": "Coin & Card Case",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Coin & Card Case",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ACoin+%26+Card+Case",
+              "value": "Coin & Card Case"
+            },
+            {
+              "count": 16,
+              "name": "Cross Body",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Cross Body",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ACross+Body",
+              "value": "Cross Body"
+            },
+            {
+              "count": 18,
+              "name": "Doctors",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Doctors",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ADoctors",
+              "value": "Doctors"
+            },
+            {
+              "count": 71,
+              "name": "Duffle",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Duffle",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ADuffle",
+              "value": "Duffle"
+            },
+            {
+              "count": 104,
+              "name": "Envelope",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Envelope",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AEnvelope",
+              "value": "Envelope"
+            },
+            {
+              "count": 720,
+              "name": "Flap",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Flap",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AFlap",
+              "value": "Flap"
+            },
+            {
+              "count": 34,
+              "name": "Fold Over",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Fold Over",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AFold+Over",
+              "value": "Fold Over"
+            },
+            {
+              "count": 1239,
+              "name": "Handbags",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Handbags",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AHandbags",
+              "value": "Handbags"
+            },
+            {
+              "count": 151,
+              "name": "Hobos",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Hobos",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AHobos",
+              "value": "Hobos"
+            },
+            {
+              "count": 4,
+              "name": "Kelly",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Kelly",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AKelly",
+              "value": "Kelly"
+            },
+            {
+              "count": 610,
+              "name": "Laptop",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Laptop",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ALaptop",
+              "value": "Laptop"
+            },
+            {
+              "count": 151,
+              "name": "Messengers",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Messengers",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AMessengers",
+              "value": "Messengers"
+            },
+            {
+              "count": 84,
+              "name": "Minaudiere",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Minaudiere",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AMinaudiere",
+              "value": "Minaudiere"
+            },
+            {
+              "count": 5,
+              "name": "Money Clips",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Money Clips",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AMoney+Clips",
+              "value": "Money Clips"
+            },
+            {
+              "count": 23,
+              "name": "Others",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Others",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AOthers",
+              "value": "Others"
+            },
+            {
+              "count": 39,
+              "name": "Potlis",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Potlis",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3APotlis",
+              "value": "Potlis"
+            },
+            {
+              "count": 311,
+              "name": "Pouch",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Pouch",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3APouch",
+              "value": "Pouch"
+            },
+            {
+              "count": 178,
+              "name": "Quilted",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Quilted",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AQuilted",
+              "value": "Quilted"
+            },
+            {
+              "count": 70,
+              "name": "Saddle",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Saddle",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ASaddle",
+              "value": "Saddle"
+            },
+            {
+              "count": 8,
+              "name": "Satchel",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Satchel",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ASatchel",
+              "value": "Satchel"
+            },
+            {
+              "count": 79,
+              "name": "Satchels",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Satchels",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ASatchels",
+              "value": "Satchels"
+            },
+            {
+              "count": 1326,
+              "name": "Shoulder",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Shoulder",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AShoulder",
+              "value": "Shoulder"
+            },
+            {
+              "count": 1776,
+              "name": "Slings",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Slings",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ASlings",
+              "value": "Slings"
+            },
+            {
+              "count": 5,
+              "name": "Square",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Square",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ASquare",
+              "value": "Square"
+            },
+            {
+              "count": 787,
+              "name": "Totes",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Totes",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ATotes",
+              "value": "Totes"
+            },
+            {
+              "count": 134,
+              "name": "Trapeze",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Trapeze",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ATrapeze",
+              "value": "Trapeze"
+            },
+            {
+              "count": 492,
+              "name": "Tri-Fold",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Tri-Fold",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3ATri-Fold",
+              "value": "Tri-Fold"
+            },
+            {
+              "count": 1194,
+              "name": "Wallets",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Wallets",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AWallets",
+              "value": "Wallets"
+            },
+            {
+              "count": 149,
+              "name": "Wristlet",
+              "query": "bag:relevance:isLuxuryProduct:false:bagType:Wristlet",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AbagType%3AWristlet",
+              "value": "Wristlet"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "materialType",
+          "multiSelect": false,
+          "name": "Material",
+          "priority": 1000,
+          "values": [
+            {
+              "count": 4411,
+              "name": "Fabric",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Fabric",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3AFabric",
+              "value": "Fabric"
+            },
+            {
+              "count": 1307,
+              "name": "Faux Leather",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Faux Leather",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3AFaux+Leather",
+              "value": "Faux Leather"
+            },
+            {
+              "count": 132,
+              "name": "Genuine Leather",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Genuine Leather",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3AGenuine+Leather",
+              "value": "Genuine Leather"
+            },
+            {
+              "count": 1,
+              "name": "Georgette",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Georgette",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3AGeorgette",
+              "value": "Georgette"
+            },
+            {
+              "count": 3867,
+              "name": "Leather",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Leather",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3ALeather",
+              "value": "Leather"
+            },
+            {
+              "count": 3,
+              "name": "Metal",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Metal",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3AMetal",
+              "value": "Metal"
+            },
+            {
+              "count": 26,
+              "name": "Others",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Others",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3AOthers",
+              "value": "Others"
+            },
+            {
+              "count": 2873,
+              "name": "PU",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:PU",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3APU",
+              "value": "PU"
+            },
+            {
+              "count": 62,
+              "name": "PVC",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:PVC",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3APVC",
+              "value": "PVC"
+            },
+            {
+              "count": 1,
+              "name": "Plastic",
+              "query": "bag:relevance:isLuxuryProduct:false:materialType:Plastic",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AmaterialType%3APlastic",
+              "value": "Plastic"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "patternWatches",
+          "multiSelect": false,
+          "name": "Pattern",
+          "priority": 1000,
+          "values": [
+            {
+              "count": 270,
+              "name": "Color Block",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Color Block",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AColor+Block",
+              "value": "Color Block"
+            },
+            {
+              "count": 133,
+              "name": "Cut Work",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Cut Work",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3ACut+Work",
+              "value": "Cut Work"
+            },
+            {
+              "count": 313,
+              "name": "Embellished",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Embellished",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AEmbellished",
+              "value": "Embellished"
+            },
+            {
+              "count": 95,
+              "name": "Embroidered",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Embroidered",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AEmbroidered",
+              "value": "Embroidered"
+            },
+            {
+              "count": 459,
+              "name": "Faded",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Faded",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AFaded",
+              "value": "Faded"
+            },
+            {
+              "count": 1008,
+              "name": "Others",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Others",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AOthers",
+              "value": "Others"
+            },
+            {
+              "count": 381,
+              "name": "Paneled",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Paneled",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3APaneled",
+              "value": "Paneled"
+            },
+            {
+              "count": 39,
+              "name": "Perforated",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Perforated",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3APerforated",
+              "value": "Perforated"
+            },
+            {
+              "count": 77,
+              "name": "Plaid",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Plaid",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3APlaid",
+              "value": "Plaid"
+            },
+            {
+              "count": 929,
+              "name": "Printed",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Printed",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3APrinted",
+              "value": "Printed"
+            },
+            {
+              "count": 5597,
+              "name": "Solid",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Solid",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3ASolid",
+              "value": "Solid"
+            },
+            {
+              "count": 6,
+              "name": "Stitched",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Stitched",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AStitched",
+              "value": "Stitched"
+            },
+            {
+              "count": 248,
+              "name": "Striped",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Striped",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3AStriped",
+              "value": "Striped"
+            },
+            {
+              "count": 3125,
+              "name": "Textured",
+              "query": "bag:relevance:isLuxuryProduct:false:patternWatches:Textured",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3ApatternWatches%3ATextured",
+              "value": "Textured"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "type-classification",
+          "multiSelect": false,
+          "name": "Type",
+          "priority": 1000,
+          "values": [
+            {
+              "count": 10,
+              "name": "-",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:-",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3A-",
+              "value": "-"
+            },
+            {
+              "count": 1,
+              "name": "Accessory Kit",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:Accessory Kit",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3AAccessory+Kit",
+              "value": "Accessory Kit"
+            },
+            {
+              "count": 1,
+              "name": "Dry Vacuum Cleaner",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:Dry Vacuum Cleaner",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3ADry+Vacuum+Cleaner",
+              "value": "Dry Vacuum Cleaner"
+            },
+            {
+              "count": 9,
+              "name": "Laptop Bag",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:Laptop Bag",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3ALaptop+Bag",
+              "value": "Laptop Bag"
+            },
+            {
+              "count": 3,
+              "name": "Messenger Bag",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:Messenger Bag",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3AMessenger+Bag",
+              "value": "Messenger Bag"
+            },
+            {
+              "count": 1,
+              "name": "Shoulder sleeve",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:Shoulder sleeve",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3AShoulder+sleeve",
+              "value": "Shoulder sleeve"
+            },
+            {
+              "count": 1,
+              "name": "Sling Bag",
+              "query": "bag:relevance:isLuxuryProduct:false:type-classification:Sling Bag",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3ASling+Bag",
+              "value": "Sling Bag"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "inStockFlag",
+          "multiSelect": false,
+          "name": "Availability",
+          "priority": 500,
+          "values": [
+            {
+              "count": 5271,
+              "name": "Exclude out of stock",
+              "query": "bag:relevance:isLuxuryProduct:false:inStockFlag:true",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AinStockFlag%3Atrue",
+              "value": "true"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "discountAll",
+          "multiSelect": false,
+          "name": "All Discount",
+          "priority": 0,
+          "values": [
+            {
+              "count": 7821,
+              "name": "Discounted Items",
+              "query": "bag:relevance:isLuxuryProduct:false:discountAll:Discounted Items",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items",
+              "value": "Discounted Items"
+            },
+            {
+              "count": 5083,
+              "name": "Non - Discounted Items",
+              "query": "bag:relevance:isLuxuryProduct:false:discountAll:Non - Discounted Items",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ANon+-+Discounted+Items",
+              "value": "Non - Discounted Items"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "discountFlag",
+          "multiSelect": false,
+          "name": "Discount",
+          "priority": 0,
+          "values": [
+            {
+              "count": 317,
+              "name": "Upto 10%",
+              "query": "bag:relevance:isLuxuryProduct:false:discountFlag:Upto 10%",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3AUpto+10%25",
+              "value": "Upto 10%"
+            },
+            {
+              "count": 2061,
+              "name": "10% - 30%",
+              "query": "bag:relevance:isLuxuryProduct:false:discountFlag:10% - 30%",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A10%25+-+30%25",
+              "value": "10% - 30%"
+            },
+            {
+              "count": 2670,
+              "name": "30% - 50%",
+              "query": "bag:relevance:isLuxuryProduct:false:discountFlag:30% - 50%",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A30%25+-+50%25",
+              "value": "30% - 50%"
+            },
+            {
+              "count": 2642,
+              "name": "50% - 70%",
+              "query": "bag:relevance:isLuxuryProduct:false:discountFlag:50% - 70%",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A50%25+-+70%25",
+              "value": "50% - 70%"
+            },
+            {
+              "count": 61,
+              "name": "70% and more",
+              "query": "bag:relevance:isLuxuryProduct:false:discountFlag:70% and more",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A70%25+and+more",
+              "value": "70% and more"
+            }
+          ],
+          "visible": true
+        }
+      ],
+      "facetdatacategory": {
+        "category": true,
+        "filters": [
+          {
+            "categoryCode": "MSH12",
+            "categoryName": "Electronics",
+            "categoryType": "department",
+            "childFilters": [
+              {
+                "categoryCode": "MSH1220",
+                "categoryName": "Camera",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1220110",
+                    "categoryName": "Camera Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 179,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1220115",
+                    "categoryName": "Dash Cameras",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 1,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 180,
+                "ranking": "0",
+                "selected": false
+              },
+              {
+                "categoryCode": "MSH1222",
+                "categoryName": "Accessories",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1222101",
+                    "categoryName": "Covers & Cases",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 2,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 2,
+                "ranking": "0",
+                "selected": false
+              },
+              {
+                "categoryCode": "MSH1226",
+                "categoryName": "Computer Parts",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1226103",
+                    "categoryName": "Accessories",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 26,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 26,
+                "ranking": "0",
+                "selected": false
+              },
+              {
+                "categoryCode": "MSH1231",
+                "categoryName": "Small Appliances",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1231101",
+                    "categoryName": "Vacuum Cleaner",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 1,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 1,
+                "ranking": "0",
+                "selected": false
+              }
+            ],
+            "level": "L1",
+            "quantity": 209,
+            "ranking": "0",
+            "selected": false
+          },
+          {
+            "categoryCode": "MSH16",
+            "categoryName": "Accessories",
+            "categoryType": "department",
+            "childFilters": [
+              {
+                "categoryCode": "MSH1600",
+                "categoryName": "Women Bags",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1600000",
+                    "categoryName": "Sling Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 2114,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600001",
+                    "categoryName": "Clutches",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 617,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600002",
+                    "categoryName": "Wallets",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 2078,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600003",
+                    "categoryName": "Backpacks",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 338,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600004",
+                    "categoryName": "Tote Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 800,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600005",
+                    "categoryName": "Satchels",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 84,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600006",
+                    "categoryName": "Cases & Pouches",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 298,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600007",
+                    "categoryName": "Messenger Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 36,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600009",
+                    "categoryName": "Shoulder Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 1648,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600010",
+                    "categoryName": "Handbags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 1481,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600011",
+                    "categoryName": "Potli Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 39,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600012",
+                    "categoryName": "Cross Body Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 4,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1600013",
+                    "categoryName": "Others",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 200,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 9737,
+                "ranking": "0",
+                "selected": false
+              },
+              {
+                "categoryCode": "MSH1604",
+                "categoryName": "Mens Bags",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1604000",
+                    "categoryName": "Wallets",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 1581,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604001",
+                    "categoryName": "Messenger Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 286,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604002",
+                    "categoryName": "Satchels",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 10,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604003",
+                    "categoryName": "Cases & Pouches",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 232,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604004",
+                    "categoryName": "Sling Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 193,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604005",
+                    "categoryName": "Backpacks",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 569,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604006",
+                    "categoryName": "Cross Body Bags",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 13,
+                    "ranking": "0",
+                    "selected": false
+                  },
+                  {
+                    "categoryCode": "MSH1604007",
+                    "categoryName": "Others",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 67,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 2951,
+                "ranking": "0",
+                "selected": false
+              },
+              {
+                "categoryCode": "MSH1608",
+                "categoryName": "Utility & Stationary",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1608002",
+                    "categoryName": "Keychains",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 1,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 1,
+                "ranking": "0",
+                "selected": false
+              }
+            ],
+            "level": "L1",
+            "quantity": 12689,
+            "ranking": "0",
+            "selected": false
+          },
+          {
+            "categoryCode": "MSH21",
+            "categoryName": "Kids",
+            "categoryType": "department",
+            "childFilters": [
+              {
+                "categoryCode": "MSH2111",
+                "categoryName": "Girls Clothing",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH2111102",
+                    "categoryName": "Dresses",
+                    "categoryType": "category",
+                    "childFilters": [
+                      {
+                        "categoryCode": "MSH2111102101",
+                        "categoryName": "Party Dresses",
+                        "categoryType": "category",
+                        "level": "L4",
+                        "quantity": 6,
+                        "ranking": "0",
+                        "selected": false
+                      }
+                    ],
+                    "level": "L3",
+                    "quantity": 6,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 6,
+                "ranking": "0",
+                "selected": false
+              }
+            ],
+            "level": "L1",
+            "quantity": 6,
+            "ranking": "0",
+            "selected": false
+          }
+        ],
+        "key": "category",
+        "multiSelect": true,
+        "name": "Category",
+        "priority": 12800,
+        "selected": false,
+        "visible": false
+      },
+      "pagination": {
+        "currentPage": 0,
+        "pageSize": 20,
+        "sort": "relevance",
+        "totalPages": 636,
+        "totalResults": 12710
+      },
+      "searchresult": [
+        {
+          "brandname": "Lomond",
+          "compareProductType": "MSH1604004",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000837865_252Wx374H_20161215155358.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000837865_437Wx649H_20161215155358.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000837865_252Wx374H_20161215155358.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000837865",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1749.0,
+            "formattedValue": "₹1749.00",
+            "formattedValueNoDecimal": "₹1749",
+            "priceType": "BUY",
+            "value": 1749.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000837865",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Lomond LM150 Black Solid Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1749.0,
+            "formattedValue": "₹1749.00",
+            "formattedValueNoDecimal": "₹1749",
+            "priceType": "BUY",
+            "value": 1749.0
+          },
+          "ussid": "123810LM150"
+        },
+        {
+          "brandname": "Hidesign",
+          "compareProductType": "MSH1600009",
+          "cumulativeStockLevel": true,
+          "discountPercent": "30.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002163924_252Wx374H_20171215131913.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002163924_437Wx649H_20171215131913.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002163924_252Wx374H_20171215131913.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002163924",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 5795.0,
+            "formattedValue": "₹5795.00",
+            "formattedValueNoDecimal": "₹5795",
+            "priceType": "BUY",
+            "value": 5795.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002163924",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Hidesign SB Alya 01 Navy Textured Leather Shoulder Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 4056.0,
+            "formattedValue": "₹4056.00",
+            "formattedValueNoDecimal": "₹4056",
+            "priceType": "BUY",
+            "value": 4056.0
+          },
+          "ussid": "1003538903439438111",
+          "variantOptions": [
+            {
+              "colorcode": "#FF0000||MP000000002494267",
+              "colorname": "Red"
+            },
+            {
+              "colorcode": "#800080||MP000000002494263",
+              "colorname": "Purple"
+            }
+          ]
+        },
+        {
+          "brandname": "Baggit",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002161212_252Wx374H_20171214195617.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002161212_437Wx649H_20171214195617.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002161212_252Wx374H_20171214195617.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002161212",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1600.0,
+            "formattedValue": "₹1600.00",
+            "formattedValueNoDecimal": "₹1600",
+            "priceType": "BUY",
+            "value": 1600.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002161212",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Baggit Celeb Red & Navy Solid Flap Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1600.0,
+            "formattedValue": "₹1600.00",
+            "formattedValueNoDecimal": "₹1600",
+            "priceType": "BUY",
+            "value": 1600.0
+          },
+          "ussid": "1237672076617"
+        },
+        {
+          "brandname": "Steve Madden",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "50.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002140182_252Wx374H_20171206194940.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002140182_437Wx649H_20171206194940.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002140182_252Wx374H_20171206194940.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002140182",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 5999.0,
+            "formattedValue": "₹5999.00",
+            "formattedValueNoDecimal": "₹5999",
+            "priceType": "BUY",
+            "value": 5999.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002140182",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Steve Madden Bsweety Golden Solid Flap Sling Bag with Pouch",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2999.5,
+            "formattedValue": "₹2999.50",
+            "formattedValueNoDecimal": "₹2999",
+            "priceType": "BUY",
+            "value": 2999.5
+          },
+          "ussid": "124051410069709002",
+          "variantOptions": [
+            {
+              "colorcode": "#FFC0CB||MP000000002140372",
+              "colorname": "Pink"
+            }
+          ]
+        },
+        {
+          "brandname": "Baggit",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002174528_252Wx374H_20171217033103.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002174528_437Wx649H_20171217033103.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002174528_252Wx374H_20171217033103.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002174528",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1375.0,
+            "formattedValue": "₹1375.00",
+            "formattedValueNoDecimal": "₹1375",
+            "priceType": "BUY",
+            "value": 1375.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002174528",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Baggit Slay Pink Solid Flap Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1375.0,
+            "formattedValue": "₹1375.00",
+            "formattedValueNoDecimal": "₹1375",
+            "priceType": "BUY",
+            "value": 1375.0
+          },
+          "ussid": "1237672076775"
+        },
+        {
+          "brandname": "Hidesign",
+          "compareProductType": "MSH1600009",
+          "cumulativeStockLevel": true,
+          "discountPercent": "30.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202513_252Wx374H_20180101014311.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002202513_437Wx649H_20180101013928.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202513_252Wx374H_20180101014311.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002202513",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 6895.0,
+            "formattedValue": "₹6895.00",
+            "formattedValueNoDecimal": "₹6895",
+            "priceType": "BUY",
+            "value": 6895.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002202513",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Hidesign Scorpio 02 Dark Green Textured Leather Shoulder Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 4826.0,
+            "formattedValue": "₹4826.00",
+            "formattedValueNoDecimal": "₹4826",
+            "priceType": "BUY",
+            "value": 4826.0
+          },
+          "ussid": "1003538903439468644",
+          "variantOptions": [
+            {
+              "colorcode": "#d2691e||MP000000002202509",
+              "colorname": "Tan"
+            },
+            {
+              "colorcode": "#800000||MP000000002202510",
+              "colorname": "Maroon"
+            }
+          ]
+        },
+        {
+          "brandname": "Hidesign",
+          "compareProductType": "MSH1600009",
+          "cumulativeStockLevel": true,
+          "discountPercent": "30.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202519_252Wx374H_20180101012956.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002202519_437Wx649H_20180101012956.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202519_252Wx374H_20180101012956.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002202519",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 7795.0,
+            "formattedValue": "₹7795.00",
+            "formattedValueNoDecimal": "₹7795",
+            "priceType": "BUY",
+            "value": 7795.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002202519",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Hidesign Gemini 01 Orange & Blue Leather Shoulder Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 5456.0,
+            "formattedValue": "₹5456.00",
+            "formattedValueNoDecimal": "₹5456",
+            "priceType": "BUY",
+            "value": 5456.0
+          },
+          "ussid": "1003538903439468811",
+          "variantOptions": [
+            {
+              "colorcode": "#0000FF||MP000000002202517",
+              "colorname": "Blue"
+            }
+          ]
+        },
+        {
+          "brandname": "Hidesign",
+          "compareProductType": "MSH1600009",
+          "cumulativeStockLevel": true,
+          "discountPercent": "30.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202528_252Wx374H_20180101015106.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002202528_437Wx649H_20180101015106.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202528_252Wx374H_20180101015106.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002202528",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 5795.0,
+            "formattedValue": "₹5795.00",
+            "formattedValueNoDecimal": "₹5795",
+            "priceType": "BUY",
+            "value": 5795.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002202528",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Hidesign Libra 01 Green & Blue Textured Leather Shoulder Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 4056.0,
+            "formattedValue": "₹4056.00",
+            "formattedValueNoDecimal": "₹4056",
+            "priceType": "BUY",
+            "value": 4056.0
+          },
+          "ussid": "1003538903439468750",
+          "variantOptions": [
+            {
+              "colorcode": "#000000||MP000000002202523",
+              "colorname": "Black"
+            }
+          ]
+        },
+        {
+          "brandname": "Hidesign",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "30.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202551_252Wx374H_20180101011820.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002202551_437Wx649H_20180101011820.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002202551_252Wx374H_20180101011820.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002202551",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 5695.0,
+            "formattedValue": "₹5695.00",
+            "formattedValueNoDecimal": "₹5695",
+            "priceType": "BUY",
+            "value": 5695.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002202551",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Hidesign Scorpio 03 Maroon Textured Leather Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 3986.0,
+            "formattedValue": "₹3986.00",
+            "formattedValueNoDecimal": "₹3986",
+            "priceType": "BUY",
+            "value": 3986.0
+          },
+          "ussid": "1003538903439468668",
+          "variantOptions": [
+            {
+              "colorcode": "#008000||MP000000002202557",
+              "colorname": "Green"
+            },
+            {
+              "colorcode": "#d2691e||MP000000002202554",
+              "colorname": "Tan"
+            }
+          ]
+        },
+        {
+          "brandname": "Esbeda",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "20.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002280122_252Wx374H_20180119034248.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002280122_437Wx649H_20180119034248.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002280122_252Wx374H_20180119034248.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002280122",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1280.0,
+            "formattedValue": "₹1280.00",
+            "formattedValueNoDecimal": "₹1280",
+            "priceType": "BUY",
+            "value": 1280.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002280122",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Esbeda Black & Grey Solid Saddle Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1024.0,
+            "formattedValue": "₹1024.00",
+            "formattedValueNoDecimal": "₹1024",
+            "priceType": "BUY",
+            "value": 1024.0
+          },
+          "ussid": "1003542380",
+          "variantOptions": [
+            {
+              "colorcode": "#0000FF||MP000000002491993",
+              "colorname": "Blue"
+            },
+            {
+              "colorcode": "#800080||MP000000002491998",
+              "colorname": "Purple"
+            },
+            {
+              "colorcode": "#FF0000||MP000000002492019",
+              "colorname": "Red"
+            },
+            {
+              "colorcode": "#FFC0CB||MP000000002491641",
+              "colorname": "Pink"
+            }
+          ]
+        },
+        {
+          "brandname": "Baggit",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002161058_252Wx374H_20171214194247.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002161058_437Wx649H_20171214194247.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002161058_252Wx374H_20171214194247.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002161058",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2150.0,
+            "formattedValue": "₹2150.00",
+            "formattedValueNoDecimal": "₹2150",
+            "priceType": "BUY",
+            "value": 2150.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002161058",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Baggit Twix Caramel Tan Distressed Flap Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2150.0,
+            "formattedValue": "₹2150.00",
+            "formattedValueNoDecimal": "₹2150",
+            "priceType": "BUY",
+            "value": 2150.0
+          },
+          "ussid": "1237672076727"
+        },
+        {
+          "brandname": "Esbeda",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "20.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002278332_252Wx374H_20180119015553.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002278332_437Wx649H_20180119015553.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002278332_252Wx374H_20180119015553.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002278332",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1380.0,
+            "formattedValue": "₹1380.00",
+            "formattedValueNoDecimal": "₹1380",
+            "priceType": "BUY",
+            "value": 1380.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000002278332",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Esbeda Maroon & Blue Solid Flap Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1104.0,
+            "formattedValue": "₹1104.00",
+            "formattedValueNoDecimal": "₹1104",
+            "priceType": "BUY",
+            "value": 1104.0
+          },
+          "ussid": "1003542409",
+          "variantOptions": [
+            {
+              "colorcode": "#0000FF||MP000000002278506",
+              "colorname": "Blue"
+            },
+            {
+              "colorcode": "#808080||MP000000002280209",
+              "colorname": "Grey"
+            },
+            {
+              "colorcode": "#000080||MP000000002280825",
+              "colorname": "Navy"
+            },
+            {
+              "colorcode": "#FF0000||MP000000002280207",
+              "colorname": "Red"
+            },
+            {
+              "colorcode": "#d2691e||MP000000002280208",
+              "colorname": "Tan"
+            }
+          ]
+        },
+        {
+          "brandname": "Clean Planet",
+          "compareProductType": "MSH1600011",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000626161_252Wx374H_20161025204637.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000626161_437Wx649H_20161025204637.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000626161_252Wx374H_20161025204637.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000626161",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 999.0,
+            "formattedValue": "₹999.00",
+            "formattedValueNoDecimal": "₹999",
+            "priceType": "BUY",
+            "value": 999.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000626161",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Clean Planet Indiegenius Orange & Red Textured Potli Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 999.0,
+            "formattedValue": "₹999.00",
+            "formattedValueNoDecimal": "₹999",
+            "priceType": "BUY",
+            "value": 999.0
+          },
+          "ussid": "100358CPIGPotli01"
+        },
+        {
+          "brandname": "Clean Planet",
+          "compareProductType": "MSH1600011",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000626185_252Wx374H_20161025210249.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000626185_437Wx649H_20161025210249.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000626185_252Wx374H_20161025210249.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000626185",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 999.0,
+            "formattedValue": "₹999.00",
+            "formattedValueNoDecimal": "₹999",
+            "priceType": "BUY",
+            "value": 999.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000626185",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Clean Planet Indiegenius Orange &Red Textured Potli Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 999.0,
+            "formattedValue": "₹999.00",
+            "formattedValueNoDecimal": "₹999",
+            "priceType": "BUY",
+            "value": 999.0
+          },
+          "ussid": "100358CPIGPotli06"
+        },
+        {
+          "brandname": "Viari",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000628169_252Wx374H_20161026041945.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000628169_437Wx649H_20161026041945.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000628169_252Wx374H_20161026041945.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000628169",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 4200.0,
+            "formattedValue": "₹4200.00",
+            "formattedValueNoDecimal": "₹4200",
+            "priceType": "BUY",
+            "value": 4200.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000628169",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Viari Berkeley Lush Green Leather Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 4200.0,
+            "formattedValue": "₹4200.00",
+            "formattedValueNoDecimal": "₹4200",
+            "priceType": "BUY",
+            "value": 4200.0
+          },
+          "ussid": "100357VE2181"
+        },
+        {
+          "brandname": "Viari",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000628224_252Wx374H_20161026043758.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000628224_437Wx649H_20161026043758.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000628224_252Wx374H_20161026043758.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000628224",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2300.0,
+            "formattedValue": "₹2300.00",
+            "formattedValueNoDecimal": "₹2300",
+            "priceType": "BUY",
+            "value": 2300.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000628224",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Viari Berkeley Neon Blue Leather Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2300.0,
+            "formattedValue": "₹2300.00",
+            "formattedValueNoDecimal": "₹2300",
+            "priceType": "BUY",
+            "value": 2300.0
+          },
+          "ussid": "100357VE1221"
+        },
+        {
+          "brandname": "Vie",
+          "compareProductType": "MSH1600004",
+          "cumulativeStockLevel": true,
+          "discountPercent": "49.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000627533_252Wx374H_20161026020443.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000627533_437Wx649H_20161026020443.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000627533_252Wx374H_20161026020443.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000627533",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 3599.0,
+            "formattedValue": "₹3599.00",
+            "formattedValueNoDecimal": "₹3599",
+            "priceType": "BUY",
+            "value": 3599.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000627533",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "ViE Black Textured Tote Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1800.0,
+            "formattedValue": "₹1800.00",
+            "formattedValueNoDecimal": "₹1800",
+            "priceType": "BUY",
+            "value": 1800.0
+          },
+          "ussid": "100349VK017A"
+        },
+        {
+          "brandname": "Lino Perros",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "40.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000616932_252Wx374H_20161023080102.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000616932_437Wx649H_20161023080102.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000616932_252Wx374H_20161023080102.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000616932",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1295.0,
+            "formattedValue": "₹1295.00",
+            "formattedValueNoDecimal": "₹1295",
+            "priceType": "BUY",
+            "value": 1295.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000616932",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Lino Perros Turquoise Zip Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 777.0,
+            "formattedValue": "₹777.00",
+            "formattedValueNoDecimal": "₹777",
+            "priceType": "BUY",
+            "value": 777.0
+          },
+          "ussid": "100359LWSL00218TURQUOISE"
+        },
+        {
+          "brandname": "Viari",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000628198_252Wx374H_20161026042803.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000628198_437Wx649H_20161026042803.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000628198_252Wx374H_20161026042803.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000628198",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2500.0,
+            "formattedValue": "₹2500.00",
+            "formattedValueNoDecimal": "₹2500",
+            "priceType": "BUY",
+            "value": 2500.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000628198",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Viari Berkeley Berry Blue Leather Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2500.0,
+            "formattedValue": "₹2500.00",
+            "formattedValueNoDecimal": "₹2500",
+            "priceType": "BUY",
+            "value": 2500.0
+          },
+          "ussid": "100357VE2175"
+        },
+        {
+          "brandname": "Lino Perros",
+          "compareProductType": "MSH1600000",
+          "cumulativeStockLevel": true,
+          "discountPercent": "40.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/252Wx374H/MP000000000619554_252Wx374H_20161024053254.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/437Wx649H/MP000000000619554_437Wx649H_20161024053254.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/252Wx374H/MP000000000619554_252Wx374H_20161024053254.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000000619554",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 2295.0,
+            "formattedValue": "₹2295.00",
+            "formattedValueNoDecimal": "₹2295",
+            "priceType": "BUY",
+            "value": 2295.0
+          },
+          "productCategoryType": "Accessories",
+          "productId": "MP000000000619554",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Lino Perros Blue Textured Sling Bag",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 1377.0,
+            "formattedValue": "₹1377.00",
+            "formattedValueNoDecimal": "₹1377",
+            "priceType": "BUY",
+            "value": 1377.0
+          },
+          "ussid": "100359LWSL00212BLUE"
+        }
+      ],
+      "sorts": [
+        {
+          "code": "relevance",
+          "name": "Relevance",
+          "selected": true
+        },
+        {
+          "code": "price-asc",
+          "name": "Price Low to High",
+          "selected": false
+        },
+        {
+          "code": "price-desc",
+          "name": "Price High to Low",
+          "selected": false
+        },
+        {
+          "code": "isDiscountedPrice",
+          "name": "Discounts",
+          "selected": false
+        },
+        {
+          "code": "isProductNew",
+          "name": "Brand New",
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

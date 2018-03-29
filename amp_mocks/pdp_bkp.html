@@ -1,0 +1,77 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset="utf-8">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<!--AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.-->
+<link rel="canonical" href="/pwamp">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<style amp-custom>
+body {font-family:'Montserrat', sans-serif;}
+.product-image-section amp-carousel .imgItem amp-img {margin: 10px 30px;}
+.product-details {margin: 30px; margin-top: 0;}
+.pdp-brand-name {color: #535353; font-size: 12px; font-weight: bold;}
+.pdp-product-name {font-size: 20px; font-weight: bold; margin: 0;}
+.pdp-price {margin: 10px 0;}
+.pdp-mrp {color: #999; padding-right: 10px; font-size: 14px; text-decoration: line-through;}
+.pdp-seller-mrp {font-size: 16px; font-weight: bold; padding-right: 10px;}
+.pdp-discount {color: #eb6073;}
+.pdp-cod {margin: 10px 0 30px 0;}
+#cod-link {color: #92002e;font-size: 14px;text-decoration: underline; font-weight: bold;}
+.size-guide {font-size: 14px; font-weight: bold;}
+.guide-btn {color: #a5173c;}
+.guide-btn .size-icon {color: white; background-color: #a5173c; font-size: 11px; padding: 0 4px; border-radius: 50%;}
+.size-options {display: inline-block; padding: 0; margin: 0;}
+.size-options li {list-style-type: none;float: left;text-align: center;margin: 0 5px 5px 0;border: 1px solid #ccc;}
+.size-options li a {padding: 8px 5px;text-decoration: none; font-size: 12px; font-weight: bold; color: #000;cursor: pointer; display: block;}
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+
+<body>
+<section class="product-image-section">
+  <!-- <amp-list src="/json/banner.json" height="370" layout="fixed-height">
+    <template type="amp-mustache"> -->
+      <amp-carousel class="slider" width="320" height="480" layout="responsive" type="slides" controls autoplay loop delay="3000">
+          <div class="imgItem">
+            <amp-img class="responsive-img" src="/images/pdp/20170927122933.jpeg" layout="fill"></amp-img>
+          </div>
+          <div class="imgItem">
+            <amp-img class="responsive-img" src="/images/pdp/20170927122935.jpeg" layout="fill"></amp-img>
+          </div>
+      </amp-carousel>
+    <!-- </template>
+  </amp-list> -->
+</section>
+<section class="product-details">
+  <p class="pdp-brand-name">Allen Solly</p>
+  <p class="pdp-product-name">Solly By Allen Solly White Printed Shirt</p>
+  <p class="pdp-price"><span class="pdp-mrp">₹1499</span><span class="pdp-seller-mrp">₹900</span><span class="pdp-discount">(-40%)</span></p>
+  <p class="pdp-cod"><a id="cod-link" href="#">COD Available</a></p>
+  <p class="size-guide"><span>SELECT SIZE&nbsp; | </span><span class="guide-btn">&nbsp; GUIDE <span class="size-icon">?</span></span></p>
+  <ul class="size-options">
+    <li><a href="#">2-3 Y</a></li><li><a href="#">3-4 Y</a></li><li><a href="#">5-6 Y</a></li><li><a href="#">6-7 Y</a></li><li><a href="#">7-8 Y</a></li>
+    <li><a href="#">9-10 Y</a></li><li><a href="#">11-12 Y</a></li><li><a href="#">13-14 Y</a></li><li><a href="#">15-16 Y</a></li>
+  </ul>
+</section>
+</body>
+
+</html>

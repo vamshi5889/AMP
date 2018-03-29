@@ -1,0 +1,284 @@
+{"items": [{
+   "allOOStock": "false",
+   "brandName": "Allen Solly",
+   "deliveryModesATP": [
+      {
+         "key": "home-delivery",
+         "value": "Delivered in 3-6 business days."
+      },
+      {
+         "key": "express-delivery",
+         "value": "Delivered in 1-2 business days."
+      }
+   ],
+   "details": [
+      {
+         "key": "Fit",
+         "value": "Regular"
+      },
+      {
+         "key": "Package Content",
+         "value": "1 Shirt"
+      },
+      {
+         "key": "Pattern",
+         "value": "Printed"
+      },
+      {
+         "key": "Fabric Composition",
+         "value": "Cotton"
+      },
+      {
+         "key": "Closure",
+         "value": "Button"
+      },
+      {
+         "key": "Color",
+         "value": "White"
+      },
+      {
+         "key": "Wash Care",
+         "value": "Dry clean"
+      },
+      {
+         "key": "Neck",
+         "value": "Collar"
+      },
+      {
+         "key": "Sleeve",
+         "value": "Full Sleeves"
+      }
+   ],
+   "discount": "49",
+   "eligibleDeliveryModes": [
+      {
+         "code": "home-delivery",
+         "displayCost": "₹0.00",
+         "name": "Home Delivery"
+      },
+      {
+         "code": "express-delivery",
+         "displayCost": "₹0.00",
+         "name": "Express Delivery"
+      }
+   ],
+   "fulfillmentType": "tship",
+   "galleryImagesList": [
+      {
+         "galleryImages": [
+            {
+               "key": "product",
+               "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001864373_437Wx649H_20170927122933.jpeg"
+            },
+            {
+               "key": "thumbnail",
+               "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001864373_97Wx144H_20170927122933.jpeg"
+            },
+            {
+               "key": "searchPage",
+               "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000001864373_252Wx374H_20170927122933.jpeg"
+            },
+            {
+               "key": "mobilePdpView",
+               "value": "//img.tatacliq.com/images/i2/450Wx545H/MP000000001864373_450Wx545H_20170927122933.jpeg"
+            },
+            {
+               "key": "superZoom",
+               "value": "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001864373_1348Wx2000H_20170927122933.jpeg"
+            },
+            {
+               "key": "cartIcon",
+               "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001864373_97Wx144H_20170927122933.jpeg"
+            },
+            {
+               "key": "zoom",
+               "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001864373_437Wx649H_20170927122933.jpeg"
+            },
+            {
+               "key": "cartPage",
+               "value": "//img.tatacliq.com/images/i2/113Wx168H/MP000000001864373_113Wx168H_20170927122933.jpeg"
+            }
+         ],
+         "mediaType": "Image"
+      },
+      {
+         "galleryImages": [
+            {
+               "key": "product",
+               "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001864373_437Wx649H_20170927122935.jpeg"
+            },
+            {
+               "key": "thumbnail",
+               "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001864373_97Wx144H_20170927122935.jpeg"
+            },
+            {
+               "key": "searchPage",
+               "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000001864373_252Wx374H_20170927122935.jpeg"
+            },
+            {
+               "key": "mobilePdpView",
+               "value": "//img.tatacliq.com/images/i2/450Wx545H/MP000000001864373_450Wx545H_20170927122935.jpeg"
+            },
+            {
+               "key": "superZoom",
+               "value": "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001864373_1348Wx2000H_20170927122935.jpeg"
+            },
+            {
+               "key": "cartIcon",
+               "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001864373_97Wx144H_20170927122935.jpeg"
+            },
+            {
+               "key": "zoom",
+               "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001864373_437Wx649H_20170927122935.jpeg"
+            },
+            {
+               "key": "cartPage",
+               "value": "//img.tatacliq.com/images/i2/113Wx168H/MP000000001864373_113Wx168H_20170927122935.jpeg"
+            }
+         ],
+         "mediaType": "Image"
+      }
+   ],
+   "isCOD": "Y",
+   "isEMIEligible": "N",
+   "isOnlineExclusive": "N",
+   "isProductNew": "N",
+   "knowMore": [
+      {
+         "knowMoreItem": "An order, once placed, can be cancelled until the seller processes it."
+      },
+      {
+         "knowMoreItem": "This product can be returned within 30 day(s) of delivery,subject to the Return Policy."
+      },
+      {
+         "knowMoreItem": "For any other queries, do reach out to CliQ Care at 90291 08282 or hello@tatacliq.com"
+      }
+   ],
+   "knowMoreEmail": "hello@tatacliq.com",
+   "knowMorePhoneNo": "90291 08282",
+   "maxQuantityAllowed": "5",
+   "mrp": "₹1499.00",
+   "productCategory": "Shirts",
+   "productCategoryId": "MSH2110101",
+   "productDescription": "Revamp the style of your little master's clothes by adding this cool white shirt from Solly by Allen Solly to his cupboard. Fashioned with a printed pattern, this collar full sleeves regular fit shirt is made using breathable high quality fabric to ensure your child's comfort.",
+   "productListingId": "MP000000001865626",
+   "productName": "Solly By Allen Solly White Printed Shirt",
+   "rootCategory": "Clothing",
+   "sellerAssociationstatus": "N",
+   "sharedText": "Wow!Check out this amazing find http://www.tatacliq.com/solly-by-allen-solly-white-printed-shirt/p-mp000000001865626 . Like or  comment to tell me what you think, or share for warm fuzzies.",
+   "styleNote": "Revamp the style of your little master's clothes by adding this cool white shirt from Solly by Allen Solly to his cupboard. Fashioned with a printed pattern, this collar full sleeves regular fit shirt is made using breathable high quality fabric to ensure your child's comfort.",
+   "variantOptions": [
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001864373"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "2-3 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001864373"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866448"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "3-4 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866448"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866449"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "5-6 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866449"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001865626"
+         },
+         "sizelink": {
+            "isAvailable": "true",
+            "size": "6-7 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001865626"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866480"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "7-8 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866480"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866481"
+         },
+         "sizelink": {
+            "isAvailable": "true",
+            "size": "9-10 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000001866481"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000002044032"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "11-12 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000002044032"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000002044243"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "13-14 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000002044243"
+         }
+      },
+      {
+         "colorlink": {
+            "color": "White",
+            "colorHexCode": "#FFFFFF",
+            "colorurl": "/solly-by-allen-solly-white-printed-shirt/p-mp000000002044252"
+         },
+         "sizelink": {
+            "isAvailable": "false",
+            "size": "15-16 Y",
+            "url": "/solly-by-allen-solly-white-printed-shirt/p-mp000000002044252"
+         }
+      }
+   ],
+   "winningSellerAvailableStock": "1",
+   "winningSellerMOP": "₹750.00",
+   "winningSellerName": "Aditya Birla Fashion and Retail Ltd.",
+   "winningUssID": "1000978907587005829"
+}]}

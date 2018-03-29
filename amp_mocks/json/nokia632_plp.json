@@ -1,0 +1,533 @@
+{
+  "items": [
+    {
+      "type": "productSearchPageWsDto",
+      "status": "Success",
+      "categoryCode": "all",
+      "currentQuery": {
+        "query": {
+          "value": "nokia 6 32:relevance:isLuxuryProduct:false"
+        },
+        "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse"
+      },
+      "facetdata": [
+        {
+          "category": true,
+          "key": "brand",
+          "multiSelect": true,
+          "name": "Brand",
+          "priority": 12700,
+          "values": [
+            {
+              "count": 4,
+              "name": "Nokia",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:brand:MBH12E00061",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00061",
+              "value": "MBH12E00061"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "price",
+          "multiSelect": false,
+          "name": "Price",
+          "priority": 12600,
+          "values": [
+            {
+              "count": 4,
+              "name": "₹10,001-₹20,000",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:price:₹10,001-₹20,000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B910%2C001-%E2%82%B920%2C000",
+              "value": "₹10,001-₹20,000"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "colour",
+          "multiSelect": false,
+          "name": "Colour",
+          "priority": 12400,
+          "values": [
+            {
+              "count": 1,
+              "name": "Black",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:colour:Black_000000",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlack_000000",
+              "value": "Black_000000"
+            },
+            {
+              "count": 1,
+              "name": "Blue",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:colour:Blue_0000FF",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlue_0000FF",
+              "value": "Blue_0000FF"
+            },
+            {
+              "count": 1,
+              "name": "Brown",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:colour:Brown_A52A2A",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABrown_A52A2A",
+              "value": "Brown_A52A2A"
+            },
+            {
+              "count": 1,
+              "name": "Silver",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:colour:Silver_e4e4e4",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ASilver_e4e4e4",
+              "value": "Silver_e4e4e4"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "deliveryMode",
+          "multiSelect": false,
+          "name": "Delivery",
+          "priority": 12200,
+          "values": [
+            {
+              "count": 4,
+              "name": "click-and-collect",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:deliveryMode:click-and-collect",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Aclick-and-collect",
+              "value": "click-and-collect"
+            },
+            {
+              "count": 4,
+              "name": "express delivery",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:deliveryMode:express delivery",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Aexpress+delivery",
+              "value": "express delivery"
+            },
+            {
+              "count": 4,
+              "name": "standard delivery",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:deliveryMode:standard delivery",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Astandard+delivery",
+              "value": "standard delivery"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "rAM-classification",
+          "multiSelect": false,
+          "name": "RAM",
+          "priority": 3000,
+          "values": [
+            {
+              "count": 4,
+              "name": "2.1 - 4GB",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:rAM-classification:2.1 - 4GB",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3ArAM-classification%3A2.1+-+4GB",
+              "value": "2.1 - 4GB"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "primaryCamera-classification",
+          "multiSelect": false,
+          "name": "Primary Camera Resolution",
+          "priority": 2500,
+          "values": [
+            {
+              "count": 4,
+              "name": "8 MP and above",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:primaryCamera-classification:8 MP and above",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AprimaryCamera-classification%3A8+MP+and+above",
+              "value": "8 MP and above"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "connectivity-classification",
+          "multiSelect": false,
+          "name": "Connectivity",
+          "priority": 1000,
+          "values": [
+            {
+              "count": 4,
+              "name": "4G",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:connectivity-classification:4G",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Aconnectivity-classification%3A4G",
+              "value": "4G"
+            },
+            {
+              "count": 4,
+              "name": "Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth 4.1, NFC",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:connectivity-classification:Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth 4.1, NFC",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3Aconnectivity-classification%3AMicro+USB+%28USB+2.0%29%2C+USB+OTG%2C+Wi-Fi%2C+Bluetooth+4.1%2C+NFC",
+              "value": "Micro USB (USB 2.0), USB OTG, Wi-Fi, Bluetooth 4.1, NFC"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "inStockFlag",
+          "multiSelect": false,
+          "name": "Availability",
+          "priority": 500,
+          "values": [
+            {
+              "count": 2,
+              "name": "Exclude out of stock",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:inStockFlag:true",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AinStockFlag%3Atrue",
+              "value": "true"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "discountAll",
+          "multiSelect": false,
+          "name": "All Discount",
+          "priority": 0,
+          "values": [
+            {
+              "count": 4,
+              "name": "Discounted Items",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:discountAll:Discounted Items",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items",
+              "value": "Discounted Items"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "discountFlag",
+          "multiSelect": false,
+          "name": "Discount",
+          "priority": 0,
+          "values": [
+            {
+              "count": 4,
+              "name": "10% - 30%",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:discountFlag:10% - 30%",
+              "selected": false,
+              "url": "/search/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountFlag%3A10%25+-+30%25",
+              "value": "10% - 30%"
+            }
+          ],
+          "visible": true
+        },
+        {
+          "category": false,
+          "key": "isOffersExisting",
+          "multiSelect": false,
+          "name": "IsOffersExisting",
+          "priority": 0,
+          "values": [
+            {
+              "count": 2,
+              "name": "true",
+              "query": "nokia 6 32:relevance:isLuxuryProduct:false:isOffersExisting:true",
+              "selected": false,
+              "url": "/view-all-offers/page-{pageNo}?q=nokia+6+32%3Arelevance%3AisLuxuryProduct%3Afalse%3AisOffersExisting%3Atrue",
+              "value": "true"
+            }
+          ],
+          "visible": true
+        }
+      ],
+      "facetdatacategory": {
+        "category": true,
+        "filters": [
+          {
+            "categoryCode": "MSH12",
+            "categoryName": "Electronics",
+            "categoryType": "department",
+            "childFilters": [
+              {
+                "categoryCode": "MSH1210",
+                "categoryName": "Mobile Phones",
+                "categoryType": "category",
+                "childFilters": [
+                  {
+                    "categoryCode": "MSH1210100",
+                    "categoryName": "Smartphones",
+                    "categoryType": "category",
+                    "level": "L3",
+                    "quantity": 4,
+                    "ranking": "0",
+                    "selected": false
+                  }
+                ],
+                "level": "L2",
+                "quantity": 4,
+                "ranking": "0",
+                "selected": false
+              }
+            ],
+            "level": "L1",
+            "quantity": 4,
+            "ranking": "0",
+            "selected": false
+          }
+        ],
+        "key": "category",
+        "multiSelect": true,
+        "name": "Category",
+        "priority": 12800,
+        "selected": false,
+        "visible": true
+      },
+      "pagination": {
+        "currentPage": 0,
+        "pageSize": 20,
+        "sort": "relevance",
+        "totalPages": 1,
+        "totalResults": 4
+      },
+      "searchresult": [
+        {
+          "brandname": "Nokia",
+          "compareProductType": "MSH1210100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "24.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110355_252Wx374H_20171128151615.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002110355_437Wx649H_20171128151615.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110355_252Wx374H_20171128151615.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": true,
+          "leastSizeProduct": "MP000000002110355",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 17199.0,
+            "formattedValue": "₹17199.00",
+            "formattedValueNoDecimal": "₹17199",
+            "priceType": "BUY",
+            "value": 17199.0
+          },
+          "productCategoryType": "Electronics",
+          "productId": "MP000000002110355",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Nokia 6 32GB (Silver) 3 GB RAM, Dual SIM 4G",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 13000.0,
+            "formattedValue": "₹13000.00",
+            "formattedValueNoDecimal": "₹13000",
+            "priceType": "BUY",
+            "value": 13000.0
+          },
+          "ussid": "100058206827"
+        },
+        {
+          "brandname": "Nokia",
+          "compareProductType": "MSH1210100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "24.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110354_252Wx374H_20171128151526.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002110354_437Wx649H_20171128151526.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110354_252Wx374H_20171128151526.jpeg",
+          "inStockFlag": true,
+          "isOfferExisting": true,
+          "leastSizeProduct": "MP000000002110354",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 17199.0,
+            "formattedValue": "₹17199.00",
+            "formattedValueNoDecimal": "₹17199",
+            "priceType": "BUY",
+            "value": 17199.0
+          },
+          "productCategoryType": "Electronics",
+          "productId": "MP000000002110354",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Nokia 6 32GB (Matte Black) 3 GB RAM, Dual SIM 4G",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 12999.0,
+            "formattedValue": "₹12999.00",
+            "formattedValueNoDecimal": "₹12999",
+            "priceType": "BUY",
+            "value": 12999.0
+          },
+          "ussid": "100058206826"
+        },
+        {
+          "brandname": "Nokia",
+          "compareProductType": "MSH1210100",
+          "cumulativeStockLevel": false,
+          "discountPercent": "18.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110370_252Wx374H_20171128151755.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002110370_437Wx649H_20171128151755.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110370_252Wx374H_20171128151755.jpeg",
+          "inStockFlag": false,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002110370",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 17199.0,
+            "formattedValue": "₹17199.00",
+            "formattedValueNoDecimal": "₹17199",
+            "priceType": "BUY",
+            "value": 17199.0
+          },
+          "productCategoryType": "Electronics",
+          "productId": "MP000000002110370",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Nokia 6 32GB (Tempered Blue) 3 GB RAM, Dual SIM 4G",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 13990.0,
+            "formattedValue": "₹13990.00",
+            "formattedValueNoDecimal": "₹13990",
+            "priceType": "BUY",
+            "value": 13990.0
+          },
+          "ussid": "100058206828"
+        },
+        {
+          "brandname": "Nokia",
+          "compareProductType": "MSH1210100",
+          "cumulativeStockLevel": false,
+          "discountPercent": "13.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "searchPage",
+                  "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110353_252Wx374H_20171128151738.jpeg"
+                },
+                {
+                  "key": "product",
+                  "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000002110353_437Wx649H_20171128151738.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//img.tatacliq.com/images/i2/252Wx374H/MP000000002110353_252Wx374H_20171128151738.jpeg",
+          "inStockFlag": false,
+          "isOfferExisting": false,
+          "leastSizeProduct": "MP000000002110353",
+          "mrpPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 17199.0,
+            "formattedValue": "₹17199.00",
+            "formattedValueNoDecimal": "₹17199",
+            "priceType": "BUY",
+            "value": 17199.0
+          },
+          "productCategoryType": "Electronics",
+          "productId": "MP000000002110353",
+          "productTag": {
+            "onlineExclusive": false
+          },
+          "productname": "Nokia 6 32GB (Copper) 3 GB RAM, Dual SIM 4G",
+          "sellingPrice": {
+            "currencyIso": "INR",
+            "doubleValue": 14890.0,
+            "formattedValue": "₹14890.00",
+            "formattedValueNoDecimal": "₹14890",
+            "priceType": "BUY",
+            "value": 14890.0
+          },
+          "ussid": "100058206829"
+        }
+      ],
+      "sorts": [
+        {
+          "code": "relevance",
+          "name": "Relevance",
+          "selected": true
+        },
+        {
+          "code": "price-asc",
+          "name": "Price Low to High",
+          "selected": false
+        },
+        {
+          "code": "price-desc",
+          "name": "Price High to Low",
+          "selected": false
+        },
+        {
+          "code": "isDiscountedPrice",
+          "name": "Discounts",
+          "selected": false
+        },
+        {
+          "code": "isProductNew",
+          "name": "Brand New",
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

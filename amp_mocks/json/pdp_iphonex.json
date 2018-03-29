@@ -1,0 +1,527 @@
+{"items": [{
+  "type": "productDetailMobileWsData",
+  "APlusContent": {
+    "productContent": [
+      {
+        "key": "Section1A",
+        "value": {
+          "imageList": [
+            "https://assets.tatacliq.com/medias/sys_master/images/MP000000001955258_1.jpeg"
+          ]
+        }
+      },
+      {
+        "key": "Section2B",
+        "value": {
+          "imageList": [
+            "https://assets.tatacliq.com/medias/sys_master/images/MP000000001955258_2.jpeg"
+          ]
+        }
+      },
+      {
+        "key": "Section3B",
+        "value": {
+          "textList": [
+            "<h3>Design and Display</h3><p>How do you create a deeply intelligent device whose enclosure and display are a single, uninterrupted element? That's the goal we first set for ourselves with the original iPhone. With iPhone X, we've achieved it. To create a continuous surface, with nothing to get in the way of your experience, we replaced the Home button with new yet familiar ways to navigate.</p>"
+          ]
+        }
+      },
+      {
+        "key": "Section2A",
+        "value": {
+          "textList": [
+            "<h3>The art of photography. Simplified.</h3><p>Can a camera capture more than meets the eye? To find out, we integrated faster, optically image-stabilised cameras with the advanced machine learning of the A11 Bionic chip. The result is a photography system that sees more, understands more and does more. The intelligent, Apple-designed image signal processor detects elements in the scene - like people, motion and lighting conditions - to optimise your photos even before you take them. It also delivers advanced pixel processing, wide colour capture, faster autofocus and better HDR photos.</p>"
+          ]
+        }
+      },
+      {
+        "key": "Section1B",
+        "value": {
+          "textList": [
+            "<h3>Your face is your secure password-Face ID</h3><p>What could be more natural than a touch? A look. That was the insight behind Face ID, a powerful and secure authentication system that's even more convenient than Touch ID. It makes unlocking your iPhone X fast, easy and intuitive. With Face ID, iPhone X unlocks only when you're looking at it. It's designed to prevent spoofing by photos or masks. Your facial map is encrypted and protected by the Secure Enclave. And authentication happens instantly on the device, not in the cloud.</p>"
+          ]
+        }
+      },
+      {
+        "key": "Section6B",
+        "value": {
+          "textList": [
+            "<h3>Resists water, splashes and dust.</h3><p>iPhone X is precision-engineered at the microscopic level to protect against water, splashes and dust. The all glass designs keeps the phone secure, come rain or shine.</p>"
+          ]
+        }
+      },
+      {
+        "key": "Section5A",
+        "value": {
+          "imageList": [
+            "https://assets.tatacliq.com/medias/sys_master/images/MP000000001955258_5.jpeg"
+          ]
+        }
+      },
+      {
+        "key": "Section6A",
+        "value": {
+          "textList": [
+            "<h3>A11 Bionic</h3><p>Can you create a chip that's both powerful and intelligent? Meet A11 Bionic, the most powerful and smartest chip ever in a smartphone. With six cores and 4.3 billion transistors, A11 Bionic has four efficiency cores that are up to 70 per cent faster than the A10 fusion chip and two performance cores that are up to 25 per cent faster. The CPU cam harness all six comes simultaneously when you need a turbo boost.</p>"
+          ]
+        }
+      },
+      {
+        "key": "Section8C",
+        "value": {
+          "videoList": [
+            "https://www.youtube.com/embed/mW6hFttt_KE"
+          ]
+        }
+      },
+      {
+        "key": "Section3A",
+        "value": {
+          "imageList": [
+            "https://assets.tatacliq.com/medias/sys_master/images/MP000000001955258_3.jpeg"
+          ]
+        }
+      },
+      {
+        "key": "Section5C",
+        "value": {
+          "imageList": [
+            "https://assets.tatacliq.com/medias/sys_master/images/MP000000001955258_7.jpeg"
+          ]
+        }
+      },
+      {
+        "key": "Section5B",
+        "value": {
+          "imageList": [
+            "https://assets.tatacliq.com/medias/sys_master/images/MP000000001955258_6.jpeg"
+          ]
+        }
+      },
+      {
+        "key": "Section6C",
+        "value": {
+          "textList": [
+            "<h3>Wireless Charging</h3><p>How do you make an iPhone designed for a wireless world? By building on wireless technology like headphones and advanced networking to introduce easy wireless charging. The glass back, together with an efficient charging system, allows you to simply set iPhone X down to charge it up. We wanted people to enjoy the convenience of wireless charging anywhere. So iPhone X works with Qi wireless chargers commonly found in hotels, cafes, airports and cars. Belkin and mophie have also developed two new wireless chargers designed for iPhone X.</p>"
+          ]
+        }
+      },
+      {
+        "key": "Section9A",
+        "value": {
+          "textList": [
+            "<h3>iPhone X - Apple</h3>"
+          ]
+        }
+      },
+      {
+        "key": "Section8B",
+        "value": {
+          "videoList": [
+            "https://www.youtube.com/embed/K4wEI5zhHB0"
+          ]
+        }
+      },
+      {
+        "key": "Section9C",
+        "value": {
+          "textList": [
+            "<h3>Meet iPhone X - Apple</h3>"
+          ]
+        }
+      },
+      {
+        "key": "Section7A",
+        "value": {
+          "textList": [
+            "<h3>Related Videos</h3>"
+          ]
+        }
+      },
+      {
+        "key": "Section8A",
+        "value": {
+          "videoList": [
+            "https://www.youtube.com/embed/wmEqgjT61FA"
+          ]
+        }
+      },
+      {
+        "key": "Section9B",
+        "value": {
+          "textList": [
+            "<h3>iPhone X - Introducing iPhone X - Apple</h3>"
+          ]
+        }
+      }
+    ],
+    "temlateName": "MP000000001955260_Apple iPhone X 256GB (Silver)_1"
+  },
+  "allOOStock": false,
+  "brandName": "Apple",
+  "classifications": [
+    {
+      "groupName": "Technical Features",
+      "specifications": [
+        {
+          "key": "Performance Features",
+          "value": "A11 Bionic Chip with 64-bit Architecture, Neural Engine, Embedded M11 Motion Coprocessor"
+        },
+        {
+          "key": "Sensors",
+          "value": "Face ID, Barometer, Three-axis gyro, Accelerometer, Proximity sensor, Ambient light sensor"
+        }
+      ]
+    },
+    {
+      "groupName": "General Features",
+      "specifications": [
+        {
+          "key": "Sim Size",
+          "value": "Nano Sim"
+        },
+        {
+          "key": "In the Box",
+          "value": "iPhone with iOS 11, EarPods with Lightning Connector, Lightning to 3.5mm Headphone Jack Adapter, Lightning to USB Cable, USB Power Adapter"
+        },
+        {
+          "key": "Operating System",
+          "value": "iOS 11"
+        },
+        {
+          "key": "Color Family",
+          "value": "Silver"
+        }
+      ]
+    },
+    {
+      "groupName": "Camera",
+      "specifications": [
+        {
+          "key": "Front Camera",
+          "value": "7 MP TrueDepth Camera"
+        },
+        {
+          "key": "Primary Camera",
+          "value": "12 MP"
+        },
+        {
+          "key": "Video Recording",
+          "value": "4K video recording"
+        },
+        {
+          "key": "Connectivity",
+          "value": "4G"
+        },
+        {
+          "key": "Flash",
+          "value": "Quad-LED True Tone flash"
+        }
+      ]
+    },
+    {
+      "groupName": "Display Features",
+      "specifications": [
+        {
+          "key": "Screen Size (cm)",
+          "value": "14.73 cm"
+        },
+        {
+          "key": "Display Features",
+          "value": "Super Retina HD display, 5.8-inch all-screen OLED Multi-Touch, 2436x1125-pixel resolution at 458 ppi"
+        },
+        {
+          "key": "Resolution",
+          "value": "2436 x 1125 pixels"
+        }
+      ]
+    },
+    {
+      "groupName": "Memory and storage",
+      "specifications": [
+        {
+          "key": "Memory",
+          "value": "256 GB"
+        }
+      ]
+    },
+    {
+      "groupName": "Additional Features",
+      "specifications": [
+        {
+          "key": "Unique Thing",
+          "value": "OLED Display"
+        }
+      ]
+    },
+    {
+      "groupName": "Dimensions",
+      "specifications": [
+        {
+          "key": "Product Depth (cm)",
+          "value": "0.77"
+        },
+        {
+          "key": "Product Height (cm)",
+          "value": "14.36"
+        },
+        {
+          "key": "Weight",
+          "value": "174"
+        },
+        {
+          "key": "Product Width (cm)",
+          "value": "7.09"
+        }
+      ]
+    },
+    {
+      "groupName": "Warranty",
+      "specifications": [
+        {
+          "key": "Warranty Description",
+          "value": "1 Year"
+        },
+        {
+          "key": "Warranty Summary",
+          "value": "Manufacturer Warranty"
+        }
+      ]
+    }
+  ],
+  "deliveryModesATP": [
+    {
+      "key": "home-delivery",
+      "value": "Delivered in 3-6 business days."
+    },
+    {
+      "key": "express-delivery",
+      "value": "Delivered in 1-2 business days."
+    }
+  ],
+  "details": [
+    {
+      "key": "Feature 1",
+      "value": "256 GB Internal Memory"
+    },
+    {
+      "key": "Feature 2",
+      "value": "14.73cm (5.8-inch) Super Retina HD display"
+    },
+    {
+      "key": "Feature 3",
+      "value": "12 MP Rear and 7 MP Front Camera"
+    },
+    {
+      "key": "Feature 4",
+      "value": "Splash, Water and Dust Resistant"
+    }
+  ],
+  "discount": "3",
+  "eligibleDeliveryModes": [
+    {
+      "code": "home-delivery",
+      "displayCost": "₹0.00",
+      "name": "Home Delivery"
+    }
+  ],
+  "fulfillmentType": "tship",
+  "galleryImagesList": [
+    {
+      "galleryImages": [
+        {
+          "key": "product",
+          "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001955260_437Wx649H_20171213194202.jpeg"
+        },
+        {
+          "key": "thumbnail",
+          "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001955260_97Wx144H_20171213194202.jpeg"
+        },
+        {
+          "key": "searchPage",
+          "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000001955260_252Wx374H_20171213194202.jpeg"
+        },
+        {
+          "key": "mobilePdpView",
+          "value": "//img.tatacliq.com/images/i2/450Wx545H/MP000000001955260_450Wx545H_20171213194202.jpeg"
+        },
+        {
+          "key": "superZoom",
+          "value": "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001955260_1348Wx2000H_20171213194202.jpeg"
+        },
+        {
+          "key": "cartIcon",
+          "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001955260_97Wx144H_20171213194202.jpeg"
+        },
+        {
+          "key": "zoom",
+          "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001955260_437Wx649H_20171213194202.jpeg"
+        },
+        {
+          "key": "cartPage",
+          "value": "//img.tatacliq.com/images/i2/113Wx168H/MP000000001955260_113Wx168H_20171213194202.jpeg"
+        }
+      ],
+      "mediaType": "Image"
+    },
+    {
+      "galleryImages": [
+        {
+          "key": "product",
+          "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001955260_437Wx649H_20171213194204.jpeg"
+        },
+        {
+          "key": "thumbnail",
+          "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001955260_97Wx144H_20171213194204.jpeg"
+        },
+        {
+          "key": "searchPage",
+          "value": "//img.tatacliq.com/images/i2/252Wx374H/MP000000001955260_252Wx374H_20171213194204.jpeg"
+        },
+        {
+          "key": "mobilePdpView",
+          "value": "//img.tatacliq.com/images/i2/450Wx545H/MP000000001955260_450Wx545H_20171213194204.jpeg"
+        },
+        {
+          "key": "superZoom",
+          "value": "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001955260_1348Wx2000H_20171213194204.jpeg"
+        },
+        {
+          "key": "cartIcon",
+          "value": "//img.tatacliq.com/images/i2/97Wx144H/MP000000001955260_97Wx144H_20171213194204.jpeg"
+        },
+        {
+          "key": "zoom",
+          "value": "//img.tatacliq.com/images/i2/437Wx649H/MP000000001955260_437Wx649H_20171213194204.jpeg"
+        },
+        {
+          "key": "cartPage",
+          "value": "//img.tatacliq.com/images/i2/113Wx168H/MP000000001955260_113Wx168H_20171213194204.jpeg"
+        }
+      ],
+      "mediaType": "Image"
+    }
+  ],
+  "isCOD": "N",
+  "isEMIEligible": "Y",
+  "isOnlineExclusive": "N",
+  "isProductNew": "N",
+  "knowMore": [
+    {
+      "knowMoreItem": "An order, once placed, can be cancelled until the seller processes it."
+    },
+    {
+      "knowMoreItem": "This product can be returned within 7 day(s) of delivery,subject to the Return Policy."
+    },
+    {
+      "knowMoreItem": "For any other queries, do reach out to CliQ Care at 90291 08282 or hello@tatacliq.com"
+    }
+  ],
+  "knowMoreEmail": "hello@tatacliq.com",
+  "knowMorePhoneNo": "90291 08282",
+  "maxQuantityAllowed": "5",
+  "mrp": "₹102000.00",
+  "otherSellers": [
+    {
+      "USSID": "124180iPhoneX256GBSilver",
+      "availableStock": "-5",
+      "buyBoxWeightage": "-9.6881E-4",
+      "deliveryModesATP": [
+        {
+          "key": "home-delivery",
+          "value": "Delivered in 3-6 business days."
+        },
+        {
+          "key": "express-delivery",
+          "value": "Delivered in 1-2 business days."
+        }
+      ],
+      "eligibleDeliveryModes": [
+        {
+          "code": "home-delivery",
+          "displayCost": "₹0.00",
+          "name": "Home Delivery"
+        }
+      ],
+      "fullfillmentType": "tship",
+      "isCOD": "N",
+      "isEMIEligible": "Y",
+      "replacement": "0",
+      "returnPolicy": "7",
+      "sellerAssociationstatus": "Y",
+      "sellerId": "124180",
+      "sellerMOP": "₹98882.00",
+      "sellerMRP": "₹102000.00",
+      "sellerName": "My Gear",
+      "sellerSpecialPrice": "₹96881.00"
+    },
+    {
+      "USSID": "123869iPhoneX256GBSilSri",
+      "availableStock": "25",
+      "buyBoxWeightage": "-9.9498E-4",
+      "deliveryModesATP": [
+        {
+          "key": "home-delivery",
+          "value": "Delivered in 3-6 business days."
+        },
+        {
+          "key": "express-delivery",
+          "value": "Delivered in 1-2 business days."
+        }
+      ],
+      "eligibleDeliveryModes": [
+        {
+          "code": "home-delivery",
+          "displayCost": "₹0.00",
+          "name": "Home Delivery"
+        }
+      ],
+      "fullfillmentType": "tship",
+      "isCOD": "N",
+      "isEMIEligible": "Y",
+      "replacement": "0",
+      "returnPolicy": "7",
+      "sellerAssociationstatus": "Y",
+      "sellerId": "123869",
+      "sellerMOP": "₹101499.00",
+      "sellerMRP": "₹102000.00",
+      "sellerName": "Sancell",
+      "sellerSpecialPrice": "₹99498.00"
+    }
+  ],
+  "potentialPromotions": {
+    "description": "Final offer will be visible on cart. Check out all our exciting <a href=\"http://www.tatacliq.com/deal-of-the-day\" target=\"_blank\">Deals Of The Day</a>",
+    "eligibleUSSIDList": [
+      "100196iPhoneX256GBSilver",
+      "124180iPhoneX256GBSilver",
+      "123869iPhoneX256GBSilSri"
+    ],
+    "endDate": "Wed Jan 31 23:59:00 IST 2018",
+    "startDate": "Thu Dec 21 00:00:00 IST 2017",
+    "title": "\"Special Price\""
+  },
+  "productCategory": "iPhone",
+  "productCategoryId": "MSH1210102",
+  "productDescription": "The Apple iPhone X features an all?new 5.8?inch super retina display that delivers a crisp and clear visual output. The display employs new techniques and technology to precisely follow the curves of the design, all the way to the elegantly rounded corners. It runs on iOS 11 that takes care of all its functions. With the 256 GB built-in memory, this silver coloured phone lets you easily store all your multimedia files. Capture the world around you with the 12-megapixel wide-angle and telephoto cameras with f/1.8 wide angle aperture, f/2.8 telephoto aperture and digital zoom of up to 10x.",
+  "productListingId": "MP000000001955260",
+  "productName": "Apple iPhone X 256GB (Silver)",
+  "productOfferMsg": {
+    "endDate": "2018-01-07 23:59:00",
+    "messageDetails": "Max discount of Rs 2000  on min purchase of Rs 12000 on Electronic Products. Not valid on Select sellers. View All  <a href=\"https://www.tatacliq.com/offer-t&c\" target=\"_blank\">T&Cs</a>",
+    "messageID": "10% instant discount on Axis Bank Debit & Credit Cards* on min purchase of Rs 12000",
+    "startDate": "2017-12-31 23:50:00"
+  },
+  "rootCategory": "Electronics",
+  "sellerAssociationstatus": "N",
+  "sharedText": "Wow!Check out this amazing find http://www.tatacliq.com/apple-iphone-x-256gb-silver-pre-order-now/p-mp000000001955260 . Like or  comment to tell me what you think, or share for warm fuzzies.",
+  "styleNote": "The Apple iPhone X features an all?new 5.8?inch super retina display that delivers a crisp and clear visual output. The display employs new techniques and technology to precisely follow the curves of the design, all the way to the elegantly rounded corners. It runs on iOS 11 that takes care of all its functions. With the 256 GB built-in memory, this silver coloured phone lets you easily store all your multimedia files. Capture the world around you with the 12-megapixel wide-angle and telephoto cameras with f/1.8 wide angle aperture, f/2.8 telephoto aperture and digital zoom of up to 10x.",
+  "warranty": [
+    "1 Year",
+    "Manufacturer Warranty"
+  ],
+  "winningSellerAvailableStock": "3",
+  "winningSellerMOP": "₹100881.00",
+  "winningSellerName": "DMV E COMMERCE",
+  "winningSellerSpecialPrice": "₹98880.00",
+  "winningUssID": "100196iPhoneX256GBSilver"
+}]}

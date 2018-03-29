@@ -1,0 +1,280 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset="utf-8">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<!--AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.-->
+<link rel="canonical" href="/pwamp">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<style amp-custom>
+body {font-family:'Montserrat', sans-serif;}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+/*social icons*/
+.fa-google-plus:before {content: "\f0d5";}
+.fa-facebook-f:before, .fa-facebook:before {content: "\f09a";}
+.fa-twitter:before {content: "\f099";}
+.fa-instagram:before {content: "\f16d";}
+.fa-youtube:before {content: "\f167";}
+.fa-android:before {content: "\f17b";}
+.fa-apple:before {content: "\f179";}
+
+.fa-envelope:before {content: "\f0e0";}
+.fa-plus:before {content: "\f067";}
+section[expanded] .fa-plus:before {
+  content: "\f068";
+}
+
+.pdp-main amp-list {position: initial;}
+.product-image-section amp-carousel .imgItem amp-img {margin: 10px 30px;}
+.product-details {margin: 30px; margin-top: 0;}
+.pdp-brand-name {color: #535353; font-size: 12px; font-weight: bold;}
+.pdp-product-name {font-size: 20px; font-weight: bold; margin: 0;}
+.pdp-price {margin: 10px 0;}
+.pdp-mrp {color: #999; padding-right: 10px; font-size: 14px; text-decoration: line-through;}
+.pdp-seller-mrp {font-size: 16px; font-weight: bold; padding-right: 10px;}
+.pdp-discount {color: #eb6073;}
+.pdp-cod {margin: 10px 0 30px 0;}
+#cod-link, #emi-link {color: #92002e;font-size: 14px;text-decoration: underline; font-weight: bold; margin-right: 30px;}
+.size-guide {font-size: 14px; font-weight: bold;}
+.guide-btn {color: #a5173c;}
+.guide-btn .size-icon {color: white; background-color: #a5173c; font-size: 11px; padding: 0 4px; border-radius: 50%;}
+.size-options {display: inline-block; padding: 0; margin: 0;}
+.size-options li {list-style-type: none;float: left;text-align: center;margin: 0 5px 5px 0;border: 1px solid #ccc;}
+.size-options li a {padding: 8px 5px; font-size: 12px; font-weight: bold; cursor: pointer; display: block;}
+.size-strike {background-color: #f2f2f2; text-decoration: line-through; color: #b2b2b2;}
+.size-normal {text-decoration: none; color: #000;}
+
+.sold-wrap {margin-top: 20px; font-size: 12px;display: inline-flex;}
+.sold-left, .sold-right {width: 50%; float: left; color: #878787;}
+.sold-left {border-right: 1px solid #ccc;padding-right: 10px;}
+.sold-right {padding-left: 10px;}
+.delivery-info {padding:10px 30px; background-color: #fbfbfb;}
+.pin-heading {font-size: 14px;font-weight: bold;}
+.pin-title {color: #999; line-height: 1.5; width: 90%; font-size: 12px;}
+.pin-check-info {display: inline-flex; width: 100%;}
+.pin-check {border:1px solid #ccc; width: 60%; line-height: 40px; float: left; padding-left: 10px;}
+.pin-check-btn {border:1px solid #666; width: 40%; line-height: 40px; float: left; background: #666; color: #fff;}
+.pin-change {margin-top: 8px;}
+.pin-change a {font-size: 14px; color: #000; font-weight: bold; text-decoration: none;}
+.shipping-info {padding: 0; font-weight: bold;}
+.shipping-info li {list-style-type: none; color: #000; border-bottom: 1px solid #ccc; padding: 20px 0 20px 50px; font-size: 12px;}
+.shipping-info li:last-child {border: none;}
+.shipping-info li:before{width: 40px; height: 30px; display: inline-block; content: ""; position: absolute;
+    left: 25px; background: url(https://static.tatacliq.com/_ui/responsive/theme-blue/images/Sprite-combined.png) no-repeat}
+.shipping-info li:after {width: 25px; height: 25px; display: inline-block; content: ""; position: absolute;
+    margin-top: -5px; right: 30px; background: url(https://static.tatacliq.com/_ui/responsive/theme-blue/images/Sprite-combined.png) no-repeat -274px -174px}
+.shipping-info li:nth-child(3):after {margin-top: -35px;}
+.shipping-info li:nth-child(1):before {background-position: -371px -40px; margin-top: -5px;}
+.shipping-info li:nth-child(2):before {background-position: -312px -40px; margin-top: -5px;}
+.shipping-info li:nth-child(3):before {background-position: -256px -40px; margin-top: 10px;}
+.cliq-piq {padding-right: 10px; padding-right: 40px; display: inline-block; color: #7d7d7d;}
+
+.share-section {width: 100%; display: inline-block;}
+.share-social {padding: 10px 20px; float: right;}
+.share-social li {list-style-type: none; display: inline-block; line-height: 20px; font-size: 14px;
+  font-weight: bold; margin-right: 10px;}
+.share-social li:first-child {margin-right: 20px;}
+.share-social li a {color: #b2b2b2;}
+
+.product-description h4 {border-top: solid 1px #9b9b9b; padding: 12px 16px; background-color: #fff; font-size: 14px; font-weight: normal;}
+.product-description div {font-size: 12px; background-color: #f5f5f5; padding: 10px 16px; line-height: 1.67; text-align: justify;}
+.product-description i {float: right;}
+.prod-details-list, .prod-knowmore-list {padding: 0px 16px; margin: 0;}
+
+.buynow-btn, .addtobag-btn {position: fixed; bottom: 0; width: 50%; height: 42px; line-height: 12px; border: 1px solid #a9143c;}
+.buynow-btn {background-color: #a9143c; color: #fff;}
+.addtobag-btn {background-color: #fff; color: #a9143c;}
+.addtobag-btn {right: 0;}
+
+.display-block {display: block;}
+.display-none {display: none;}
+
+.background-layer {position: absolute; height: 100%; width: 100%; background: rgba(0,0,0,0.65); z-index: 12; top: 0;}
+.zoom-section {position: fixed; z-index: 15; width: 100%; top: 70px; bottom: 70px; background-color: white;}
+.zoom-close span {float: right; font-size: 24px; color: #a9143c; margin-right: 15px; margin-top: 10px;}
+
+.zoom-section .zoomTabButton amp-img {width: 50px; height: 70px; position: relative;}
+.zoomTabButton {width: 50px; margin: 20px;}
+.zoom-section amp-selector [option][selected] {outline: 1px solid #a9143c;}
+.zoomTabContent {display: none;}
+.zoomTabContent amp-img {width: 70%; left: 90px; top: 30px; height: 380px;}
+.zoomTabButton[selected]+.zoomTabContent {display: block;}
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+
+<body>
+
+<section class="pdp-main">
+  <amp-list src="/json/pdp_iphonex.json" height="1600" layout="fixed-height">
+    <template type="amp-mustache">
+      <section class="product-image-section">
+          <amp-carousel class="slider" width="320" height="440" layout="responsive" type="slides" controls autoplay loop delay="3000">
+            {{#galleryImagesList}}
+              <div class="imgItem">
+                  <amp-img class="responsive-img" src="{{galleryImages.0.value}}" layout="fill"
+                     tabindex="1" role="main" on="tap:AMP.setState({visible: true})"></amp-img>
+              </div>
+            {{/galleryImagesList}}
+          </amp-carousel>
+      </section>
+      <section class="background-layer display-none" tabindex="0" role="popup-close"
+        [class]="visible ? 'background-layer display-block' : 'background-layer display-none'"
+          on="tap:AMP.setState({visible: false})">
+
+      </section>
+      <section class="zoom-section display-none" [class]="visible ? 'zoom-section display-block' : 'zoom-section display-none'">
+        <div class="zoom-close"><span tabindex="1" role="popup" on="tap:AMP.setState({visible: false})">&times;</span></div>
+        <amp-selector role="tablist"
+          layout="container"
+          class="zoomTabContainer">
+          {{#galleryImagesList}}
+            <div role="tab"
+              class="zoomTabButton"
+              selected
+              option="a">
+              <amp-img class="responsive-img" src="{{galleryImages.1.value}}" layout="fill"></amp-img>
+            </div>
+            <div role="tabpanel"
+              class="zoomTabContent">
+              <amp-img class="responsive-img" src="{{galleryImages.4.value}}" layout="fill"></amp-img>
+            </div>
+          {{/galleryImagesList}}
+        </amp-selector>
+      </section>
+
+      <section class="product-details">
+        <p class="pdp-brand-name">{{brandName}}</p>
+        <p class="pdp-product-name">{{productName}}</p>
+        <p class="pdp-price"><span class="pdp-mrp">{{mrp}}</span><span class="pdp-seller-mrp">{{winningSellerMOP}}</span><span class="pdp-discount">(-{{discount}}%)</span></p>
+        <p class="pdp-cod"><a id="emi-link" href="#">EMI Available</a><a id="cod-link" href="#">COD Available</a></p>
+        <p class="size-guide"><span>SELECT SIZE&nbsp; | </span><span class="guide-btn">&nbsp; GUIDE <span class="size-icon">?</span></span></p>
+        <ul class="size-options">
+          {{#variantOptions}}
+          <!-- <li><a href="#">2-3 Y</a></li><li><a href="#">3-4 Y</a></li><li><a href="#">5-6 Y</a></li><li><a href="#">6-7 Y</a></li><li><a href="#">7-8 Y</a></li>
+          <li><a href="#">9-10 Y</a></li><li><a href="#">11-12 Y</a></li><li><a href="#">13-14 Y</a></li><li><a href="#">15-16 Y</a></li> -->
+            <li><a class="size-normal" [class]="{{sizelink.isAvailable}} ? 'size-normal' : 'size-strike'" href="{{sizelink.url}}">{{sizelink.size}}</a></li>
+          {{/variantOptions}}
+        </ul>
+        <section class="sold-wrap">
+          <section class="sold-left">Sold by {{winningSellerName}}</section>
+          <section class="sold-right">Fulfilled by Tata CliQ</section>
+        </section>
+      </section>
+
+      <section class="delivery-info">
+        <p class="pin-heading">DELIVERY OPTIONS</p>
+        <p class="pin-title">Enter your pincode to see your available delivery options</p>
+        <section class="pin-check-info">
+          <input class="pin-check" placeholder="Pincode" /><button class="pin-check-btn">CHECK</button>
+        </section>
+        <p class="pin-change"><a href="#">Change Pincode</a></p>
+        <ul class="shipping-info">
+          <li>
+            <span>EXPRESS SHIPPING</span>
+          </li>
+          <li>
+            <span>STANDARD SHIPPING</span>
+          </li>
+          <li>
+            <span>CLIQ AND PIQ</span><br />
+            <span class="cliq-piq">Buy before 3PM, collect from store same day</span>
+          </li>
+        </ui>
+      </section>
+
+      <section class="share-section">
+        <ul class="share-social">
+          <li>SHARE</li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+          <li><a href=""><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </section>
+
+      <section class="product-description">
+        <amp-accordion>
+          <section>
+            <h4>STYLE NOTE<i class="fa fa-plus"></i></h4>
+            <div>
+              {{styleNote}}
+            </div>
+          </section>
+          <section>
+            <h4>DETAILS<i class="fa fa-plus"></i></h4>
+            <div>
+              <ul class="prod-details-list">
+                {{#details}}
+                  <li>{{key}} - {{value}}</li>
+                {{/details}}
+              </ul>
+            </div>
+          </section>
+          <section>
+            <h4>KNOW MORE<i class="fa fa-plus"></i></h4>
+            <div>
+              <ul class="prod-knowmore-list">
+                {{#knowMore}}
+                  <li>{{knowMoreItem}}</li>
+                {{/knowMore}}
+              </ul>
+            </div>
+          </section>
+          <section>
+            <h4>BRAND INFO<i class="fa fa-plus"></i></h4>
+            <div>
+              {{styleNote}}
+            </div>
+          </section>
+        </amp-accordion>
+      </section>
+
+      <!-- <section class="a-plus-content">
+        {{#APlusContent.productContent}}
+          <section>{{key}}</section>
+        {{/APlusContent.productContent}}
+      </section> -->
+
+      </template>
+  </amp-list>
+  <button class="buynow-btn">BUY NOW</button>
+  <button class="addtobag-btn">ADD TO BAG</button>
+</section>
+</body>
+
+</html>
