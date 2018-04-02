@@ -72,28 +72,23 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
 .disable-link {pointer-events: none; opacity: 0.5;}
 
 /*Scroll To Top - CSS*/
-.scrollToTop {
-  color: #fff;
-  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
-  width: 50px;
-  height: 50px;
-  border-radius: 100px;
-  border: none;
-  outline: none;
-  background: #a91f3d;
-  z-index: 9999;
-  bottom: 60px;
-  right: 20px;
-  position: fixed;
-  opacity: 0;
-  visibility: hidden;
-}
-#plp-marker {
-  position: absolute;
-  top: 100px;
-  width: 0px;
-  height: 0px;
-}
+.scrollToTop {color: #fff; box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+  width: 50px; height: 50px; border-radius: 100px; border: none; outline: none; background: #a91f3d;
+  z-index: 9999; bottom: 60px; right: 20px; position: fixed; opacity: 0; visibility: hidden;}
+#plp-marker {position: absolute; top: 100px; width: 0px; height: 0px;}
+
+/*Bottom Actions*/
+.plp-bottom {position: fixed; bottom: 0; width: 100%; z-index: 4; font-size: 12px; text-transform: uppercase;}
+.bottom-left-btn, .bottom-right-btn {width: 49%; background-color: #000; color: #fff; height: 42px;}
+.bottom-left-btn span {padding-left: 23px; line-height: 42px;}
+.bottom-right-btn > span {padding-left: 23px; padding-top: 5px; position: fixed;}
+.bottom-right-btn .sort-option {font-size: 9px;}
+.bottom-left-btn {float: left;}
+.bottom-left-btn::after {content: ""; position: absolute; background-image: url(https://static.tatacliq.com/_ui/responsive/theme-blue/images/Sprite-combined.png);
+    zoom: 0.7; background-repeat: no-repeat; background-position: -288px 0; -moz-transform-origin: 0 0; right: 53%; top: 17px; height: 26px; width: 25px;}
+.bottom-right-btn {float: right;}
+.bottom-right-btn::after {content: ""; position: absolute; background-image: url(https://static.tatacliq.com/_ui/responsive/theme-blue/images/Sprite-combined.png);
+    zoom: 0.7; background-repeat: no-repeat; background-position: -332px 0; -moz-transform-origin: 0 0; right: 15px; top: 17px; height: 26px; width: 25px;}
 </style>
 
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -145,7 +140,7 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
       </amp-position-observer>
   </div>
 <div id="productsListContainer" class="products-list">
-  <amp-list src="/json/bag_plp_modified.json" width="auto" height="600" layout="fixed-height">
+  <amp-list src="/amp_mocks/json/bag_plp_modified.json" width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
   <div class="products_container">
     <p class="total-results">Showing <span>"{{pagination.totalResults}}"</span> items for <span class="">"Bag"</span></p>
@@ -199,6 +194,19 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
       <a class="disable-link" [class]="{{pagination.totalPages}} > {{pagination.nextPage}} ? '' : 'disable-link'"
         href="https://www.tatacliq.com/search/page-{{pagination.nextPage}}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse&text=bag&searchCategory=">Next</a>
     </p>
+  </div>
+
+  <div class="plp-bottom">
+    <span class="bottom-left-btn">
+      <span>FILTER BY</span>
+    </span>
+    <span class="bottom-right-btn">
+      <span>SORT BY <br />
+        {{#sorts}}
+        <span class="hide-content" [class]="{{selected}} ? 'show-content sort-option' : 'hide-content'">{{name}}<span>
+        {{/sorts}}
+      </span>
+    </span>
   </div>
   </template>
   </amp-list>
