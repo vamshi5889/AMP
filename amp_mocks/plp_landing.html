@@ -74,7 +74,7 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
 /*Scroll To Top - CSS*/
 .scrollToTop {color: #fff; box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
   width: 50px; height: 50px; border-radius: 100px; border: none; outline: none; background: #a91f3d;
-  z-index: 9999; bottom: 60px; right: 20px; position: fixed; opacity: 0; visibility: hidden;}
+  z-index: 8; bottom: 60px; right: 20px; position: fixed; opacity: 0; visibility: hidden;}
 #plp-marker {position: absolute; top: 100px; width: 0px; height: 0px;}
 
 /*Bottom Actions*/
@@ -89,12 +89,36 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
 .bottom-right-btn {float: right;}
 .bottom-right-btn::after {content: ""; position: absolute; background-image: url(https://static.tatacliq.com/_ui/responsive/theme-blue/images/Sprite-combined.png);
     zoom: 0.7; background-repeat: no-repeat; background-position: -332px 0; -moz-transform-origin: 0 0; right: 15px; top: 17px; height: 26px; width: 25px;}
+
+.sort-menu {position: fixed; background-color: #000; color: #fff; z-index: 5; bottom: 20px; right: 40px; border: 1px solid grey;}
+.sort-menu ul {padding: 0; margin: 0;}
+.sort-menu li {list-style: none; font-size: 10px; padding: 12px;}
+.sort-menu li:hover {background-color: #5febff;}
+.sort-menu li a {color: #fff; text-transform: uppercase; text-decoration: none;}
+
+/*Filter Section*/
+.filter-section {width: 100%; height: 100%; position: fixed; z-index: 9; background-color: #fff; top: 0;}
+.filter-heading {padding: 16px 20px; letter-spacing: 1px;font-weight: bold; color: #fff; background-color: #000;}
+.close-filter {float: right;}
+#filterSection {overflow-y: auto; height: -webkit-fill-available;}
+.filter-button:nth-child(4n+1) {background-color: #eee;}
+.filter-button {width: 40%; background-color: #f5f5f5; font-weight: bold; text-transform: uppercase; line-height: 58px;
+font-size: 12px; letter-spacing: .5px; color: #333; overflow: hidden; text-align: left; margin: 0; border: 0; cursor: pointer;}
+.filter-button .filter-name {padding: 0 20px 0 15px;}
+.filter-content {width: calc(100% - 150px); display: none; right: 0; top: 50px; position: fixed; order: 1; overflow: auto; height: -webkit-fill-available;}
+.filter-button[selected] + .filter-content {display: block;}
+.filter-button[option][selected] {outline: none; background-color: #fff; color: #a91f3d;}
+.filter-content-data {padding: 10px;}
+.color-text {color: #a91f3d;}
+.filter-footer {position: fixed; bottom: 0; border-top: 1px solid grey; width: 100%;}
+.filter-footer button {width: 50%; letter-spacing: 1px; text-align: center; padding: 15px;; background-color: #fff; border: none; float: left;}
+.filter-footer button:last-child {color: #fff; background-color: #a91f3d;}
 </style>
 
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 
-<body>
+<body on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="0">
   <amp-animation id="showAnim" layout="nodisplay">
     <script type="application/json">
       {
@@ -197,10 +221,10 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
   </div>
 
   <div class="plp-bottom">
-    <span class="bottom-left-btn">
+    <span class="bottom-left-btn" on="tap:AMP.setState({filterVisible : true})" role="filter-menu" tabindex="0">
       <span>FILTER BY</span>
     </span>
-    <span class="bottom-right-btn">
+    <span class="bottom-right-btn" on="tap:AMP.setState({sortVisible : !sortVisible})" role="sort-menu" tabindex="0">
       <span>SORT BY <br />
         {{#sorts}}
         <span class="hide-content" [class]="{{selected}} ? 'show-content sort-option' : 'hide-content'">{{name}}<span>
@@ -208,10 +232,59 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
       </span>
     </span>
   </div>
+  <div class="hide-content" [class]="sortVisible ? 'sort-menu' : 'hide-content'">
+    <ul>
+      {{#sorts}}
+        <li><a href="#">{{name}}</a></li>
+      {{/sorts}}
+    </ul>
+  </div>
+
+  <div class="hide-content" [class]="filterVisible ? 'filter-section' : 'hide-content'">
+    <div class="filter-heading">
+      FILTER<span class="close-filter" on="tap:AMP.setState({filterVisible: false})" role="filter-menu" tabindex="1">X</span>
+    </div>
+    <amp-selector id="filterSection" role="tablist"
+      layout="container"
+      class="filterTabContainer">
+      <div role="tab"
+        class="filter-button" selected
+        option="dept"><span class="filter-name">Department</span></div>
+
+        <div role="tabpanel"
+          class="filter-content">
+
+        </div>
+      {{#facetdata}}
+      <div role="tab"
+        class="filter-button"
+        option="{{key}}"><span class="filter-name">{{name}}</span></div>
+
+        <div role="tabpanel"
+          class="filter-content">
+          <div class="filter-content-data">
+            <h3 class="color-text">{{name}}</h3>
+            {{#values}}
+              <p>
+                <input id="{{key}}{{value}}" type="checkbox" />
+                <label for="{{key}}{{value}}">
+                  {{name}} <span class="color-text">({{count}})</span>
+                </label>
+              </p>
+            {{/values}}
+          </div>
+        </div>
+      {{/facetdata}}
+    </amp-selector>
+    <div class="filter-footer">
+      <button>CLEAR ALL</button>
+      <button>APPLY</button>
+    </div>
+  </div>
   </template>
   </amp-list>
-</div>
 
+</div>
 <!-- Scroll to Top -->
 <button id="scrollToTopButton" on="tap:productsListContainer.scrollTo(duration=200)" class="scrollToTop">	&#9650; TOP</button>
 </body>
