@@ -1,0 +1,405 @@
+{"items":[{
+  "type": "productSearchPageWsDto",
+  "status": "Success",
+  "currentQuery": {
+    "appliedFilters": "isLuxuryProduct:false",
+    "appliedSort": "relevance",
+    "query": {
+      "value": "dress:relevance:isLuxuryProduct:false"
+    },
+    "searchQuery": "dress",
+    "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse"
+  },
+  "facetdata": [
+    {
+      "key": "brand",
+      "multiSelect": true,
+      "name": "Brand",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "Bugatti",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH13F00021",
+          "value": "MBH13F00021"
+        }
+      ]
+    },
+    {
+      "key": "price",
+      "multiSelect": true,
+      "name": "Price",
+      "rangeApplied": false,
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 2,
+          "name": "₹0-₹1,000",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B90-%E2%82%B91%2C000",
+          "value": "₹0-₹1,000"
+        },
+        {
+          "count": 6,
+          "name": "₹5,001-₹10,000",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B95%2C001-%E2%82%B910%2C000",
+          "value": "₹5,001-₹10,000"
+        }
+      ]
+    },
+    {
+      "key": "deliveryMode",
+      "multiSelect": true,
+      "name": "Delivery",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "standard delivery",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Astandard+delivery",
+          "value": "standard delivery"
+        }
+      ]
+    },
+    {
+      "key": "colour",
+      "multiSelect": true,
+      "name": "Colour",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "hexColor": "#000000",
+          "name": "Black",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlack_000000",
+          "value": "Black_000000"
+        }
+      ]
+    },
+    {
+      "key": "fastening-classification",
+      "multiSelect": true,
+      "name": "Fastening",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 5,
+          "name": "Lace",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Afastening-classification%3ALace",
+          "value": "Lace"
+        },
+        {
+          "count": 3,
+          "name": "Velcro",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Afastening-classification%3AVelcro",
+          "value": "Velcro"
+        }
+      ]
+    },
+    {
+      "key": "shoeboottype-classification",
+      "multiSelect": true,
+      "name": "Shoe/Boot Type",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "Sneaker",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Ashoeboottype-classification%3ASneaker",
+          "value": "Sneaker"
+        }
+      ]
+    },
+    {
+      "key": "sizetype-classification",
+      "multiSelect": true,
+      "name": "Size Type",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "EUR",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Asizetype-classification%3AEUR",
+          "value": "EUR"
+        }
+      ]
+    },
+    {
+      "key": "solematerial-classification",
+      "multiSelect": true,
+      "name": "Sole Material",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "PU",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Asolematerial-classification%3APU",
+          "value": "PU"
+        }
+      ]
+    },
+    {
+      "key": "tipshape-classification",
+      "multiSelect": true,
+      "name": "Tip Shape",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "Round",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3Atipshape-classification%3ARound",
+          "value": "Round"
+        }
+      ]
+    },
+    {
+      "key": "discountAll",
+      "multiSelect": true,
+      "name": "All Discount",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "Discounted Items",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items",
+          "value": "Discounted Items"
+        }
+      ]
+    },
+    {
+      "key": "inStockFlag",
+      "multiSelect": true,
+      "name": "Availability",
+      "selectedFilterCount": 0,
+      "values": [
+        {
+          "count": 8,
+          "name": "Exclude out of stock",
+          "selected": false,
+          "url": "/search/page-{pageNo}?q=dress%3Arelevance%3AisLuxuryProduct%3Afalse%3AinStockFlag%3Atrue",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "facetdatacategory": {
+    "category": true,
+    "filters": [
+      {
+        "categoryCode": "MSH13",
+        "categoryName": "Footwear",
+        "categoryType": "department",
+        "childFilters": [
+          {
+            "categoryCode": "MSH1312",
+            "categoryName": "Girls",
+            "categoryType": "category",
+            "childFilters": [
+              {
+                "categoryCode": "MSH1312100",
+                "categoryName": "Flat",
+                "categoryType": "category",
+                "level": "L3",
+                "quantity": 8,
+                "ranking": "0",
+                "selected": false
+              }
+            ],
+            "level": "L2",
+            "quantity": 8,
+            "ranking": "0",
+            "selected": false
+          }
+        ],
+        "level": "L1",
+        "quantity": 8,
+        "ranking": "0",
+        "selected": false
+      }
+    ],
+    "key": "category",
+    "multiSelect": true,
+    "name": "Category",
+    "priority": 17100,
+    "selected": false,
+    "visible": true
+  },
+  "pagination": {
+    "currentPage": 0,
+    "pageSize": 20,
+    "totalPages": 1,
+    "totalResults": 4
+  },
+  "searchresult": [
+    {
+      "brandname": "Bugatti",
+      "compareProductType": "MSH1312100",
+      "cumulativeStockLevel": true,
+      "discountPercent": "11.0",
+      "galleryImagesList": [
+        {
+
+        }
+      ],
+      "imageURL": "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000015751_252Wx374H_20160219173050.jpeg",
+      "isOfferExisting": false,
+      "onlineExclusive": false,
+      "price": {
+        "isRange": false,
+        "mrpPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 9999.0,
+          "formattedValue": "9999.00"
+        },
+        "sellingPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 8888.0,
+          "formattedValue": "8888.00"
+        }
+      },
+      "productCategoryType": "Footwear",
+      "productId": "MP000000000015751",
+      "productname": "Bugatti Prefect Black School Dress Shoes",
+      "ussid": "1000871866553EUR27"
+    },
+    {
+      "brandname": "Bugatti",
+      "compareProductType": "MSH1312100",
+      "cumulativeStockLevel": true,
+      "discountPercent": "11.0",
+      "galleryImagesList": [
+        {
+
+        }
+      ],
+      "imageURL": "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000016017_252Wx374H_20160219202921.jpeg",
+      "isOfferExisting": false,
+      "onlineExclusive": false,
+      "price": {
+        "isRange": false,
+        "mrpPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 9999.0,
+          "formattedValue": "9999.00"
+        },
+        "sellingPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 8888.0,
+          "formattedValue": "8888.00"
+        }
+      },
+      "productCategoryType": "Footwear",
+      "productId": "MP000000000016074",
+      "productname": "Bugatti Prefect Black School Dress Shoes",
+      "ussid": "100087767585EUR281"
+    },
+    {
+      "brandname": "Bugatti",
+      "compareProductType": "MSH1312100",
+      "cumulativeStockLevel": true,
+      "discountPercent": "5.0",
+      "galleryImagesList": [
+        {
+
+        }
+      ],
+      "imageURL": "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000016243_252Wx374H_20160220124428.jpeg",
+      "isOfferExisting": false,
+      "onlineExclusive": false,
+      "price": {
+        "isRange": false,
+        "mrpPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 1000.0,
+          "formattedValue": "1000.00"
+        },
+        "sellingPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 950.0,
+          "formattedValue": "950.00"
+        }
+      },
+      "productCategoryType": "Footwear",
+      "productId": "MP000000000016243",
+      "productname": "Bugatti Prefect Black School Dress Shoes",
+      "ussid": "3000095996640672"
+    },
+    {
+      "brandname": "Bugatti",
+      "compareProductType": "MSH1312100",
+      "cumulativeStockLevel": true,
+      "discountPercent": "5.0",
+      "galleryImagesList": [
+        {
+
+        }
+      ],
+      "imageURL": "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000016251_252Wx374H_20160220124648.jpeg",
+      "isOfferExisting": false,
+      "onlineExclusive": false,
+      "price": {
+        "isRange": false,
+        "mrpPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 1000.0,
+          "formattedValue": "1000.00"
+        },
+        "sellingPrice": {
+          "currencyIso": "INR",
+          "currencySymbol": "₹",
+          "doubleValue": 950.0,
+          "formattedValue": "950.00"
+        }
+      },
+      "productCategoryType": "Footwear",
+      "productId": "MP000000000016251",
+      "productname": "Bugatti Prefect Black School Dress Shoes",
+      "ussid": "3000095996640673"
+    }
+  ],
+  "sorts": [
+    {
+      "code": "relevance",
+      "name": "Relevance",
+      "selected": true
+    },
+    {
+      "code": "isProductNew",
+      "name": "Brand New",
+      "selected": false
+    },
+    {
+      "code": "price-asc",
+      "name": "Price Low to High",
+      "selected": false
+    },
+    {
+      "code": "price-desc",
+      "name": "Price High to Low",
+      "selected": false
+    },
+    {
+      "code": "isDiscountedPrice",
+      "name": "Discounts",
+      "selected": false
+    }
+  ]
+}]}
