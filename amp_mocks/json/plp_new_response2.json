@@ -1,0 +1,1725 @@
+{"items": [{
+   "type" : "productSearchPageWsDto",
+   "status" : "Success",
+   "currentQuery" : {
+      "appliedFilters" : "isLuxuryProduct:false",
+      "appliedSort" : "relevance",
+      "query" : {
+         "value" : "phone:relevance:isLuxuryProduct:false"
+      },
+      "searchQuery" : "phone",
+      "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse"
+   },
+   "facetdata" : [ {
+      "key" : "brand",
+      "multiSelect" : true,
+      "name" : "Brand",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 5,
+         "name" : "AND",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00015",
+         "value" : "MBH12A00015"
+      }, {
+         "count" : 10,
+         "name" : "Apple",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00008",
+         "value" : "MBH12E00008"
+      }, {
+         "count" : 1,
+         "name" : "Fusion Beats",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00003",
+         "value" : "MBH12A00003"
+      }, {
+         "count" : 4,
+         "name" : "Global Desi",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00001",
+         "value" : "MBH12A00001"
+      }, {
+         "count" : 1,
+         "name" : "Lenovo",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00018",
+         "value" : "MBH12E00018"
+      }, {
+         "count" : 1,
+         "name" : "Micromax",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00076",
+         "value" : "MBH12E00076"
+      }, {
+         "count" : 1,
+         "name" : "Only",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00019",
+         "value" : "MBH12A00019"
+      }, {
+         "count" : 10,
+         "name" : "Samsung",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00016",
+         "value" : "MBH12E00016"
+      }, {
+         "count" : 1,
+         "name" : "SanDisk",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00029",
+         "value" : "MBH12E00029"
+      }, {
+         "count" : 2,
+         "name" : "UCB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00016",
+         "value" : "MBH12A00016"
+      }, {
+         "count" : 1,
+         "name" : "Vero Moda",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00018",
+         "value" : "MBH12A00018"
+      }, {
+         "count" : 3,
+         "name" : "W",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12A00006",
+         "value" : "MBH12A00006"
+      }, {
+         "count" : 1,
+         "name" : "Xiaomi",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abrand%3AMBH12E00015",
+         "value" : "MBH12E00015"
+      } ]
+   }, {
+      "key" : "price",
+      "multiSelect" : true,
+      "name" : "Price",
+      "rangeApplied" : false,
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 21,
+         "name" : "₹0-₹1,000",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B90-%E2%82%B91%2C000",
+         "value" : "₹0-₹1,000"
+      }, {
+         "count" : 1,
+         "name" : "₹1,001-₹2,000",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B91%2C001-%E2%82%B92%2C000",
+         "value" : "₹1,001-₹2,000"
+      }, {
+         "count" : 2,
+         "name" : "₹2,001-₹5,000",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B92%2C001-%E2%82%B95%2C000",
+         "value" : "₹2,001-₹5,000"
+      }, {
+         "count" : 7,
+         "name" : "₹5,001-₹10,000",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B95%2C001-%E2%82%B910%2C000",
+         "value" : "₹5,001-₹10,000"
+      }, {
+         "count" : 1,
+         "name" : "₹10,001-₹20,000",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B910%2C001-%E2%82%B920%2C000",
+         "value" : "₹10,001-₹20,000"
+      }, {
+         "count" : 2,
+         "name" : "₹40,001-₹50,000",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B940%2C001-%E2%82%B950%2C000",
+         "value" : "₹40,001-₹50,000"
+      }, {
+         "count" : 7,
+         "name" : "₹50,001 and Above",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprice%3A%E2%82%B950%2C001+and+Above",
+         "value" : "₹50,001 and Above"
+      } ]
+   }, {
+      "key" : "deliveryMode",
+      "multiSelect" : true,
+      "name" : "Delivery",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 15,
+         "name" : "click-and-collect",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Aclick-and-collect",
+         "value" : "click-and-collect"
+      }, {
+         "count" : 10,
+         "name" : "express delivery",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Aexpress+delivery",
+         "value" : "express delivery"
+      }, {
+         "count" : 40,
+         "name" : "standard delivery",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdeliveryMode%3Astandard+delivery",
+         "value" : "standard delivery"
+      } ]
+   }, {
+      "key" : "memory-classification",
+      "multiSelect" : true,
+      "name" : "Memory",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 2,
+         "name" : "1 GB or less",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Amemory-classification%3A1+GB+or+less",
+         "value" : "1 GB or less"
+      }, {
+         "count" : 5,
+         "name" : "4.1 - 8 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Amemory-classification%3A4.1+-+8+GB",
+         "value" : "4.1 - 8 GB"
+      } ]
+   }, {
+      "key" : "processor-classification",
+      "multiSelect" : true,
+      "name" : "Processor",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "1 - 1.49 GHz",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprocessor-classification%3A1+-+1.49+GHz",
+         "value" : "1 - 1.49 GHz"
+      }, {
+         "count" : 5,
+         "name" : "2 - 2.4 GHz",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aprocessor-classification%3A2+-+2.4+GHz",
+         "value" : "2 - 2.4 GHz"
+      } ]
+   }, {
+      "key" : "rAM-classification",
+      "multiSelect" : true,
+      "name" : "RAM",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 3,
+         "name" : "1 -  2GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3ArAM-classification%3A1+-++2GB",
+         "value" : "1 -  2GB"
+      }, {
+         "count" : 5,
+         "name" : "2.1 - 4GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3ArAM-classification%3A2.1+-+4GB",
+         "value" : "2.1 - 4GB"
+      } ]
+   }, {
+      "key" : "screenSize-classification",
+      "multiSelect" : true,
+      "name" : "Screen Size",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 13,
+         "name" : "3.9 inches or less",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AscreenSize-classification%3A3.9+inches+or+less",
+         "value" : "3.9 inches or less"
+      }, {
+         "count" : 1,
+         "name" : "4 - 4.4 inches",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AscreenSize-classification%3A4+-+4.4+inches",
+         "value" : "4 - 4.4 inches"
+      }, {
+         "count" : 5,
+         "name" : "5 - 5.4 inches",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AscreenSize-classification%3A5+-+5.4+inches",
+         "value" : "5 - 5.4 inches"
+      } ]
+   }, {
+      "key" : "colour",
+      "multiSelect" : true,
+      "name" : "Colour",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 8,
+         "hexColor" : "#F5F5DC",
+         "name" : "Beige",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABeige_F5F5DC",
+         "value" : "Beige_F5F5DC"
+      }, {
+         "count" : 16,
+         "hexColor" : "#000000",
+         "name" : "Black",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlack_000000",
+         "value" : "Black_000000"
+      }, {
+         "count" : 2,
+         "hexColor" : "#0000FF",
+         "name" : "Blue",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ABlue_0000FF",
+         "value" : "Blue_0000FF"
+      }, {
+         "count" : 1,
+         "hexColor" : "#FFD700",
+         "name" : "Gold",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AGold_FFD700",
+         "value" : "Gold_FFD700"
+      }, {
+         "count" : 1,
+         "hexColor" : "#e4e4e4",
+         "name" : "Silver",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3ASilver_e4e4e4",
+         "value" : "Silver_e4e4e4"
+      }, {
+         "count" : 3,
+         "hexColor" : "#FFFFFF",
+         "name" : "White",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AWhite_FFFFFF",
+         "value" : "White_FFFFFF"
+      }, {
+         "count" : 1,
+         "hexColor" : "#FFFF00",
+         "name" : "Yellow",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Acolour%3AYellow_FFFF00",
+         "value" : "Yellow_FFFF00"
+      } ]
+   }, {
+      "key" : "operatingSystem-classification",
+      "multiSelect" : true,
+      "name" : "Operating System",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 10,
+         "name" : "Android",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AoperatingSystem-classification%3AAndroid",
+         "value" : "Android"
+      }, {
+         "count" : 14,
+         "name" : "iOS",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AoperatingSystem-classification%3AiOS",
+         "value" : "iOS"
+      } ]
+   }, {
+      "key" : "primaryCamera-classification",
+      "multiSelect" : true,
+      "name" : "Primary Camera",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 10,
+         "name" : "Below 2 MP",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AprimaryCamera-classification%3ABelow+2+MP",
+         "value" : "Below 2 MP"
+      }, {
+         "count" : 14,
+         "name" : "8 MP and above",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AprimaryCamera-classification%3A8+MP+and+above",
+         "value" : "8 MP and above"
+      } ]
+   }, {
+      "key" : "bluetooth-classification",
+      "multiSelect" : true,
+      "name" : "Bluetooth",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 3,
+         "name" : "Bluetooth Headphone Eyes",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Abluetooth-classification%3ABluetooth+Headphone+Eyes",
+         "value" : "Bluetooth Headphone Eyes"
+      } ]
+   }, {
+      "key" : "cameraFeatures-classification",
+      "multiSelect" : true,
+      "name" : "Camera Features",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "Back",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraFeatures-classification%3ABack",
+         "value" : "Back"
+      }, {
+         "count" : 5,
+         "name" : "Front",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraFeatures-classification%3AFront",
+         "value" : "Front"
+      }, {
+         "count" : 2,
+         "name" : "back",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraFeatures-classification%3Aback",
+         "value" : "back"
+      }, {
+         "count" : 1,
+         "name" : "camerafeatures123sensorsizegeotaggingtouchfocusfacedetectionhdrpanorama",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraFeatures-classification%3Acamerafeatures123sensorsizegeotaggingtouchfocusfacedetectionhdrpanorama",
+         "value" : "camerafeatures123sensorsizegeotaggingtouchfocusfacedetectionhdrpanorama"
+      }, {
+         "count" : 1,
+         "name" : "camerafeatures12mpisightcameraautofocuswithfocuspixels",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraFeatures-classification%3Acamerafeatures12mpisightcameraautofocuswithfocuspixels",
+         "value" : "camerafeatures12mpisightcameraautofocuswithfocuspixels"
+      } ]
+   }, {
+      "key" : "caseOrCover-classification",
+      "multiSelect" : true,
+      "name" : "Case or Cover",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "Back Cover",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcaseOrCover-classification%3ABack+Cover",
+         "value" : "Back Cover"
+      } ]
+   }, {
+      "key" : "connectivity-classification",
+      "multiSelect" : true,
+      "name" : "Connectivity",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 5,
+         "name" : "Bluetooth, Wi-fi, USB, 4G LTE",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aconnectivity-classification%3ABluetooth%2C+Wi-fi%2C+USB%2C+4G+LTE",
+         "value" : "Bluetooth, Wi-fi, USB, 4G LTE"
+      }, {
+         "count" : 1,
+         "name" : "Connectivity Features",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aconnectivity-classification%3AConnectivity+Features",
+         "value" : "Connectivity Features"
+      }, {
+         "count" : 1,
+         "name" : "NA",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aconnectivity-classification%3ANA",
+         "value" : "NA"
+      }, {
+         "count" : 1,
+         "name" : "usb",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aconnectivity-classification%3Ausb",
+         "value" : "usb"
+      } ]
+   }, {
+      "key" : "displayFeatures-classification",
+      "multiSelect" : true,
+      "name" : "Display Features",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "Display",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3ADisplay",
+         "value" : "Display"
+      }, {
+         "count" : 5,
+         "name" : "Display Features",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3ADisplay+Features",
+         "value" : "Display Features"
+      }, {
+         "count" : 5,
+         "name" : "Good",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3AGood",
+         "value" : "Good"
+      }, {
+         "count" : 2,
+         "name" : "Gorilla glass",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3AGorilla+glass",
+         "value" : "Gorilla glass"
+      }, {
+         "count" : 2,
+         "name" : "HD",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3AHD",
+         "value" : "HD"
+      }, {
+         "count" : 3,
+         "name" : "NA",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3ANA",
+         "value" : "NA"
+      }, {
+         "count" : 5,
+         "name" : "Super AMOLED Capacitive Touchscreen",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3ASuper+AMOLED+Capacitive+Touchscreen",
+         "value" : "Super AMOLED Capacitive Touchscreen"
+      }, {
+         "count" : 1,
+         "name" : "gorilla glass",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdisplayFeatures-classification%3Agorilla+glass",
+         "value" : "gorilla glass"
+      } ]
+   }, {
+      "key" : "cameraType-classification",
+      "multiSelect" : true,
+      "name" : "Camera Type",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "Back",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraType-classification%3ABack",
+         "value" : "Back"
+      }, {
+         "count" : 5,
+         "name" : "Front",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraType-classification%3AFront",
+         "value" : "Front"
+      }, {
+         "count" : 2,
+         "name" : "back",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraType-classification%3Aback",
+         "value" : "back"
+      }, {
+         "count" : 1,
+         "name" : "camerafeatures123sensorsizegeotaggingtouchfocusfacedetectionhdrpanorama",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraType-classification%3Acamerafeatures123sensorsizegeotaggingtouchfocusfacedetectionhdrpanorama",
+         "value" : "camerafeatures123sensorsizegeotaggingtouchfocusfacedetectionhdrpanorama"
+      }, {
+         "count" : 1,
+         "name" : "camerafeatures12mpisightcameraautofocuswithfocuspixels",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AcameraType-classification%3Acamerafeatures12mpisightcameraautofocuswithfocuspixels",
+         "value" : "camerafeatures12mpisightcameraautofocuswithfocuspixels"
+      } ]
+   }, {
+      "key" : "features-classification",
+      "multiSelect" : true,
+      "name" : "Features",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "1",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Afeatures-classification%3A1",
+         "value" : "1"
+      }, {
+         "count" : 1,
+         "name" : "2",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Afeatures-classification%3A2",
+         "value" : "2"
+      }, {
+         "count" : 1,
+         "name" : "3",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Afeatures-classification%3A3",
+         "value" : "3"
+      }, {
+         "count" : 1,
+         "name" : "4",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Afeatures-classification%3A4",
+         "value" : "4"
+      } ]
+   }, {
+      "key" : "memorySmartphone-classification",
+      "multiSelect" : true,
+      "name" : "Smartphone Memory",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 9,
+         "name" : "-",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AmemorySmartphone-classification%3A-",
+         "value" : "-"
+      }, {
+         "count" : 2,
+         "name" : "1 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AmemorySmartphone-classification%3A1+GB",
+         "value" : "1 GB"
+      }, {
+         "count" : 7,
+         "name" : "1d5gbram",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AmemorySmartphone-classification%3A1d5gbram",
+         "value" : "1d5gbram"
+      }, {
+         "count" : 1,
+         "name" : "2d5gbram",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AmemorySmartphone-classification%3A2d5gbram",
+         "value" : "2d5gbram"
+      }, {
+         "count" : 5,
+         "name" : "8 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AmemorySmartphone-classification%3A8+GB",
+         "value" : "8 GB"
+      } ]
+   }, {
+      "key" : "sIMType-classification",
+      "multiSelect" : true,
+      "name" : "Sim Type",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "Dual Sim",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsIMType-classification%3ADual+Sim",
+         "value" : "Dual Sim"
+      }, {
+         "count" : 5,
+         "name" : "Single Sim GSM",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsIMType-classification%3ASingle+Sim+GSM",
+         "value" : "Single Sim GSM"
+      }, {
+         "count" : 2,
+         "name" : "dualofwcdmaslashgsmgsm",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsIMType-classification%3Adualofwcdmaslashgsmgsm",
+         "value" : "dualofwcdmaslashgsmgsm"
+      }, {
+         "count" : 1,
+         "name" : "dualsim",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsIMType-classification%3Adualsim",
+         "value" : "dualsim"
+      }, {
+         "count" : 1,
+         "name" : "dualsimgsmcdma",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsIMType-classification%3Adualsimgsmcdma",
+         "value" : "dualsimgsmcdma"
+      } ]
+   }, {
+      "key" : "sensorSize-classification",
+      "multiSelect" : true,
+      "name" : "Sensor Size",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "Accelerometer ambient light sensor three-axis gyro sensor digital compass proximity sensor",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsensorSize-classification%3AAccelerometer+ambient+light+sensor+three-axis+gyro+sensor+digital+compass+proximity+sensor",
+         "value" : "Accelerometer ambient light sensor three-axis gyro sensor digital compass proximity sensor"
+      }, {
+         "count" : 3,
+         "name" : "Accelerometer digital compass proximity sensor three-axis gyro sensor ambient light sensor",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsensorSize-classification%3AAccelerometer+digital+compass+proximity+sensor+three-axis+gyro+sensor+ambient+light+sensor",
+         "value" : "Accelerometer digital compass proximity sensor three-axis gyro sensor ambient light sensor"
+      } ]
+   }, {
+      "key" : "ramType-classification",
+      "multiSelect" : true,
+      "name" : "RAM Type",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "1 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AramType-classification%3A1+GB",
+         "value" : "1 GB"
+      }, {
+         "count" : 1,
+         "name" : "1 GB DDR3",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AramType-classification%3A1+GB+DDR3",
+         "value" : "1 GB DDR3"
+      }, {
+         "count" : 2,
+         "name" : "128 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AramType-classification%3A128+GB",
+         "value" : "128 GB"
+      }, {
+         "count" : 1,
+         "name" : "2 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AramType-classification%3A2+GB",
+         "value" : "2 GB"
+      }, {
+         "count" : 5,
+         "name" : "3 GB",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AramType-classification%3A3+GB",
+         "value" : "3 GB"
+      } ]
+   }, {
+      "key" : "resolution-classification",
+      "multiSelect" : true,
+      "name" : "Resolution",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 9,
+         "name" : "1136 x 640 pixels",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aresolution-classification%3A1136+x+640+pixels",
+         "value" : "1136 x 640 pixels"
+      }, {
+         "count" : 4,
+         "name" : "1334 x 750 pixels",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aresolution-classification%3A1334+x+750+pixels",
+         "value" : "1334 x 750 pixels"
+      }, {
+         "count" : 1,
+         "name" : "Full HD 1920 x 1080 pixels",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aresolution-classification%3AFull+HD+1920+x+1080+pixels",
+         "value" : "Full HD 1920 x 1080 pixels"
+      } ]
+   }, {
+      "key" : "simSize-classification",
+      "multiSelect" : true,
+      "name" : "Sim Size",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "-",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsimSize-classification%3A-",
+         "value" : "-"
+      }, {
+         "count" : 1,
+         "name" : "1 Micro 1 Normal",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsimSize-classification%3A1+Micro+1+Normal",
+         "value" : "1 Micro 1 Normal"
+      }, {
+         "count" : 3,
+         "name" : "1micro1normal",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsimSize-classification%3A1micro1normal",
+         "value" : "1micro1normal"
+      }, {
+         "count" : 1,
+         "name" : "1microsim",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsimSize-classification%3A1microsim",
+         "value" : "1microsim"
+      }, {
+         "count" : 5,
+         "name" : "Nano",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsimSize-classification%3ANano",
+         "value" : "Nano"
+      }, {
+         "count" : 13,
+         "name" : "Nano Sim",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsimSize-classification%3ANano+Sim",
+         "value" : "Nano Sim"
+      } ]
+   }, {
+      "key" : "suitableFor-classification",
+      "multiSelect" : true,
+      "name" : "Suitable For",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 5,
+         "name" : "Smart phone make and model",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AsuitableFor-classification%3ASmart+phone+make+and+model",
+         "value" : "Smart phone make and model"
+      } ]
+   }, {
+      "key" : "type-classification",
+      "multiSelect" : true,
+      "name" : "Type",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 3,
+         "name" : "Bluetooth Headset",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Atype-classification%3ABluetooth+Headset",
+         "value" : "Bluetooth Headset"
+      } ]
+   }, {
+      "key" : "videoRecording-classification",
+      "multiSelect" : true,
+      "name" : "Video Recording",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 16,
+         "name" : "1080p",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AvideoRecording-classification%3A1080p",
+         "value" : "1080p"
+      }, {
+         "count" : 1,
+         "name" : "1080p@30FPS",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AvideoRecording-classification%3A1080p%4030FPS",
+         "value" : "1080p@30FPS"
+      }, {
+         "count" : 1,
+         "name" : "1080pat30fpsstereosoundrecd",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AvideoRecording-classification%3A1080pat30fpsstereosoundrecd",
+         "value" : "1080pat30fpsstereosoundrecd"
+      }, {
+         "count" : 5,
+         "name" : "2160p@30 FPS 1080p@60 FPS 720p@120 FPS",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AvideoRecording-classification%3A2160p%4030+FPS+1080p%4060+FPS+720p%40120+FPS",
+         "value" : "2160p@30 FPS 1080p@60 FPS 720p@120 FPS"
+      }, {
+         "count" : 1,
+         "name" : "640 x 480 15 FPS",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AvideoRecording-classification%3A640+x+480+15+FPS",
+         "value" : "640 x 480 15 FPS"
+      } ]
+   }, {
+      "key" : "warranty-classification",
+      "multiSelect" : true,
+      "name" : "Warranty",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 2,
+         "name" : "1 Year Manufacturer Warranty",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3A1+Year+Manufacturer+Warranty",
+         "value" : "1 Year Manufacturer Warranty"
+      }, {
+         "count" : 2,
+         "name" : "1 Year Onsite Warranty",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3A1+Year+Onsite+Warranty",
+         "value" : "1 Year Onsite Warranty"
+      }, {
+         "count" : 1,
+         "name" : "1 year",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3A1+year",
+         "value" : "1 year"
+      }, {
+         "count" : 5,
+         "name" : "1 year from the date of purchase",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3A1+year+from+the+date+of+purchase",
+         "value" : "1 year from the date of purchase"
+      }, {
+         "count" : 3,
+         "name" : "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3A1+year+manufacturer+warranty+for+Phone+and+6+months+warranty+for+in+the+box+accessories",
+         "value" : "1 year manufacturer warranty for Phone and 6 months warranty for in the box accessories"
+      }, {
+         "count" : 1,
+         "name" : "1yr",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3A1yr",
+         "value" : "1yr"
+      }, {
+         "count" : 3,
+         "name" : "Electronics",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3AElectronics",
+         "value" : "Electronics"
+      }, {
+         "count" : 10,
+         "name" : "NA",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3ANA",
+         "value" : "NA"
+      }, {
+         "count" : 5,
+         "name" : "Warranty Summary",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awarranty-classification%3AWarranty+Summary",
+         "value" : "Warranty Summary"
+      } ]
+   }, {
+      "key" : "weight-classification",
+      "multiSelect" : true,
+      "name" : "Weight",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 1,
+         "name" : "1.23456789098E11",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A1.23456789098E11",
+         "value" : "1.23456789098E11"
+      }, {
+         "count" : 1,
+         "name" : "12.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A12.0",
+         "value" : "12.0"
+      }, {
+         "count" : 6,
+         "name" : "123.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A123.0",
+         "value" : "123.0"
+      }, {
+         "count" : 3,
+         "name" : "132.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A132.0",
+         "value" : "132.0"
+      }, {
+         "count" : 1,
+         "name" : "1320.11",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A1320.11",
+         "value" : "1320.11"
+      }, {
+         "count" : 2,
+         "name" : "21.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A21.0",
+         "value" : "21.0"
+      }, {
+         "count" : 1,
+         "name" : "74.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A74.0",
+         "value" : "74.0"
+      }, {
+         "count" : 2,
+         "name" : "789.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A789.0",
+         "value" : "789.0"
+      }, {
+         "count" : 1,
+         "name" : "896.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A896.0",
+         "value" : "896.0"
+      }, {
+         "count" : 3,
+         "name" : "9.0",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Aweight-classification%3A9.0",
+         "value" : "9.0"
+      } ]
+   }, {
+      "key" : "wireless-classification",
+      "multiSelect" : true,
+      "name" : "Wireless",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 3,
+         "name" : "No",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3Awireless-classification%3ANo",
+         "value" : "No"
+      } ]
+   }, {
+      "key" : "discountAll",
+      "multiSelect" : true,
+      "name" : "All Discount",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 36,
+         "name" : "Discounted Items",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ADiscounted+Items",
+         "value" : "Discounted Items"
+      }, {
+         "count" : 5,
+         "name" : "Non - Discounted Items",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AdiscountAll%3ANon+-+Discounted+Items",
+         "value" : "Non - Discounted Items"
+      } ]
+   }, {
+      "key" : "inStockFlag",
+      "multiSelect" : true,
+      "name" : "Availability",
+      "selectedFilterCount" : 0,
+      "values" : [ {
+         "count" : 38,
+         "name" : "Exclude out of stock",
+         "selected" : false,
+         "url" : "/search/page-{pageNo}?q=phone%3Arelevance%3AisLuxuryProduct%3Afalse%3AinStockFlag%3Atrue",
+         "value" : "true"
+      } ]
+   } ],
+   "facetdatacategory" : {
+      "category" : true,
+      "filters" : [ {
+         "categoryCode" : "MSH12",
+         "categoryName" : "Electronics",
+         "categoryType" : "department",
+         "childFilters" : [ {
+            "categoryCode" : "MSH1210",
+            "categoryName" : "Mobile Phones",
+            "categoryType" : "category",
+            "childFilters" : [ {
+               "categoryCode" : "MSH1210100",
+               "categoryName" : "Smartphones",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 10,
+               "ranking" : "0",
+               "selected" : false
+            }, {
+               "categoryCode" : "MSH1210101",
+               "categoryName" : "Smartphone accessories",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 5,
+               "ranking" : "0",
+               "selected" : false
+            }, {
+               "categoryCode" : "MSH1210102",
+               "categoryName" : "iPhone",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 14,
+               "ranking" : "0",
+               "selected" : false
+            }, {
+               "categoryCode" : "MSH1210103",
+               "categoryName" : "Feature Phones",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 2,
+               "ranking" : "0",
+               "selected" : false
+            } ],
+            "level" : "L2",
+            "quantity" : 31,
+            "ranking" : "0",
+            "selected" : false
+         }, {
+            "categoryCode" : "MSH1234",
+            "categoryName" : "Head Phones",
+            "categoryType" : "category",
+            "childFilters" : [ {
+               "categoryCode" : "MSH1234100",
+               "categoryName" : "Earphones",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 1,
+               "ranking" : "0",
+               "selected" : false
+            }, {
+               "categoryCode" : "MSH1234101",
+               "categoryName" : "Headsets",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 3,
+               "ranking" : "0",
+               "selected" : false
+            } ],
+            "level" : "L2",
+            "quantity" : 4,
+            "ranking" : "0",
+            "selected" : false
+         }, {
+            "categoryCode" : "MSH1244",
+            "categoryName" : "Landline Phones",
+            "categoryType" : "category",
+            "childFilters" : [ {
+               "categoryCode" : "MSH1244100",
+               "categoryName" : "Corded Phones",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 2,
+               "ranking" : "0",
+               "selected" : false
+            }, {
+               "categoryCode" : "MSH1244101",
+               "categoryName" : "Cordless Phones",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 1,
+               "ranking" : "0",
+               "selected" : false
+            }, {
+               "categoryCode" : "MSH1244102",
+               "categoryName" : "Others",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 1,
+               "ranking" : "0",
+               "selected" : false
+            } ],
+            "level" : "L2",
+            "quantity" : 4,
+            "ranking" : "0",
+            "selected" : false
+         }, {
+            "categoryCode" : "MSH1251",
+            "categoryName" : "Security Cameras",
+            "categoryType" : "category",
+            "childFilters" : [ {
+               "categoryCode" : "MSH1251102",
+               "categoryName" : "Door Phones",
+               "categoryType" : "category",
+               "level" : "L3",
+               "quantity" : 2,
+               "ranking" : "0",
+               "selected" : false
+            } ],
+            "level" : "L2",
+            "quantity" : 2,
+            "ranking" : "0",
+            "selected" : false
+         } ],
+         "level" : "L1",
+         "quantity" : 41,
+         "ranking" : "0",
+         "selected" : false
+      } ],
+      "key" : "category",
+      "multiSelect" : true,
+      "name" : "Category",
+      "priority" : 17100,
+      "selected" : false,
+      "visible" : true
+   },
+   "pagination" : {
+      "currentPage" : 1,
+      "pageSize" : 20,
+      "totalPages" : 3,
+      "totalResults" : 41
+   },
+   "searchresult" : [ {
+      "brandname" : "Apple",
+      "compareProductType" : "MSH1210102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "1.0",
+      "galleryImagesList" : [ {
+      } ],
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 60000.0,
+            "formattedValue" : "60000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 59000.0,
+            "formattedValue" : "59000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000021371",
+      "productname" : "Apple iPhone 6 64GB",
+      "ussid" : "800112UT99457333"
+   }, {
+      "brandname" : "Fusion Beats",
+      "compareProductType" : "MSH1234101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "10.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000145650_252Wx374H_20171229151121.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 1000.0,
+            "formattedValue" : "1000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 900.0,
+            "formattedValue" : "900.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000145650",
+      "productname" : "AudioEar",
+      "ussid" : "273564MDD140"
+   }, {
+      "brandname" : "UCB",
+      "compareProductType" : "MSH1244102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "10.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000147196_252Wx374H_20171230121317.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 1000.0,
+            "formattedValue" : "1000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 900.0,
+            "formattedValue" : "900.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000147196",
+      "productname" : "MDD368",
+      "ussid" : "273564MDD368"
+   }, {
+      "brandname" : "Global Desi",
+      "compareProductType" : "MSH1234100",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "31.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000168683_252Wx374H_20180111083757.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 628.0,
+            "formattedValue" : "628.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 428.0,
+            "formattedValue" : "428.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000168683",
+      "productname" : "In the Ear",
+      "ussid" : "273564IntheEar7054"
+   }, {
+      "brandname" : "Global Desi",
+      "compareProductType" : "MSH1234101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "31.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000168684_252Wx374H_20180111083627.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 629.0,
+            "formattedValue" : "629.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 429.0,
+            "formattedValue" : "429.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000168684",
+      "productname" : "On the Ear",
+      "ussid" : "273564OntheEar82440"
+   }, {
+      "brandname" : "Global Desi",
+      "compareProductType" : "MSH1234101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "31.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000168703_252Wx374H_20180111084303.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 630.0,
+            "formattedValue" : "630.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 430.0,
+            "formattedValue" : "430.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000168703",
+      "productname" : "Over the Ear",
+      "ussid" : "273564OvertheEar63412"
+   }, {
+      "brandname" : "AND",
+      "compareProductType" : "MSH1210100",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "11.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000169248_252Wx374H_20180111152818.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9000.0,
+            "formattedValue" : "9000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 8000.0,
+            "formattedValue" : "8000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000169248",
+      "productname" : "MDDB386",
+      "ussid" : "273564MDDB386"
+   }, {
+      "brandname" : "AND",
+      "compareProductType" : "MSH1210102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "11.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000169465_252Wx374H_20180111182234.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9000.0,
+            "formattedValue" : "9000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 8000.0,
+            "formattedValue" : "8000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000169465",
+      "productname" : "MDDB397",
+      "ussid" : "273564MDDB397"
+   }, {
+      "brandname" : "AND",
+      "compareProductType" : "MSH1210102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "11.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000170795_252Wx374H_20180112125301.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9000.0,
+            "formattedValue" : "9000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 8000.0,
+            "formattedValue" : "8000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000170795",
+      "productname" : "MDDB398",
+      "ussid" : "273564MDDB398"
+   }, {
+      "brandname" : "AND",
+      "compareProductType" : "MSH1210102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "11.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000170796_252Wx374H_20180112125305.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9000.0,
+            "formattedValue" : "9000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 8000.0,
+            "formattedValue" : "8000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000170796",
+      "productname" : "MDDB399",
+      "ussid" : "273564MDDB399"
+   }, {
+      "brandname" : "AND",
+      "compareProductType" : "MSH1210102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "0.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000170889_252Wx374H_20180112140707.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9000.0,
+            "formattedValue" : "9000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9000.0,
+            "formattedValue" : "9000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000170889",
+      "productname" : "MDDB400",
+      "ussid" : "273564MDDB400"
+   }, {
+      "brandname" : "Apple",
+      "compareProductType" : "MSH1210102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "1.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images//252Wx374H/MP000000000021418_252Wx374H_20160616160140.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 60000.0,
+            "formattedValue" : "60000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 59000.0,
+            "formattedValue" : "59000.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000021428",
+      "productname" : "Apple iPhone 6 64GB (Dark Grey) 4 GB RAM, Dual SIM 4G",
+      "ussid" : "800112UAT9945770"
+   }, {
+      "brandname" : "Samsung",
+      "compareProductType" : "MSH1210101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images//252Wx374H/MP000000000020613_252Wx374H_20160512141556.jpeg",
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 1500.0,
+            "formattedValue" : "1500.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 1499.0,
+            "formattedValue" : "1499.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000020613",
+      "productname" : "Smart Phone Accessories",
+      "ussid" : "963850SPA123"
+   }, {
+      "brandname" : "SanDisk",
+      "compareProductType" : "MSH1210101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images//252Wx374H/MP000000000020576_252Wx374H_20160512125424.jpeg",
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 600.0,
+            "formattedValue" : "600.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 599.0,
+            "formattedValue" : "599.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000020576",
+      "productname" : "Memory Cards",
+      "ussid" : "963850MC123"
+   }, {
+      "brandname" : "Samsung",
+      "compareProductType" : "MSH1210101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images//252Wx374H/MP000000000020586_252Wx374H_20160512141235.jpeg",
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 1000.0,
+            "formattedValue" : "1000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 999.0,
+            "formattedValue" : "999.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000020586",
+      "productname" : "Screen protector",
+      "ussid" : "963850SP123"
+   }, {
+      "brandname" : "Samsung",
+      "compareProductType" : "MSH1210101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images//252Wx374H/MP000000000020577_252Wx374H_20160512125532.jpeg",
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 500.0,
+            "formattedValue" : "500.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 499.0,
+            "formattedValue" : "499.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000020577",
+      "productname" : "Adapter and Chargers",
+      "ussid" : "963850ANC123"
+   }, {
+      "brandname" : "Samsung",
+      "compareProductType" : "MSH1210101",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images//252Wx374H/MP000000000020575_252Wx374H_20160512125512.jpeg",
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 150.0,
+            "formattedValue" : "150.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 149.0,
+            "formattedValue" : "149.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000020575",
+      "productname" : "Cases and Covers",
+      "ussid" : "963850CNC123"
+   }, {
+      "brandname" : "W",
+      "compareProductType" : "MSH1251102",
+      "cumulativeStockLevel" : true,
+      "discountPercent" : "99.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000165971_252Wx374H_20180109191841.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 150000.0,
+            "formattedValue" : "150000.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 500.0,
+            "formattedValue" : "500.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000165971",
+      "productname" : "CAM015P",
+      "ussid" : "273576CAM015P"
+   }, {
+      "brandname" : "W",
+      "compareProductType" : "MSH1210100",
+      "cumulativeStockLevel" : false,
+      "discountPercent" : "30.0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000214447_252Wx374H_20180207150302.jpeg",
+      "isOfferExisting" : false,
+      "newProduct" : true,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 12999.0,
+            "formattedValue" : "12999.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 8999.0,
+            "formattedValue" : "8999.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000214447",
+      "productname" : "Smart Phones",
+      "ussid" : "273577smart15"
+   }, {
+      "brandname" : "Samsung",
+      "compareProductType" : "MSH1210100",
+      "cumulativeStockLevel" : false,
+      "discountPercent" : "0",
+      "galleryImagesList" : [ {
+      } ],
+      "imageURL" : "//pcmuat2.tataunistore.com/images/252Wx374H/MP000000000016368_252Wx374H_20160220134530.jpeg",
+      "isOfferExisting" : false,
+      "onlineExclusive" : false,
+      "price" : {
+         "isRange" : false,
+         "mrpPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9999.0,
+            "formattedValue" : "9999.00"
+         },
+         "sellingPrice" : {
+            "currencyIso" : "INR",
+            "currencySymbol" : "₹",
+            "doubleValue" : 9999.0,
+            "formattedValue" : "9999.00"
+         }
+      },
+      "productCategoryType" : "Electronics",
+      "productId" : "MP000000000016368",
+      "productname" : "SAMSUNG Galaxy S6 32GB (Gold)",
+      "ussid" : "100059189207"
+   } ],
+   "sorts" : [ {
+      "code" : "relevance",
+      "name" : "Relevance",
+      "selected" : true
+   }, {
+      "code" : "isProductNew",
+      "name" : "Brand New",
+      "selected" : false
+   }, {
+      "code" : "price-asc",
+      "name" : "Price Low to High",
+      "selected" : false
+   }, {
+      "code" : "price-desc",
+      "name" : "Price High to Low",
+      "selected" : false
+   }, {
+      "code" : "isDiscountedPrice",
+      "name" : "Discounts",
+      "selected" : false
+   } ]
+}]}

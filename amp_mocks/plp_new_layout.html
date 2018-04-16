@@ -41,6 +41,7 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
 .page-right-search {z-index: 11; position: fixed; right: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/search.a4309640.svg');}
 .page-header {z-index: 10; line-height: 50px; background-color: #000; color: #fff; text-align: center; font-family: 500; position: fixed; width: 100%;}
+.page-header span {text-transform: capitalize;}
 .page-search-close {z-index: 12; position: fixed; right: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/cancel.fea9f12f.svg');
 background-color: #000;}
@@ -51,7 +52,7 @@ background-color: #000;}
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/searchRed.950023de.svg');
 background-color: #000;}
 
-.inner-top-section {position: relative; padding: 10px 20px 0; margin-bottom: 20px; height: 30px;}
+.inner-top-section {position: relative; padding: 10px 20px 0; margin-top: 20px; height: 30px;}
 .switch-layout {float:right; width: 20px; height: 20px; outline: none;}
 .grid-view-btn, .list-view-btn {width: 20px; height: 20px; display: inline-block; background-repeat: no-repeat;}
 .list-view-btn {background-image: url('https://uat2.tataunistore.com/static/media/list.341c3565.svg');}
@@ -61,16 +62,20 @@ background-color: #000;}
 .products_container a, .lv-products_container a {text-decoration: none; color: #000;}
 .lv-products_container a {width: 30%; display: inline-block; float: left;}
 .products_container a amp-img, .lv-products_container a amp-img {background-color: #fff; border-radius: 4px;}
-.product-tile {width: 50%; float: left;}
+.product-tile {width: 50%; float: left; margin-bottom: 20px;}
 .product-tile:last-child {margin-bottom: 80px;}
-.lv-product-tile {width: 100%; float: left;}
-.product-tile-inner {padding: 10px 10px 30px;}
+.lv-product-tile {width: 100%; float: left; margin-bottom: 10px;}
+.product-tile-inner {padding: 16px 16px 30px;}
 /* .product-tile-inner {box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);} */
 .product-disc {color: #fff; position: absolute; z-index: 5; margin-top: 10px; font-size: 10px; height: 20px; line-height: 20px;
   background-size: 100% 24px; background-repeat: no-repeat; background-position: 50%; text-align: center; padding: 0 15px 0 10px;
   background-image: url('https://uat2.tataunistore.com/static/media/offer.f6ced31c.svg');}
-.product-nostock span {margin: 25% 5%; font-size: 12px; font-weight: 600; position: absolute; padding: 3px 5px; z-index: 4;
-    text-align: center; border: 1px solid #e4e4e4; background-color: #fff; color: #ff1c47; display: block; max-width: 105px; width: 100%;}
+/* .product-nostock span {margin: 25% 5%; font-size: 12px; font-weight: 600; position: absolute; padding: 3px 5px; z-index: 4;
+    text-align: center; border: 1px solid #e4e4e4; background-color: #fff; color: #ff1c47; display: block; max-width: 105px; width: 100%;} */
+/* .product-nostock {width: 100%; height: 100%; position: absolute; background: rgba(0,0,0,.3);} */
+.product-nostock, .product-new {background: url('https://uat2.tataunistore.com/static/media/new.27aaa13d.svg');position: absolute;
+    z-index: 8; font-size: 10px; line-height: 18px; margin-top: 10px;
+    background-repeat: no-repeat; background-position: 50%; background-size: 100%; padding: 0 15px 0 10px; color: #fff;}
 .overlay-opaque {opacity: 0.3;}
 .product-info {margin-top: 20px;}
 .lv-product-info {width: 70%; display: inline-block; float: left;}
@@ -82,7 +87,7 @@ background-color: #000;}
 .lv-brand-name {font-weight: bold; font-size: 16px; line-height: normal; margin: 0; padding-left: 20px;}
 .product-name, .lv-product-name {font-size: 14px; line-height: 1.43; font-weight: 300; height: 40px; overflow: hidden;}
 .lv-product-name {padding-left: 20px; margin: 5px 0 0;}
-.product-price, .lv-product-price {font-size: 14px; line-height: 1.71;}
+.product-price, .lv-product-price {font-size: 14px; line-height: 1.71; font-weight: 300;}
 .lv-product-price {padding-left: 20px; margin: 5px 0 0;}
 .product-price .price-mrp {float: left;}
 .price-strikeoff {text-decoration: line-through; color: #969696;}
@@ -116,7 +121,7 @@ background-color: #000;}
 .sort-overlay {width: 100%; height: 100%; position: absolute; z-index: 14; display: block;}
 .sort-menu {position: fixed; background-color: #ececec; z-index: 15; bottom: 0; width: 100%;}
 .sort-menu ul {padding: 0; margin-bottom: 0;}
-.sort-menu li {list-style: none; font-size: 16px; line-height: 40px; height: 40px; text-align: center;}
+.sort-menu li {list-style: none; font-size: 16px; font-weight: 300; line-height: 40px; height: 40px; text-align: center;}
 .sort-menu li a {color: #212121; text-decoration: none;}
 .sort-left-back {position: absolute; float: left; background-color: #000; z-index: 12; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/arrowBack.1607a455.svg');}
@@ -173,7 +178,15 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
       </amp-position-observer>
   </div>
 <div id="productsListContainer" class="products-list">
-  <amp-list src="/amp_mocks/json/plp_new_response.json" width="auto" height="600" layout="fixed-height">
+  <div class="" [class]="sortVisible ? 'products-list-blr' : ''">
+    <div class="hide-content" [class]="searchClicked ? 'page-search-box-ic' : 'hide-content'"></div>
+    <div class="hide-content" [class]="searchClicked ? 'page-search-box' : 'hide-content'">
+      <input id="searchInput" class="search-input" name="search" type="text" />
+    </div>
+    <div id="searchClose" class="hide-content" [class]="searchClicked ? 'page-search-close' : 'hide-content'"
+    on="tap:AMP.setState({searchClicked : false}),searchClose.hide" role="search-close" tabindex="0"></div>
+  </div>
+  <amp-list src="/amp_mocks/json/plp_new_response2.json" width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
       <div class="hide-content" [class]="sortVisible ? 'sort-overlay' : 'hide-content'"
       on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="0"></div>
@@ -182,14 +195,8 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
         <div class="page-right-search" role="search-open" tabindex="0"
           on="tap:AMP.setState({searchClicked : true}),searchClose.show,searchInput.focus"></div>
         <div class="page-header">
-          <span>{{currentQuery.searchQuery}} ({{pagination.totalResults}})</span>
+          <span>{{currentQuery.searchQuery}}</span>
         </div>
-        <div class="hide-content" [class]="searchClicked ? 'page-search-box-ic' : 'hide-content'"></div>
-        <div class="hide-content" [class]="searchClicked ? 'page-search-box' : 'hide-content'">
-          <input id="searchInput" class="search-input" />
-        </div>
-        <div id="searchClose" class="hide-content" [class]="searchClicked ? 'page-search-close' : 'hide-content'"
-        on="tap:AMP.setState({searchClicked : false}),searchClose.hide" role="search-close" tabindex="0"></div>
   <div class="products_container" [class]="switchLayout ? 'lv-products_container' : 'products_container'">
     <p class="total-results">&nbsp;</p>
     <div class="inner-top-section">{{pagination.totalResults}} Products
@@ -200,12 +207,20 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
     {{#searchresult}}
         <div class="product-tile" [class]="switchLayout ? 'lv-product-tile' : 'product-tile'">
           <div class="product-tile-inner">
+            <!-- Labels on tiles -->
             <div class="hide-content" [class]="{{cumulativeStockLevel}} ? 'hide-content' : 'product-nostock'">
-              <span>Not Available</span>
+              <span>Out of Stock</span>
             </div>
-            <div class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'product-disc' : 'hide-content'">{{discountPercent}}% off</div>
-            <div class="hide-content" [class]="{{isOfferExisting}} ? 'product-inoffer' : 'hide-content'">ON <br />OFFER</div>
-            <div class="hide-content" [class]="{{newProduct}} ? 'product-new' : 'hide-content'">NEW</div>
+            <div class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'product-disc' : 'hide-content'">
+              <span [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">{{discountPercent}}% off</span>
+            </div>
+            <!-- <div class="hide-content" [class]="{{isOfferExisting}} ? 'product-inoffer' : 'hide-content'">ON <br />OFFER</div> -->
+            <div class="hide-content" [class]="{{newProduct}} ? 'product-new' : 'hide-content'">
+              <span [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">
+                <span [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'hide-content' : ''">New</span>
+              </span>
+            </div>
+            <!-- Labels on tiles -->
             <a href="https://www.tatacliq.com/p-{{productId}}">
               <amp-img src="{{imageURL}}" class="" [class]="{{inStockFlag}} ? '' : 'overlay-opaque'" width="252" height="374"
                 layout="responsive"></amp-img>
@@ -214,8 +229,8 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
               <p class="brand-name" [class]="switchLayout ? 'lv-brand-name' : 'brand-name'">{{brandname}}</p>
               <p class="product-name" [class]="switchLayout ? 'lv-product-name' : 'product-name'">{{productname}}</p>
               <p class="product-price" [class]="switchLayout ? 'lv-product-price' : 'product-price'">
-                <span class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'price-mop' : 'hide-content'">Rs.{{price.sellingPrice.doubleValue}}</span>
-                <span class="price-mrp" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'price-mrp price-strikeoff' : 'price-mrp'">Rs.{{price.mrpPrice.doubleValue}}</span>
+                <span class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'price-mop' : 'hide-content'">Rs. {{price.sellingPrice.doubleValue}}</span>
+                <span class="price-mrp" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'price-mrp price-strikeoff' : 'price-mrp'">Rs. {{price.mrpPrice.doubleValue}}</span>
               </p>
             </div>
           </div>
