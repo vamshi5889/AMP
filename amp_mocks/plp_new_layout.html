@@ -211,14 +211,16 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
             <div class="hide-content" [class]="{{cumulativeStockLevel}} ? 'hide-content' : 'product-nostock'">
               <span>Out of Stock</span>
             </div>
-            <div class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'product-disc' : 'hide-content'">
-              <span [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">{{discountPercent}}% off</span>
+            <div [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">
+              <div class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'product-disc' : 'hide-content'">
+                {{discountPercent}}% off
+              </div>
             </div>
             <!-- <div class="hide-content" [class]="{{isOfferExisting}} ? 'product-inoffer' : 'hide-content'">ON <br />OFFER</div> -->
-            <div class="hide-content" [class]="{{newProduct}} ? 'product-new' : 'hide-content'">
-              <span [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">
-                <span [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'hide-content' : ''">New</span>
-              </span>
+            <div [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">
+              <div class="hide-content" [class]="{{newProduct}} ? 'product-new' : 'hide-content'">
+                  <span [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'hide-content' : ''">New</span>
+              </div>
             </div>
             <!-- Labels on tiles -->
             <a href="https://www.tatacliq.com/p-{{productId}}">
