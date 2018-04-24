@@ -26,6 +26,14 @@ body{font-family: regular, sans-serif; font-size:14px; background-color: #ececec
 
 .show-content {display: inline;}
 .hide-content {display: none;}
+.no-select {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
 .image-container {background-color: rgb(245, 245, 245);}
 amp-img.contain img {object-fit: cover;}
 .pd-details-1 {font-weight: 500; margin-bottom: 10px; color: #181818;}
@@ -244,7 +252,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
           <amp-accordion id="productFeatures">
             {{#details}}
             <section>
-              <h4>{{key}}<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">{{key}}<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 {{value}}
               </div>
@@ -260,20 +268,20 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
           <amp-accordion id="productMoreFeatures">
             {{#classifications}}
             <section>
-              <h4>{{key}}<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">{{key}}<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 {{value}}
               </div>
             </section>
             {{/classifications}}
             <section>
-              <h4>Style Note<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">Style Note<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 {{styleNote}}
               </div>
             </section>
             <section>
-              <h4>Know More<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">Know More<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 <ul>
                   {{#knowMore}}
@@ -283,7 +291,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
               </div>
             </section>
             <section>
-              <h4>Brand Name<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">Brand Name<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 {{brandInfo}}
               </div>
