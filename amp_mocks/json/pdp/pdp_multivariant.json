@@ -1,0 +1,711 @@
+{"items" : [{
+   "type" : "mplNewProductDetailMobileWsData",
+   "status" : "SUCCESS",
+   "allOOStock" : false,
+   "brandInfo" : "Apparel Brand",
+   "brandName" : "Westsport Mens",
+   "brandURL" : "/westsport-mens/c-mbh11a00349",
+   "categoryHierarchy" : [ {
+      "category_id" : "MSH11",
+      "category_name" : "Mens Clothing"
+   }, {
+      "category_id" : "MSH1116",
+      "category_name" : "Casual Wear"
+   }, {
+      "category_id" : "MSH1116100",
+      "category_name" : "T-shirts & Polos"
+   } ],
+   "deliveryModesATP" : [ {
+      "key" : "home-delivery",
+      "value" : "Delivered in 3-6 business days."
+   }, {
+      "key" : "express-delivery",
+      "value" : "Delivered in 1-2 business days."
+   } ],
+   "details" : [ {
+      "key" : "Fit",
+      "value" : "Slim fit"
+   }, {
+      "key" : "Pattern",
+      "value" : "Solid"
+   }, {
+      "key" : "Color",
+      "value" : "Mustard"
+   }, {
+      "key" : "Model fit",
+      "value" : "Model is 6'0\"/183 cm and is wearing a medium"
+   }, {
+      "key" : "Wash Care",
+      "value" : "Machine wash"
+   }, {
+      "key" : "Sleeve",
+      "value" : "Short sleeves"
+   }, {
+      "key" : "Fabric",
+      "value" : "95% Cotton, 5% Elastane"
+   } ],
+   "discount" : "0",
+   "eligibleDeliveryModes" : [ {
+      "code" : "home-delivery",
+      "displayCost" : "₹0.00",
+      "name" : "Home Delivery"
+   }, {
+      "code" : "express-delivery",
+      "displayCost" : "₹0.00",
+      "name" : "Express Delivery"
+   }, {
+      "code" : "click-and-collect",
+      "displayCost" : "₹0.00",
+      "name" : "Click and Collect"
+   } ],
+   "fulfillmentType" : "tship",
+   "galleryImagesList" : [ {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144313.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144313.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002285119_252Wx374H_20180119144313.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002285119_450Wx545H_20180119144313.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002285119_1348Wx2000H_20180119144313.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144313.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144313.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002285119_113Wx168H_20180119144313.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144309.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144309.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002285119_252Wx374H_20180119144309.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002285119_450Wx545H_20180119144309.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002285119_1348Wx2000H_20180119144309.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144309.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144309.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002285119_113Wx168H_20180119144309.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144306.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144306.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002285119_252Wx374H_20180119144306.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002285119_450Wx545H_20180119144306.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002285119_1348Wx2000H_20180119144306.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144306.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144306.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002285119_113Wx168H_20180119144306.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144303.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144303.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002285119_252Wx374H_20180119144303.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002285119_450Wx545H_20180119144303.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002285119_1348Wx2000H_20180119144303.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144303.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002285119_437Wx649H_20180119144303.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002285119_113Wx168H_20180119144303.jpeg"
+      } ],
+      "mediaType" : "Image"
+   } ],
+   "isCOD" : "Y",
+   "isEMIEligible" : "N",
+   "isExchangeAvailable" : false,
+   "isOnlineExclusive" : "N",
+   "isProductNew" : "N",
+   "knowMore" : [ {
+      "knowMoreItem" : "An order, once placed, can be cancelled until the seller processes it."
+   }, {
+      "knowMoreItem" : "This product can be returned within 30 day(s) of delivery,subject to the Return Policy."
+   }, {
+      "knowMoreItem" : "For any other queries, do reach out to CliQ Care at 90291 08282 or hello@tatacliq.com"
+   } ],
+   "knowMoreEmail" : "hello@tatacliq.com",
+   "knowMorePhoneNo" : "90291 08282",
+   "maxQuantityAllowed" : "5",
+   "mrpPrice" : {
+      "currencyIso" : "INR",
+      "doubleValue" : 699.0,
+      "formattedValue" : "₹699.00",
+      "formattedValueNoDecimal" : "₹699",
+      "priceType" : "BUY",
+      "value" : 699
+   },
+   "numberOfReviews" : 0,
+   "potentialPromotions" : {
+      "description" : "Discounted Price* T&Cs<br>1.Price inclusive of offer.<br>2.Please check cart for final offer price.<br>3.Offer valid till stock lasts.<br>4.Offer applicable only on select products & sellers.",
+      "eligibleUSSIDList" : [ "100001300719417012" ],
+      "endDate" : "Thu Dec 31 23:59:00 IST 2020",
+      "startDate" : "Tue Apr 03 00:00:00 IST 2018",
+      "title" : "Buy 2 for Rs 1099"
+   },
+   "productDescription" : "Add a classic design to your casual repertoire with this mustard polo t-shirt from Westsport Casual. Rendered from a stretch pique cotton fabric to lend you all-day comfort and breathability, this smart apparel is retailed with ribbed trims and features a slim fit.",
+   "productListingId" : "MP000000002285151",
+   "productName" : "Westsport Casual by Westside Mustard Tailored Fit Polo T-Shirt",
+   "rootCategory" : "Clothing",
+   "sellerAssociationstatus" : "Y",
+   "seo" : {
+      "alternateURL" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116",
+      "breadcrumbs" : [ {
+         "name" : "Westsport Casual by Westside Mustard Tailored Fit Polo T-Shirt",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151"
+      }, {
+         "name" : "T-shirts & Polos",
+         "url" : "/mens-clothing-casual-wear-t-shirts-polos/c-msh1116100"
+      }, {
+         "name" : "Casual Wear",
+         "url" : "/mens-clothing-casual-wear/c-msh1116"
+      }, {
+         "name" : "Mens Clothing",
+         "url" : "/mens-clothing/c-msh11"
+      } ],
+      "canonicalURL" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116",
+      "description" : "Shop Westsport Casual by Westside Mustard Tailored Fit Polo T-Shirt for Men Online at best price in India at Tata CLiQ. Choose your favourite Casual Wear Online & Get free Shipping.",
+      "imageURL" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002285119_97Wx144H_20180119144313.jpeg",
+      "keywords" : "Westsport Casual by Westside Mustard Tailored Fit Polo T-Shirt, Buy, Online, India, Tata CLiQ",
+      "title" : "Buy Westsport Casual by Westside Mustard Tailored Fit Polo T-Shirt for Men Online @ Tata CLiQ"
+   },
+   "sharedText" : "Wow!Check out this amazing find http://p2.tatacliq.com/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151 . Like or  comment to tell me what you think, or share for warm fuzzies.",
+   "showSizeGuide" : true,
+   "styleNote" : "Add a classic design to your casual repertoire with this mustard polo t-shirt from Westsport Casual. Rendered from a stretch pique cotton fabric to lend you all-day comfort and breathability, this smart apparel is retailed with ribbed trims and features a slim fit.",
+   "variantOptions" : [ {
+      "colorlink" : {
+         "color" : "Blue",
+         "colorHexCode" : "#0000FF",
+         "colorurl" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285116",
+         "size" : "XS",
+         "url" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mauve",
+         "colorHexCode" : "#e9e3f4",
+         "colorurl" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285117",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285117",
+         "size" : "XS",
+         "url" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285117"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mint Green",
+         "colorHexCode" : "",
+         "colorurl" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285118",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285118",
+         "size" : "XS",
+         "url" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285118"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mustard",
+         "colorHexCode" : "#ffdb58",
+         "colorurl" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285119",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285119",
+         "size" : "XS",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285119"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Yellow",
+         "colorHexCode" : "#FFFF00",
+         "colorurl" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285120",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285120",
+         "size" : "XS",
+         "url" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285120"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Peach",
+         "colorHexCode" : "#ffcba4",
+         "colorurl" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285121",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285121",
+         "size" : "XS",
+         "url" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285121"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Blue",
+         "colorHexCode" : "#0000FF",
+         "colorurl" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285133",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285133",
+         "size" : "S",
+         "url" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285133"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mauve",
+         "colorHexCode" : "#e9e3f4",
+         "colorurl" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285139",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285139",
+         "size" : "S",
+         "url" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285139"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mint Green",
+         "colorHexCode" : "",
+         "colorurl" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285142",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285142",
+         "size" : "S",
+         "url" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285142"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mustard",
+         "colorHexCode" : "#ffdb58",
+         "colorurl" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285147",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285147",
+         "size" : "S",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285147"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Peach",
+         "colorHexCode" : "#ffcba4",
+         "colorurl" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285153",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285153",
+         "size" : "S",
+         "url" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285153"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Yellow",
+         "colorHexCode" : "#FFFF00",
+         "colorurl" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285157",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285157",
+         "size" : "S",
+         "url" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285157"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mauve",
+         "colorHexCode" : "#e9e3f4",
+         "colorurl" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285138",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285138",
+         "size" : "M",
+         "url" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285138"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mint Green",
+         "colorHexCode" : "",
+         "colorurl" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285143",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285143",
+         "size" : "M",
+         "url" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285143"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mustard",
+         "colorHexCode" : "#ffdb58",
+         "colorurl" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285148",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285148",
+         "size" : "M",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285148"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Peach",
+         "colorHexCode" : "#ffcba4",
+         "colorurl" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285152",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285152",
+         "size" : "M",
+         "url" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285152"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Yellow",
+         "colorHexCode" : "#FFFF00",
+         "colorurl" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285159",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285159",
+         "size" : "M",
+         "url" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285159"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Blue",
+         "colorHexCode" : "#0000FF",
+         "colorurl" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285165",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285165",
+         "size" : "M",
+         "url" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285165"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Blue",
+         "colorHexCode" : "#0000FF",
+         "colorurl" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285134",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285134",
+         "size" : "L",
+         "url" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285134"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mauve",
+         "colorHexCode" : "#e9e3f4",
+         "colorurl" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285140",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285140",
+         "size" : "L",
+         "url" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285140"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mint Green",
+         "colorHexCode" : "",
+         "colorurl" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285144",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285144",
+         "size" : "L",
+         "url" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285144"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mustard",
+         "colorHexCode" : "#ffdb58",
+         "colorurl" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285149",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285149",
+         "size" : "L",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285149"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Peach",
+         "colorHexCode" : "#ffcba4",
+         "colorurl" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285154",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285154",
+         "size" : "L",
+         "url" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285154"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Yellow",
+         "colorHexCode" : "#FFFF00",
+         "colorurl" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285158",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285158",
+         "size" : "L",
+         "url" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285158"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Blue",
+         "colorHexCode" : "#0000FF",
+         "colorurl" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285132",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285132",
+         "size" : "XL",
+         "url" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285132"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mauve",
+         "colorHexCode" : "#e9e3f4",
+         "colorurl" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285141",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285141",
+         "size" : "XL",
+         "url" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285141"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mint Green",
+         "colorHexCode" : "",
+         "colorurl" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285145",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285145",
+         "size" : "XL",
+         "url" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285145"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mustard",
+         "colorHexCode" : "#ffdb58",
+         "colorurl" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285150",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285150",
+         "size" : "XL",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285150"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Peach",
+         "colorHexCode" : "#ffcba4",
+         "colorurl" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285155",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285155",
+         "size" : "XL",
+         "url" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285155"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Yellow",
+         "colorHexCode" : "#FFFF00",
+         "colorurl" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285160",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285160",
+         "size" : "XL",
+         "url" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285160"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Blue",
+         "colorHexCode" : "#0000FF",
+         "colorurl" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285137",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285137",
+         "size" : "XXL",
+         "url" : "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285137"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mint Green",
+         "colorHexCode" : "",
+         "colorurl" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285146",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285146",
+         "size" : "XXL",
+         "url" : "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285146"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mustard",
+         "colorHexCode" : "#ffdb58",
+         "colorurl" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151",
+         "selected" : true
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285151",
+         "size" : "XXL",
+         "url" : "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Peach",
+         "colorHexCode" : "#ffcba4",
+         "colorurl" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285156",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285156",
+         "size" : "XXL",
+         "url" : "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285156"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Yellow",
+         "colorHexCode" : "#FFFF00",
+         "colorurl" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285161",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285161",
+         "size" : "XXL",
+         "url" : "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285161"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Mauve",
+         "colorHexCode" : "#e9e3f4",
+         "colorurl" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285162",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002285162",
+         "size" : "XXL",
+         "url" : "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285162"
+      }
+   } ],
+   "winningSellerAvailableStock" : "95",
+   "winningSellerName" : "Westside",
+   "winningSellerPrice" : {
+      "currencyIso" : "INR",
+      "doubleValue" : 699.0,
+      "formattedValue" : "₹699.00",
+      "formattedValueNoDecimal" : "₹699",
+      "priceType" : "BUY",
+      "value" : 699
+   },
+   "winningUssID" : "100001300719417012"
+}]}

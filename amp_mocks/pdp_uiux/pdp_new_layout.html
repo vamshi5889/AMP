@@ -1,0 +1,301 @@
+<!doctype html>
+<html ⚡>
+<head>
+<meta charset="utf-8">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+<script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+<script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+<script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<!--AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.-->
+<link rel="canonical" href="/pwamp">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<style amp-custom>
+body{font-family: regular, sans-serif; font-size:14px; background-color: #ececec;}
+
+.show-content {display: inline;}
+.hide-content {display: none;}
+.image-container {background-color: rgb(245, 245, 245);}
+amp-img.contain img {object-fit: cover;}
+.pd-details-1 {font-weight: 500; margin-bottom: 10px; color: #181818;}
+.pd-details-2 {font-weight: 300;}
+.pd-details-3 {margin-top: 20px; font-size: 14px;}
+.pd-details {padding: 15px; font-size: 16px;}
+.pd-winning-price {float: right;}
+.pd-mrp-price {float: right; color: #8d8d8d; text-decoration: line-through; font-size: 14px;}
+.pd-brandname, .pd-productname {width: 70%; display: inline-block; line-height: 22px;}
+
+.potential-promos {background-image: linear-gradient(131deg,#fd2c7a,#ff7255); padding: 20px; color: #fff;}
+.promo-info {position: fixed; width: 100vw; height: 100%; z-index: 101; right: 0;}
+.promo-info table {border-spacing: 0; border: none; height: 100%;}
+.promo-info table td:first-child {width: 10vw; height: 100%; vertical-align: top; }
+.promo-info table td:last-child {width: 90vw; height: 100%; background-color: #f8f8f8; vertical-align: top;}
+.promo-close {width: 40px; height: 40px; left:1vw; top: 1vw; position: absolute; background: url('https://p2.tatacliq.com/static/media/cancel.fea9f12f.svg') no-repeat;}
+.promo-heading {margin: 0;height: 40px; color: #fff; background-color: #212121; padding: 0 20px; line-height: 40px; font-size: 14px; width: 100%;}
+.promo-body {padding: 20px;}
+.promo-valid {padding: 20px 0; display: inline-block;}
+.promo-desc {line-height: 24px;}
+.valid-from, .valid-to {width: 50%; float: left;}
+.pd-emi {margin-bottom: 20px; padding-left: 15px; font-size: 14px;}
+.pd-emi span:last-child {color: rgb(255, 23, 68);}
+.promo-overlay {width: 100%; height: 100%; position: absolute; z-index: 100; display: block; filter: blur(10px); background: #ddd;}
+.pincode-check {width: 100%; height: auto; padding: 0 130px 0 20px; position: relative; margin: 20px 0; display: inline-flex;}
+.pincode-check span:first-child {width: 60%; float: left;}
+.pincode-check span:last-child {color: rgb(255, 23, 68); float: right; border-bottom: 2px solid rgb(255, 23, 68); height: 20px;}
+.pincode-check-box {position: fixed; bottom: 0; z-index: 70; width: -webkit-fill-available; height: auto; padding: 30px 10px 40px; background-color: #fff;}
+.pincode-check-box div:first-child {width: 80%; float: left;}
+.pincode-check-box div:first-child input {height: 33px; padding: 0 30px 0 10px; width: -webkit-fill-available;
+  border: 1px solid rgb(210, 210, 210); font-size: 14px;}
+.pincode-check-box div:first-child span {background-image: url('https://p2.tatacliq.com/static/media/GPS.a869c173.svg'); width: 18px;
+height: 33px; position: absolute; background-position: 50%; background-repeat: no-repeat; right: 25%; background-size: contain;}
+.pincode-check-box div:last-child {width:20%; float: left; text-align: center;}
+.pincode-check-box div:last-child span {border-bottom: 2px solid #000; padding-bottom: 3px; vertical-align: -webkit-baseline-middle;}
+.pincode-overlay {position: fixed; width: 100%; height: 100%; z-index: 69;}
+.background-blr {filter: blur(10px);}
+.shipping-info .home-delivery-sec span, .shipping-info .express-delivery-sec span, .shipping-info .click-and-collect-sec span {
+background-repeat: no-repeat; background-size: contain; height: 30px; width: 30px; position: absolute; left: 20px; margin-top: 10px;}
+.shipping-info .home-delivery-sec span {background-image: url('https://p2.tatacliq.com/static/media/homeDelivery.16bfffbf.svg');}
+.shipping-info .express-delivery-sec span {background-image: url('https://p2.tatacliq.com/static/media/expressDelivery.1ea024e7.svg');}
+.shipping-info .click-and-collect-sec span {background-image: url('https://p2.tatacliq.com/static/media/collect.d4a40190.svg');
+margin-top: -3px;}
+.shipping-info p {margin: 0; line-height: 25px;}
+.shipping-info > div {background-color: #fff; padding: 15px 0 15px 70px; margin-bottom: 1px;}
+.sold-by {padding-top: 30px;}
+.sold-by > div {background-color: #fff; padding: 15px 30px 15px 10px;}
+.pd-features {padding-top: 30px;}
+.pd-features > amp-accordion {background-color: #fff; padding: 0 15px; }
+.pd-features h4 {font-size: 14px; line-height: 50px; font-weight: 400; border: none; background: transparent; outline: none;}
+.pd-features-desc {border-bottom: 1px solid #ececec; line-height: 24px; padding-bottom: 15px;}
+.pd-features-arrow {background-image: url('https://p2.tatacliq.com/static/media/down-arrow.9b5a45a2.svg'); width: 20px; height: 50px;
+position: absolute; right: 10px; background-position: 50%; background-size: auto 14px; background-repeat: no-repeat; transition: .3s;}
+.pd-features > amp-accordion > section[expanded] .pd-features-arrow {transform: rotate(180deg);}
+.pd-features > amp-accordion > section[expanded] h4 {font-weight: 600;}
+.pd-features-desc ul {padding-left: 20px;}
+
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+
+<body>
+
+<div id="product-container">
+  <div class="hide-content" [class]="checkPincode ? 'pincode-overlay' : 'hide-content'"
+    on="tap:AMP.setState({checkPincode:false})" role="check-pincode" tabindex="2">
+
+  </div>
+  <amp-list src="/amp_mocks/json/pdp/pdp_multivariant_changed.json" width="auto" height="600" layout="fixed-height">
+    <template type="amp-mustache">
+
+      <!-- NOTE: Promotions Popup -->
+      <div class="hide-content" [class]="showPotentialPromo ? 'promo-overlay' : 'hide-content'">
+
+      </div>
+      <div class="hide-content" [class]="showPotentialPromo ? 'promo-info' : 'hide-content'">
+        <table border="0">
+          <tr>
+            <td><span class="promo-close" on="tap:AMP.setState({showPotentialPromo : false})" role="show-promo" tabindex="1"></span></td>
+            <td>
+              <p class="promo-heading">Offers</p>
+              <div class="promo-body">
+                <span>{{potentialPromotions.title}}</span>
+                <div class="promo-valid">
+                  <div class="valid-from">
+                    Valid From<br />
+                    <span>{{potentialPromotions.startDate}}</span>
+                  </div>
+                  <div class="valid-to">
+                    Valid Till<br />
+                    <span>{{potentialPromotions.endDate}}</span>
+                  </div>
+                </div>
+                <div class="promo-desc">
+                  <span>{{{potentialPromotions.description}}}</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- NOTE: Product Images -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <amp-carousel class="image-container" width="380" height="480" layout="responsive" type="slides" controls autoplay loop delay="3000">
+          {{#galleryImagesList}}
+            <div>
+              <amp-img class="contain" src="{{galleryImages.0.value}}" width="380" height="480" layout="responsive"></amp-img>
+            </div>
+          {{/galleryImagesList}}
+        </amp-carousel>
+      </div>
+
+      <!-- NOTE: Price Details -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="pd-details">
+          <div class="pd-details-1">
+            <span class="pd-brandname">{{brandName}}</span>
+            <span class="pd-winning-price">Rs. {{winningSellerPrice.doubleValue}}</span>
+          </div>
+          <div class="pd-details-2">
+            <span class="pd-productname">{{productName}}</span>
+            <span class="pd-mrp-price" [class]="{{mrpPrice.doubleValue}} != {{winningSellerPrice.doubleValue}} ? 'pd-mrp-price' : 'hide-content'">Rs. {{mrpPrice.doubleValue}}</span>
+          </div>
+          <div class="hide-content" [class]="'{{isCOD}}' == 'Y' ? 'pd-details-3' : 'hide-content'">
+            Cash on Delivery available
+          </div>
+        </div>
+      </div>
+
+      <!-- NOTE: EMI Available -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="hide-content" [class]="'{{isEMIEligible}}' == 'Y' ? 'pd-emi' : 'hide-content'">
+          <span>EMI avaliable on this product,</span>
+          <span on="tap:AMP.setState({checkEMI:true})" role="check-emi" tabindex="0">View Plans</span>
+        </div>
+      </div>
+
+      <!-- NOTE: Promotions -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        {{#potentialPromotions}}
+        <div class="potential-promos" on="tap:AMP.setState({showPotentialPromo : true})" role="show-promo" tabindex="0">
+          <span>{{potentialPromotions.title}}</span>
+        </div>
+        {{/potentialPromotions}}
+      </div>
+      <!-- <div>
+        {{#variantOptions}}
+          <span>{{size}}</span>
+          <div>
+            {{#colorlinks}}
+              <span>{{color}}</span>
+            {{/colorlinks}}
+          </div>
+        {{/variantOptions}}
+      </div> -->
+
+      <!-- NOTE: Pincode Check -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="pincode-check">
+          <span>Click to enter pincode & check delivery options</span>
+          <span on="tap:AMP.setState({checkPincode:true})" role="check-pincode" tabindex="0">Check Pincode</span>
+        </div>
+      </div>
+
+      <div class="hide-content" [class]="checkPincode ? 'pincode-check-box' : 'hide-content'">
+        <div><input type="number" placeholder="Enter a pincode/zipcode" /><span></span></div>
+        <div><span on="tap:AMP.setState({checkPincode:false})" role="check-pincode" tabindex="1">Check</span></div>
+      </div>
+
+      <!-- NOTE: Shipping Eligibility -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="shipping-info">
+            <!-- {{#eligibleDeliveryModes}}
+              <div class="hide-content" [class]="'{{code}}' == 'home-delivery' ? 'show-content' : 'hide-content'">
+                <p>Standard Shipping</p>
+              </div>
+              <div class="hide-content" [class]="'{{code}}' == 'express-delivery' ? 'show-content' : 'hide-content'">
+                <p>Express Shipping</p>
+              </div>
+              <div class="hide-content" [class]="'{{code}}' == 'click-and-collect' ? 'show-content' : 'hide-content'">
+                <p>CLiQ & PiQ</p>
+              </div>
+            {{/eligibleDeliveryModes}} -->
+            {{#deliveryModesATP}}
+              <div class="{{key}}-sec">
+                <div class="shipping-inner">
+                  <span></span>
+                  <p [text]="'{{key}}' == 'home-delivery' ? 'Standard Shipping' : 'Express Shipping'"></p>
+                  <p>{{value}}</p>
+                </div>
+              </div>
+            {{/deliveryModesATP}}
+            <div class="click-and-collect-sec">
+              <div class="shipping-inner">
+                <span></span>
+                <p>CLiQ & PiQ</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- NOTE: Seller Info -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="sold-by">
+          <div>
+            <span>Sold by {{winningSellerName}}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOTE: Features -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="pd-features">
+          <amp-accordion id="productFeatures">
+            {{#details}}
+            <section>
+              <h4>{{key}}<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                {{value}}
+              </div>
+            </section>
+            {{/details}}
+          </amp-accordion>
+        </div>
+      </div>
+
+      <!-- NOTE: More Info -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="pd-features">
+          <amp-accordion id="productMoreFeatures">
+            {{#classifications}}
+            <section>
+              <h4>{{key}}<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                {{value}}
+              </div>
+            </section>
+            {{/classifications}}
+            <section>
+              <h4>Style Note<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                {{styleNote}}
+              </div>
+            </section>
+            <section>
+              <h4>Know More<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                <ul>
+                  {{#knowMore}}
+                    <li>{{knowMoreItem}}</li>
+                  {{/knowMore}}
+                </ul>
+              </div>
+            </section>
+            <section>
+              <h4>Brand Name<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                {{brandInfo}}
+              </div>
+            </section>
+          </amp-accordion>
+        </div>
+      </div>
+
+    </template>
+  </amp-list>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+{"items": [{
+   "type" : "mplNewProductDetailMobileWsData",
+   "status" : "SUCCESS",
+   "allOOStock" : false,
+   "brandInfo" : "The ideal harmony of ethnic prints and modern silhouettes, Bombay Paisley By Westside is sure to win your heart. With its choice prints and passion for intricate details, it is fit for any fashion conscious woman. Take your pick from Tata CLiQ today.",
+   "brandName" : "Bombay Paisley",
+   "brandURL" : "/bombay-paisley/c-mbh11a00174",
+   "categoryHierarchy" : [ {
+      "category_id" : "MSH10",
+      "category_name" : "Womens Clothing"
+   }, {
+      "category_id" : "MSH1012",
+      "category_name" : "Ethnic Wear"
+   }, {
+      "category_id" : "MSH1012100",
+      "category_name" : "Kurtis & Kurtas"
+   } ],
+   "deliveryModesATP" : [ {
+      "key" : "home-delivery",
+      "value" : "Delivered in 3-6 business days."
+   }, {
+      "key" : "express-delivery",
+      "value" : "Delivered in 1-2 business days."
+   } ],
+   "details" : [ {
+      "key" : "Fit",
+      "value" : "Regular fit"
+   }, {
+      "key" : "Pattern",
+      "value" : "Printed"
+   }, {
+      "key" : "Color",
+      "value" : "Dark Navy"
+   }, {
+      "key" : "Model fit",
+      "value" : "Model is 5'8\"/173 cm and is wearing a small"
+   }, {
+      "key" : "Wash Care",
+      "value" : "Hand wash in running water"
+   }, {
+      "key" : "Sleeve",
+      "value" : "Full Sleeves"
+   }, {
+      "key" : "Fabric",
+      "value" : "100% Viscose"
+   } ],
+   "discount" : "0",
+   "eligibleDeliveryModes" : [ {
+      "code" : "express-delivery",
+      "displayCost" : "₹0.00",
+      "name" : "Express Delivery"
+   }, {
+      "code" : "click-and-collect",
+      "displayCost" : "₹0.00",
+      "name" : "Click and Collect"
+   }, {
+      "code" : "home-delivery",
+      "displayCost" : "₹0.00",
+      "name" : "Home Delivery"
+   } ],
+   "fulfillmentType" : "tship",
+   "galleryImagesList" : [ {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013526.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013526.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002430453_252Wx374H_20180218013526.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002430453_450Wx545H_20180218013526.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002430453_1348Wx2000H_20180218013526.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013526.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013526.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002430453_113Wx168H_20180218013526.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013530.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013530.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002430453_252Wx374H_20180218013530.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002430453_450Wx545H_20180218013530.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002430453_1348Wx2000H_20180218013530.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013530.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013530.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002430453_113Wx168H_20180218013530.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013514.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013514.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002430453_252Wx374H_20180218013514.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002430453_450Wx545H_20180218013514.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002430453_1348Wx2000H_20180218013514.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013514.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013514.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002430453_113Wx168H_20180218013514.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013519.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013519.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000002430453_252Wx374H_20180218013519.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000002430453_450Wx545H_20180218013519.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000002430453_1348Wx2000H_20180218013519.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013519.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000002430453_437Wx649H_20180218013519.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000002430453_113Wx168H_20180218013519.jpeg"
+      } ],
+      "mediaType" : "Image"
+   } ],
+   "isCOD" : "Y",
+   "isEMIEligible" : "N",
+   "isExchangeAvailable" : false,
+   "isOnlineExclusive" : "N",
+   "isProductNew" : "N",
+   "knowMore" : [ {
+      "knowMoreItem" : "An order, once placed, can be cancelled until the seller processes it."
+   }, {
+      "knowMoreItem" : "This product can be returned within 30 day(s) of delivery,subject to the Return Policy."
+   }, {
+      "knowMoreItem" : "For any other queries, do reach out to CliQ Care at 90291 08282 or hello@tatacliq.com"
+   } ],
+   "knowMoreEmail" : "hello@tatacliq.com",
+   "knowMorePhoneNo" : "90291 08282",
+   "maxQuantityAllowed" : "5",
+   "mrpPrice" : {
+      "currencyIso" : "INR",
+      "doubleValue" : 899.0,
+      "formattedValue" : "₹899.00",
+      "formattedValueNoDecimal" : "₹899",
+      "priceType" : "BUY",
+      "value" : 899
+   },
+   "numberOfReviews" : 0,
+   "productDescription" : "Channel modern-day appeal in your everyday line-up with this dark navy kurti from Bombay Paisley. Created in a comfortable silhouette from a soft fabric, this chic apparel is fastened with buttons at the placket and cuffs and comes finished with printed trims on the front.",
+   "productListingId" : "MP000000002430453",
+   "productName" : "Bombay Paisley by Westside Dark Navy Kurti",
+   "rootCategory" : "Clothing",
+   "sellerAssociationstatus" : "Y",
+   "seo" : {
+      "alternateURL" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430453",
+      "breadcrumbs" : [ {
+         "name" : "Bombay Paisley by Westside Dark Navy Kurti",
+         "url" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430453"
+      }, {
+         "name" : "Kurtis & Kurtas",
+         "url" : "/womens-clothing-ethnic-wear-kurtis-kurtas/c-msh1012100"
+      }, {
+         "name" : "Ethnic Wear",
+         "url" : "/womens-clothing-ethnic-wear/c-msh1012"
+      }, {
+         "name" : "Womens Clothing",
+         "url" : "/womens-clothing/c-msh10"
+      } ],
+      "canonicalURL" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430453",
+      "description" : "Shop Bombay Paisley by Westside Dark Navy Kurti for Women Online at best price in India at Tata CLiQ. Choose your favourite Ethnic Wear Online & Get free Shipping.",
+      "imageURL" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000002430453_97Wx144H_20180218013526.jpeg",
+      "keywords" : "Bombay Paisley by Westside Dark Navy Kurti, Buy, Online, India, Tata CLiQ",
+      "title" : "Buy Bombay Paisley by Westside Dark Navy Kurti for Women Online @ Tata CLiQ"
+   },
+   "sharedText" : "Wow!Check out this amazing find http://p2.tatacliq.com/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430453 . Like or  comment to tell me what you think, or share for warm fuzzies.",
+   "showSizeGuide" : true,
+   "styleNote" : "Channel modern-day appeal in your everyday line-up with this dark navy kurti from Bombay Paisley. Created in a comfortable silhouette from a soft fabric, this chic apparel is fastened with buttons at the placket and cuffs and comes finished with printed trims on the front.",
+   "variantOptions" : [ {
+      "colorlink" : {
+         "color" : "Dark Navy",
+         "colorHexCode" : "#1d2951",
+         "colorurl" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430453",
+         "selected" : true
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002430453",
+         "size" : "XS",
+         "url" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430453"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Dark Navy",
+         "colorHexCode" : "#1d2951",
+         "colorurl" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430919",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002430919",
+         "size" : "S",
+         "url" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430919"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Dark Navy",
+         "colorHexCode" : "#1d2951",
+         "colorurl" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430819",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002430819",
+         "size" : "M",
+         "url" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430819"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Dark Navy",
+         "colorHexCode" : "#1d2951",
+         "colorurl" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002431350",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : true,
+         "productCode" : "MP000000002431350",
+         "size" : "L",
+         "url" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002431350"
+      }
+   }, {
+      "colorlink" : {
+         "color" : "Dark Navy",
+         "colorHexCode" : "#1d2951",
+         "colorurl" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430922",
+         "selected" : false
+      },
+      "sizelink" : {
+         "isAvailable" : false,
+         "productCode" : "MP000000002430922",
+         "size" : "XL",
+         "url" : "/bombay-paisley-by-westside-dark-navy-kurti/p-mp000000002430922"
+      }
+   } ],
+   "winningSellerAvailableStock" : "44",
+   "winningSellerName" : "Westside",
+   "winningSellerPrice" : {
+      "currencyIso" : "INR",
+      "doubleValue" : 899.0,
+      "formattedValue" : "₹899.00",
+      "formattedValueNoDecimal" : "₹899",
+      "priceType" : "BUY",
+      "value" : 899
+   },
+   "winningUssID" : "100001300727177001"
+}]}

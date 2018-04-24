@@ -1,0 +1,532 @@
+{"items" : [{
+   "type" : "mplNewProductDetailMobileWsData",
+   "status" : "SUCCESS",
+   "APlusContent" : {
+      "productContent" : [ {
+         "key" : "Section1A",
+         "value" : {
+            "imageList" : [ "https://assets.tatacliq.com/medias/sys_master/images/MP000000001838230_1.jpeg" ]
+         }
+      }, {
+         "key" : "Section2B",
+         "value" : {
+            "textList" : [ "<h3>The most powerful and smartest chip ever in a smartphone.</h3><p>With six cores and 4.3 billion transistors, A11 Bionic has four efficiency cores that are up to 70 per cent faster than the A10 Fusion chip and two performance cores that are up to 25 per cent faster. The CPU can even harness all six cores simultaneously when you need a turbo boost.</p>" ]
+         }
+      }, {
+         "key" : "Section4C",
+         "value" : {
+            "imageList" : [ "https://assets.tatacliq.com/medias/sys_master/images/MP000000001838230_6.jpeg" ]
+         }
+      }, {
+         "key" : "Section2A",
+         "value" : {
+            "textList" : [ "<h3>An iPhone formed from glass</h3><p>The front and back feature custom glass with a 50 per cent deeper strengthening layer. A new steel substructure and a stronger, aerospace-grade 7000 Series aluminium band provide additional reinforcement. And an oleophobic coating lets you easily wipe off smudges and fingerprints.</p>" ]
+         }
+      }, {
+         "key" : "Section1B",
+         "value" : {
+            "imageList" : [ "https://assets.tatacliq.com/medias/sys_master/images/MP000000001838230_2.jpeg" ]
+         }
+      }, {
+         "key" : "Section5A",
+         "value" : {
+            "textList" : [ "<h3>Resists water, splashes and dust.</h3><p>iPhone 8 Plus is precision-engineered at the microscopic level to protect against water, splashes and dust. The all glass design keeps the phone secure, come rain or shine.</p>" ]
+         }
+      }, {
+         "key" : "Section6A",
+         "value" : {
+            "textList" : [ "<h2>Related Video</h2>" ]
+         }
+      }, {
+         "key" : "Section3A",
+         "value" : {
+            "textList" : [ "<h2>Features</h2>" ]
+         }
+      }, {
+         "key" : "Section5C",
+         "value" : {
+            "textList" : [ "<h3>The world's most popular camera. Even better.</h3><p>By introducing a new sensor and powering it with A11 Bionic. It makes advanced photographic techniques easy and automatic - so everyone can shoot unbelievable photos and movies. 12MP wide-angle and telephoto cameras on iPhone 8 Plus cameras are also designed for the most immersive and incredible augmented reality experiences.</p>" ]
+         }
+      }, {
+         "key" : "Section4B",
+         "value" : {
+            "imageList" : [ "https://assets.tatacliq.com/medias/sys_master/images/MP000000001838230_5.jpeg" ]
+         }
+      }, {
+         "key" : "Section5B",
+         "value" : {
+            "textList" : [ "<h3>Wireless charging for a wireless world</h3><p>How do you make an iPhone designed for a wireless world? By building on wireless technology like headphones and advanced networking to introduce easy wireless charging. The glass back, together with an efficient charging system, allows you to simply set iPhone 8 Plus down to charge it up.</p>" ]
+         }
+      }, {
+         "key" : "Section4A",
+         "value" : {
+            "imageList" : [ "https://assets.tatacliq.com/medias/sys_master/images/MP000000001838230_4.jpeg" ]
+         }
+      }, {
+         "key" : "Section7A",
+         "value" : {
+            "videoList" : [ "https://www.youtube.com/embed/k0DN-BZrM4o" ]
+         }
+      } ],
+      "temlateName" : "MP000000001838235_Apple iPhone 8 Plus 64GB (Gold)_3"
+   },
+   "allOOStock" : true,
+   "brandInfo" : "A status symbol and a pioneer in the technology industry, Apple represents a unique combination of performance and style. On Tata CliQ, you will find a wide range of Apple signature products like iPhones, iPads and Macbooks at your disposal.",
+   "brandName" : "Apple",
+   "brandURL" : "/apple/c-mbh12e00008",
+   "categoryHierarchy" : [ {
+      "category_id" : "MSH12",
+      "category_name" : "Electronics"
+   }, {
+      "category_id" : "MSH1210",
+      "category_name" : "Mobile Phones"
+   }, {
+      "category_id" : "MSH1210102",
+      "category_name" : "iPhone"
+   } ],
+   "classifications" : [ {
+      "groupName" : "Warranty",
+      "specifications" : [ {
+         "key" : "Warranty Description",
+         "value" : "1 Year"
+      }, {
+         "key" : "Warranty Summary",
+         "value" : "Manufacturer Warranty"
+      } ]
+   }, {
+      "groupName" : "General Features",
+      "specifications" : [ {
+         "key" : "Sim Size",
+         "value" : "Nano Sim"
+      }, {
+         "key" : "In the Box",
+         "value" : "iPhone with iOS 11, EarPods with Lightning Connector, Lightning to 3.5mm Headphone Jack Adapter, Lightning to USB Cable, USB Power Adapter"
+      }, {
+         "key" : "Operating System",
+         "value" : "iOS 11"
+      }, {
+         "key" : "Color Family",
+         "value" : "Gold"
+      } ]
+   }, {
+      "groupName" : "Dimensions",
+      "specifications" : [ {
+         "key" : "Product Depth (cm)",
+         "value" : "0.75"
+      }, {
+         "key" : "Product Height (cm)",
+         "value" : "15.84"
+      }, {
+         "key" : "Product Weight",
+         "value" : "202"
+      }, {
+         "key" : "Product Width (cm)",
+         "value" : "7.81"
+      } ]
+   }, {
+      "groupName" : "Technical Features",
+      "specifications" : [ {
+         "key" : "Performance Features",
+         "value" : "A11 Bionic Chip with 64-bit Architecture, Neural Engine, Embedded M11 Motion Coprocessor"
+      }, {
+         "key" : "Sensors",
+         "value" : "Touch ID fingerprint sensor, Barometer, Three-axis gyro, Accelerometer, Proximity sensor, Ambient light sensor"
+      } ]
+   }, {
+      "groupName" : "Memory and storage",
+      "specifications" : [ {
+         "key" : "Memory",
+         "value" : "64 GB"
+      } ]
+   }, {
+      "groupName" : "Display Features",
+      "specifications" : [ {
+         "key" : "Screen Size",
+         "value" : "13.97 cm"
+      }, {
+         "key" : "Display Features",
+         "value" : "5.5-inch LCD Multi?Touch display with IPS technology, 1920x1080-pixel resolution at 401 ppi"
+      }, {
+         "key" : "Resolution",
+         "value" : "1920 x 1080 pixels"
+      } ]
+   }, {
+      "groupName" : "Camera",
+      "specifications" : [ {
+         "key" : "Front Camera",
+         "value" : "7 MP FaceTime HD Camera"
+      }, {
+         "key" : "Primary Camera",
+         "value" : "12 MP"
+      }, {
+         "key" : "Video Recording",
+         "value" : "4K video recording"
+      }, {
+         "key" : "Connectivity",
+         "value" : "4G"
+      }, {
+         "key" : "Flash",
+         "value" : "Quad-LED True Tone flash"
+      } ]
+   } ],
+   "deliveryModesATP" : [ {
+      "key" : "home-delivery",
+      "value" : "Delivered in 3-6 business days."
+   }, {
+      "key" : "express-delivery",
+      "value" : "Delivered in 1-2 business days."
+   } ],
+   "details" : [ {
+      "key" : "Feature 1",
+      "value" : "64 GB Internal Memory"
+   }, {
+      "key" : "Feature 2",
+      "value" : "13.97cm (5.5-inch) Retina HD display"
+   }, {
+      "key" : "Feature 3",
+      "value" : "12 MP Rear and 7 MP Front Camera"
+   }, {
+      "key" : "Feature 4",
+      "value" : "Water and Dust Resistant"
+   } ],
+   "discount" : "6",
+   "eligibleDeliveryModes" : [ {
+      "code" : "home-delivery",
+      "displayCost" : "₹0.00",
+      "name" : "Home Delivery"
+   } ],
+   "fulfillmentType" : "tship",
+   "galleryImagesList" : [ {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072819.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072819.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000001838235_252Wx374H_20180414072819.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000001838235_450Wx545H_20180414072819.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001838235_1348Wx2000H_20180414072819.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072819.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072819.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000001838235_113Wx168H_20180414072819.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072825.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072825.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000001838235_252Wx374H_20180414072825.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000001838235_450Wx545H_20180414072825.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001838235_1348Wx2000H_20180414072825.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072825.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072825.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000001838235_113Wx168H_20180414072825.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072822.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072822.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000001838235_252Wx374H_20180414072822.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000001838235_450Wx545H_20180414072822.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001838235_1348Wx2000H_20180414072822.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072822.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072822.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000001838235_113Wx168H_20180414072822.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072830.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072830.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000001838235_252Wx374H_20180414072830.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000001838235_450Wx545H_20180414072830.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001838235_1348Wx2000H_20180414072830.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072830.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072830.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000001838235_113Wx168H_20180414072830.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072827.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072827.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000001838235_252Wx374H_20180414072827.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000001838235_450Wx545H_20180414072827.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001838235_1348Wx2000H_20180414072827.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072827.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072827.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000001838235_113Wx168H_20180414072827.jpeg"
+      } ],
+      "mediaType" : "Image"
+   }, {
+      "galleryImages" : [ {
+         "key" : "product",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072817.jpeg"
+      }, {
+         "key" : "thumbnail",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072817.jpeg"
+      }, {
+         "key" : "searchPage",
+         "value" : "//img.tatacliq.com/images/i2/252Wx374H/MP000000001838235_252Wx374H_20180414072817.jpeg"
+      }, {
+         "key" : "mobilePdpView",
+         "value" : "//img.tatacliq.com/images/i2/450Wx545H/MP000000001838235_450Wx545H_20180414072817.jpeg"
+      }, {
+         "key" : "superZoom",
+         "value" : "//img.tatacliq.com/images/i2/1348Wx2000H/MP000000001838235_1348Wx2000H_20180414072817.jpeg"
+      }, {
+         "key" : "cartIcon",
+         "value" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072817.jpeg"
+      }, {
+         "key" : "zoom",
+         "value" : "//img.tatacliq.com/images/i2/437Wx649H/MP000000001838235_437Wx649H_20180414072817.jpeg"
+      }, {
+         "key" : "cartPage",
+         "value" : "//img.tatacliq.com/images/i2/113Wx168H/MP000000001838235_113Wx168H_20180414072817.jpeg"
+      } ],
+      "mediaType" : "Image"
+   } ],
+   "isCOD" : "N",
+   "isEMIEligible" : "Y",
+   "isExchangeAvailable" : false,
+   "isOnlineExclusive" : "N",
+   "isProductNew" : "N",
+   "knowMore" : [ {
+      "knowMoreItem" : "An order, once placed, can be cancelled until the seller processes it."
+   }, {
+      "knowMoreItem" : "This product can be returned within 7 day(s) of delivery,subject to the Return Policy."
+   }, {
+      "knowMoreItem" : "For any other queries, do reach out to CliQ Care at 90291 08282 or hello@tatacliq.com"
+   } ],
+   "knowMoreEmail" : "hello@tatacliq.com",
+   "knowMorePhoneNo" : "90291 08282",
+   "maxQuantityAllowed" : "5",
+   "mrpPrice" : {
+      "currencyIso" : "INR",
+      "doubleValue" : 73000.0,
+      "formattedValue" : "₹73000.00",
+      "formattedValueNoDecimal" : "₹73000",
+      "priceType" : "BUY",
+      "value" : 73000
+   },
+   "numberOfReviews" : 0,
+   "otherSellers" : [ {
+      "USSID" : "123869iPhone8Plus64GBGold",
+      "availableStock" : "0",
+      "eligibleDeliveryModes" : [ {
+         "code" : "home-delivery",
+         "description" : "Delivered in 3-6 business days.",
+         "displayCost" : "₹0.00",
+         "name" : "Standard Delivery"
+      }, {
+         "code" : "home-delivery",
+         "description" : "Delivered in 3-6 business days.",
+         "displayCost" : "₹0.00",
+         "name" : "Standard Delivery"
+      } ],
+      "fullfillmentType" : "tship",
+      "isCOD" : "N",
+      "isEMIEligible" : "Y",
+      "mrpSeller" : {
+         "currencyIso" : "INR",
+         "doubleValue" : 73000.0,
+         "formattedValue" : "₹73000.00",
+         "formattedValueNoDecimal" : "₹73000",
+         "priceType" : "BUY",
+         "value" : 73000
+      },
+      "replacement" : "0",
+      "returnPolicy" : "7",
+      "sellerAssociationstatus" : "Y",
+      "sellerId" : "123869",
+      "sellerName" : "Sancell",
+      "specialPriceSeller" : {
+         "currencyIso" : "INR",
+         "doubleValue" : 68224.0,
+         "formattedValue" : "₹68224.00",
+         "formattedValueNoDecimal" : "₹68224",
+         "priceType" : "BUY",
+         "value" : 68224
+      }
+   }, {
+      "USSID" : "124180APPLEIPHONE8PLUS64GBGOLD",
+      "availableStock" : "0",
+      "eligibleDeliveryModes" : [ {
+         "code" : "home-delivery",
+         "description" : "Delivered in 3-6 business days.",
+         "displayCost" : "₹0.00",
+         "name" : "Standard Delivery"
+      } ],
+      "fullfillmentType" : "tship",
+      "isCOD" : "N",
+      "isEMIEligible" : "Y",
+      "mrpSeller" : {
+         "currencyIso" : "INR",
+         "doubleValue" : 73000.0,
+         "formattedValue" : "₹73000.00",
+         "formattedValueNoDecimal" : "₹73000",
+         "priceType" : "BUY",
+         "value" : 73000
+      },
+      "replacement" : "0",
+      "returnPolicy" : "7",
+      "sellerAssociationstatus" : "Y",
+      "sellerId" : "124180",
+      "sellerName" : "My Gear",
+      "specialPriceSeller" : {
+         "currencyIso" : "INR",
+         "doubleValue" : 70670.0,
+         "formattedValue" : "₹70670.00",
+         "formattedValueNoDecimal" : "₹70670",
+         "priceType" : "BUY",
+         "value" : 70670
+      }
+   }, {
+      "USSID" : "124240iPhone8Plus64GBGold",
+      "availableStock" : "0",
+      "eligibleDeliveryModes" : [ {
+         "code" : "home-delivery",
+         "description" : "Delivered in 3-6 business days.",
+         "displayCost" : "₹0.00",
+         "name" : "Standard Delivery"
+      } ],
+      "fullfillmentType" : "tship",
+      "isCOD" : "N",
+      "isEMIEligible" : "Y",
+      "mrpSeller" : {
+         "currencyIso" : "INR",
+         "doubleValue" : 73000.0,
+         "formattedValue" : "₹73000.00",
+         "formattedValueNoDecimal" : "₹73000",
+         "priceType" : "BUY",
+         "value" : 73000
+      },
+      "replacement" : "0",
+      "returnPolicy" : "7",
+      "sellerAssociationstatus" : "Y",
+      "sellerId" : "124240",
+      "sellerName" : "Mobilehub",
+      "specialPriceSeller" : {
+         "currencyIso" : "INR",
+         "doubleValue" : 72999.0,
+         "formattedValue" : "₹72999.00",
+         "formattedValueNoDecimal" : "₹72999",
+         "priceType" : "BUY",
+         "value" : 72999
+      }
+   } ],
+   "productDescription" : "The Apple iPhone 8 Plus introduces an all?new glass design. It features a 5.5-inch Retina HD display that delivers a crisp and clear visual output. It runs on iOS 11 that takes care of all its functions. With the 64 GB built-in memory, this gold coloured phone lets you easily store all your multimedia files. Capture the world around you with the 12-megapixel dual camera with f/1.8 wide angle aperture, f/2.8 telephoto aperture and digital zoom of up to 10x.",
+   "productListingId" : "MP000000001838235",
+   "productName" : "Apple iPhone 8 Plus 64GB (Gold)",
+   "rootCategory" : "Electronics",
+   "sellerAssociationstatus" : "Y",
+   "seo" : {
+      "alternateURL" : "/apple-iphone-8-plus-64gb-gold/p-mp000000001838235",
+      "breadcrumbs" : [ {
+         "name" : "Apple iPhone 8 Plus 64GB (Gold)",
+         "url" : "/apple-iphone-8-plus-64gb-gold/p-mp000000001838235"
+      }, {
+         "name" : "iPhone",
+         "url" : "/electronics-mobile-phones-iphone/c-msh1210102"
+      }, {
+         "name" : "Mobile Phones",
+         "url" : "/electronics-mobile-phones/c-msh1210"
+      }, {
+         "name" : "Electronics",
+         "url" : "/electronics/c-msh12"
+      } ],
+      "canonicalURL" : "/apple-iphone-8-plus-64gb-gold/p-mp000000001838235",
+      "description" : "Apple iPhone 8 Plus 64GB (Gold) Price in India - Shop for Apple iPhone 8 Plus 64GB (Gold) online at best price on Tata CLiQ.",
+      "imageURL" : "//img.tatacliq.com/images/i2/97Wx144H/MP000000001838235_97Wx144H_20180414072819.jpeg",
+      "keywords" : "Apple iPhone 8 Plus 64GB (Gold), Buy, Online, India, Tata CLiQ",
+      "title" : "Buy Apple iPhone 8 Plus 64GB (Gold) Online At Best Price @ Tata CLiQ"
+   },
+   "sharedText" : "Wow!Check out this amazing find http://p2.tatacliq.com/apple-iphone-8-plus-64gb-gold/p-mp000000001838235 . Like or  comment to tell me what you think, or share for warm fuzzies.",
+   "showSizeGuide" : false,
+   "styleNote" : "The Apple iPhone 8 Plus introduces an all?new glass design. It features a 5.5-inch Retina HD display that delivers a crisp and clear visual output. It runs on iOS 11 that takes care of all its functions. With the 64 GB built-in memory, this gold coloured phone lets you easily store all your multimedia files. Capture the world around you with the 12-megapixel dual camera with f/1.8 wide angle aperture, f/2.8 telephoto aperture and digital zoom of up to 10x.",
+   "warranty" : [ "1 Year", "Manufacturer Warranty" ],
+   "winningSellerAvailableStock" : "0",
+   "winningSellerName" : "VTMSLP",
+   "winningSellerPrice" : {
+      "currencyIso" : "INR",
+      "doubleValue" : 68200.0,
+      "formattedValue" : "₹68200.00",
+      "formattedValueNoDecimal" : "₹68200",
+      "priceType" : "BUY",
+      "value" : 68200
+   },
+   "winningUssID" : "100073iPhone8Plus64GBGold"
+}]}
