@@ -168,7 +168,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
               <div class="emi-body">
                 <span>EMI for the product is provided by the following banks</span>
                 <div class="emi-list">
-                  
+
                 </div>
                 <div class="emi-terms">
                   <span>View Terms & Conditions</span>
@@ -181,7 +181,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 
       <!-- NOTE: Product Images -->
       <div [class]="checkPincode ? 'background-blr' : ''">
-        <amp-carousel class="image-container" width="380" height="480" layout="responsive" type="slides" controls autoplay loop delay="3000">
+        <amp-carousel class="image-container" width="380" height="480" layout="responsive" type="slides" controls>
           {{#galleryImagesList}}
             <div>
               <amp-img class="contain" src="{{galleryImages.0.value}}" width="380" height="480" layout="responsive"></amp-img>
