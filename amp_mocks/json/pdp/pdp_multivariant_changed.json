@@ -228,272 +228,90 @@
    "sharedText" : "Wow!Check out this amazing find http://p2.tatacliq.com/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151 . Like or  comment to tell me what you think, or share for warm fuzzies.",
    "showSizeGuide" : true,
    "styleNote" : "Add a classic design to your casual repertoire with this mustard polo t-shirt from Westsport Casual. Rendered from a stretch pique cotton fabric to lend you all-day comfort and breathability, this smart apparel is retailed with ribbed trims and features a slim fit.",
-   "variantOptions": [
-    {
-      "isAvailable": true,
-      "productCode": "MP000000002285116",
-      "size": "XS",
-      "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116",
-      "colorlinks": [
-        {
-          "color": "Blue",
-          "colorHexCode": "#0000FF",
-          "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116",
-          "selected": false
-        },
-        {
-          "color": "Mauve",
-          "colorHexCode": "#e9e3f4",
-          "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285117",
-          "selected": false
-        },
-        {
-          "color": "Mint Green",
-          "colorHexCode": "",
-          "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285118",
-          "selected": false
-        },
-        {
-          "color": "Mustard",
-          "colorHexCode": "#ffdb58",
-          "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285119",
-          "selected": false
-        },
-        {
-          "color": "Yellow",
-          "colorHexCode": "#FFFF00",
-          "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285120",
-          "selected": false
-        },
-        {
-          "color": "Peach",
-          "colorHexCode": "#ffcba4",
-          "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285121",
-          "selected": false
-        }
-      ]
-    },
-    {
-      "isAvailable": true,
-      "productCode": "MP000000002285133",
-      "size": "S",
-      "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285133",
-      "colorlinks": [
-        {
-          "color": "Blue",
-          "colorHexCode": "#0000FF",
-          "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285133",
-          "selected": false
-        },
-        {
-          "color": "Mauve",
-          "colorHexCode": "#e9e3f4",
-          "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285139",
-          "selected": false
-        },
-        {
-          "color": "Mint Green",
-          "colorHexCode": "",
-          "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285142",
-          "selected": false
-        },
-        {
-          "color": "Mustard",
-          "colorHexCode": "#ffdb58",
-          "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285147",
-          "selected": false
-        },
-        {
-          "color": "Peach",
-          "colorHexCode": "#ffcba4",
-          "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285153",
-          "selected": false
-        },
-        {
-          "color": "Yellow",
-          "colorHexCode": "#FFFF00",
-          "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285157",
-          "selected": false
-        }
-      ]
-    },
-    {
-      "isAvailable": true,
-      "productCode": "MP000000002285138",
-      "size": "M",
-      "url": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285138",
-      "colorlinks": [
-        {
-          "color": "Mauve",
-          "colorHexCode": "#e9e3f4",
-          "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285138",
-          "selected": false
-        },
-        {
-          "color": "Mint Green",
-          "colorHexCode": "",
-          "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285143",
-          "selected": false
-        },
-        {
-          "color": "Mustard",
-          "colorHexCode": "#ffdb58",
-          "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285148",
-          "selected": false
-        },
-        {
-          "color": "Peach",
-          "colorHexCode": "#ffcba4",
-          "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285152",
-          "selected": false
-        },
-        {
-          "color": "Yellow",
-          "colorHexCode": "#FFFF00",
-          "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285159",
-          "selected": false
-        },
-        {
-          "color": "Blue",
-          "colorHexCode": "#0000FF",
-          "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285165",
-          "selected": false
-        }
-      ]
-    },
-    {
-      "isAvailable": true,
-      "productCode": "MP000000002285134",
-      "size": "L",
-      "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285134",
-      "colorlinks": [
-        {
-          "color": "Blue",
-          "colorHexCode": "#0000FF",
-          "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285134",
-          "selected": false
-        },
-        {
-          "color": "Mauve",
-          "colorHexCode": "#e9e3f4",
-          "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285140",
-          "selected": false
-        },
-        {
-          "color": "Mint Green",
-          "colorHexCode": "",
-          "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285144",
-          "selected": false
-        },
-        {
-          "color": "Mustard",
-          "colorHexCode": "#ffdb58",
-          "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285149",
-          "selected": false
-        },
-        {
-          "color": "Peach",
-          "colorHexCode": "#ffcba4",
-          "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285154",
-          "selected": false
-        },
-        {
-          "color": "Yellow",
-          "colorHexCode": "#FFFF00",
-          "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285158",
-          "selected": false
-        }
-      ]
-    },
-    {
-      "isAvailable": true,
-      "productCode": "MP000000002285132",
-      "size": "XL",
-      "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285132",
-      "colorlinks": [
-        {
-          "color": "Blue",
-          "colorHexCode": "#0000FF",
-          "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285132",
-          "selected": false
-        },
-        {
-          "color": "Mauve",
-          "colorHexCode": "#e9e3f4",
-          "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285141",
-          "selected": false
-        },
-        {
-          "color": "Mint Green",
-          "colorHexCode": "",
-          "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285145",
-          "selected": false
-        },
-        {
-          "color": "Mustard",
-          "colorHexCode": "#ffdb58",
-          "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285150",
-          "selected": false
-        },
-        {
-          "color": "Peach",
-          "colorHexCode": "#ffcba4",
-          "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285155",
-          "selected": false
-        },
-        {
-          "color": "Yellow",
-          "colorHexCode": "#FFFF00",
-          "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285160",
-          "selected": false
-        }
-      ]
-    },
-    {
-      "isAvailable": true,
-      "productCode": "MP000000002285137",
-      "size": "XXL",
-      "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285137",
-      "colorlinks": [
-        {
-          "color": "Blue",
-          "colorHexCode": "#0000FF",
-          "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285137",
-          "selected": false
-        },
-        {
-          "color": "Mint Green",
-          "colorHexCode": "",
-          "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285146",
-          "selected": false
-        },
-        {
-          "color": "Mustard",
-          "colorHexCode": "#ffdb58",
-          "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151",
-          "selected": true
-        },
-        {
-          "color": "Peach",
-          "colorHexCode": "#ffcba4",
-          "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285156",
-          "selected": false
-        },
-        {
-          "color": "Yellow",
-          "colorHexCode": "#FFFF00",
-          "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285161",
-          "selected": false
-        },
-        {
-          "color": "Mauve",
-          "colorHexCode": "#e9e3f4",
-          "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285162",
-          "selected": false
-        }
-      ]
-    }
-  ],
+   "variantOptions": {
+    "variantSizes": [
+      {
+        "isAvailable": true,
+        "isSelected": true,
+        "productCode": "MP000000002285116",
+        "size": "XS",
+        "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116"
+      },
+      {
+        "isAvailable": true,
+        "isSelected": false,
+        "productCode": "MP000000002285133",
+        "size": "S",
+        "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285133"
+      },
+      {
+        "isAvailable": true,
+        "isSelected": false,
+        "productCode": "MP000000002285138",
+        "size": "M",
+        "url": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285138"
+      },
+      {
+        "isAvailable": true,
+        "isSelected": false,
+        "productCode": "MP000000002285134",
+        "size": "L",
+        "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285134"
+      },
+      {
+        "isAvailable": true,
+        "isSelected": false,
+        "productCode": "MP000000002285132",
+        "size": "XL",
+        "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285132"
+      },
+      {
+        "isAvailable": true,
+        "isSelected": false,
+        "productCode": "MP000000002285137",
+        "size": "XXL",
+        "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285137"
+      }
+    ],
+    "colorlinks": [
+      {
+        "color": "Blue",
+        "colorHexCode": "#0000FF",
+        "colorurl": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285116",
+        "selected": false
+      },
+      {
+        "color": "Mauve",
+        "colorHexCode": "#e9e3f4",
+        "colorurl": "/westsport-casual-by-westside-mauve-tailored-fit-polo-t-shirt/p-mp000000002285117",
+        "selected": false
+      },
+      {
+        "color": "Mint Green",
+        "colorHexCode": "",
+        "colorurl": "/westsport-casual-by-westside-mint-green-tailored-fit-polo-t-shirt/p-mp000000002285118",
+        "selected": false
+      },
+      {
+        "color": "Mustard",
+        "colorHexCode": "#ffdb58",
+        "colorurl": "/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285119",
+        "selected": true
+      },
+      {
+        "color": "Yellow",
+        "colorHexCode": "#FFFF00",
+        "colorurl": "/westsport-casual-by-westside-light-yellow-tailored-fit-polo-t-shirt/p-mp000000002285120",
+        "selected": false
+      },
+      {
+        "color": "Peach",
+        "colorHexCode": "#ffcba4",
+        "colorurl": "/westsport-casual-by-westside-peach-tailored-fit-polo-t-shirt/p-mp000000002285121",
+        "selected": false
+      }
+    ]
+  },
    "winningSellerAvailableStock" : "95",
    "winningSellerName" : "Westside",
    "winningSellerPrice" : {

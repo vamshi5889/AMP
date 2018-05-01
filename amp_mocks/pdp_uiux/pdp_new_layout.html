@@ -64,7 +64,7 @@ amp-img.contain img {object-fit: cover;}
 .pd-emi {margin-bottom: 20px; padding-left: 15px; font-size: 14px;}
 .pd-emi span:last-child {color: rgb(255, 23, 68);}
 .promo-overlay {width: 100%; height: 100%; position: absolute; z-index: 100; display: block; filter: blur(10px); background: #ddd;}
-.pincode-check {width: 100%; height: auto; padding: 0 130px 0 20px; position: relative; margin: 20px 0; display: inline-flex;}
+.pincode-check {width: 100%; height: auto; padding: 0 130px 0 15px; position: relative; margin: 30px 0 20px; display: inline-flex;}
 .pincode-check span:first-child {width: 60%; float: left;}
 .pincode-check span:last-child {color: rgb(255, 23, 68); float: right; border-bottom: 2px solid rgb(255, 23, 68); height: 20px;}
 .pincode-check-box {position: fixed; bottom: 0; z-index: 70; width: -webkit-fill-available; height: auto; padding: 30px 10px 40px; background-color: #fff;}
@@ -77,6 +77,25 @@ height: 33px; position: absolute; background-position: 50%; background-repeat: n
 .pincode-check-box div:last-child span {border-bottom: 2px solid #000; padding-bottom: 3px; vertical-align: -webkit-baseline-middle;}
 .pincode-overlay {position: fixed; width: 100%; height: 100%; z-index: 69;}
 .background-blr {filter: blur(10px);}
+.variant-head {padding: 20px 15px 10px;}
+.color-head {padding: 30px 15px 10px;}
+.variant-head span:last-child {float: right; border-bottom: 2px solid #212121; padding-bottom: 5px;}
+.variant-option, .color-option {padding: 0 10px; margin: 0;}
+.variant-option-in, .color-option-in {height: 50px; min-width: 50px; background-color: #fff; border-radius: 25px; text-align: center;}
+.variant-option-active {height: 50px; min-width: 50px; background-color: #000; color: #fff; border-radius: 25px; text-align: center;}
+.variant-option-in span, .variant-option-active span {padding: 15px; line-height: 50px;}
+.color-option-in {box-shadow: 0 2px 4px 0 rgba(0,0,0,.22), inset 0 2px 4px 0 rgba(0,0,0,.4); border: 2px solid #fff; box-sizing: border-box;}
+.color-selected {background: url('https://p2.tatacliq.com/static/media/tick.f38ce263.svg') no-repeat; width: 100%; height: 100%;
+background-position: 50%; display: inline-block;}
+
+/* NOTE: Color Options */
+div[class*="0000FF"] {background-color: #0000ff;}
+div[class*="e9e3f4"] {background-color: #e9e3f4;}
+div[class*="ffdb58"] {background-color: #ffdb58;}
+div[class*="FFFF00"] {background-color: #FFFF00;}
+div[class*="ffcba4"] {background-color: #ffcba4;}
+div[class*="0000FF"] {background-color: #0000ff;}
+
 .shipping-info .home-delivery-sec span, .shipping-info .express-delivery-sec span, .shipping-info .click-and-collect-sec span {
 background-repeat: no-repeat; background-size: contain; height: 30px; width: 30px; position: absolute; left: 20px; margin-top: 10px;}
 .shipping-info .home-delivery-sec span {background-image: url('https://p2.tatacliq.com/static/media/homeDelivery.16bfffbf.svg');}
@@ -223,16 +242,38 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
         </div>
         {{/potentialPromotions}}
       </div>
-      <!-- <div>
-        {{#variantOptions}}
-          <span>{{size}}</span>
-          <div>
-            {{#colorlinks}}
-              <span>{{color}}</span>
-            {{/colorlinks}}
+
+      <!-- NOTE: Variant Options -->
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="variant-head">
+          <span>Select Size</span>
+          <span>Size guide</span>
+        </div>
+        <amp-carousel width="380" height="10" layout="responsive">
+          {{#variantOptions.variantSizes}}
+          <div class="variant-option">
+            <div class="variant-option-in" [class]="{{isSelected}} ? 'variant-option-active' : 'variant-option-in'"><span>{{size}}</span></div>
           </div>
-        {{/variantOptions}}
-      </div> -->
+          {{/variantOptions.variantSizes}}
+        </amp-carousel>
+
+        <div class="color-head">
+          <span>Colour -
+            {{#variantOptions.colorlinks}}
+              <span class="hide-content" [class]="{{selected}} ? '' : 'hide-content'">{{color}}</span>
+            {{/variantOptions.colorlinks}}
+          </span>
+        </div>
+        <amp-carousel width="380" height="10" layout="responsive">
+          {{#variantOptions.colorlinks}}
+          <div class="color-option">
+            <div class="color-option-in color-{{colorHexCode}}">
+              <span class="hide-content" [class]="{{selected}} ? 'color-selected' : 'hide-content'"></span>
+            </div>
+          </div>
+          {{/variantOptions.colorlinks}}
+        </amp-carousel>
+      </div>
 
       <!-- NOTE: Pincode Check -->
       <div [class]="checkPincode ? 'background-blr' : ''">
@@ -250,17 +291,6 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
       <!-- NOTE: Shipping Eligibility -->
       <div [class]="checkPincode ? 'background-blr' : ''">
         <div class="shipping-info">
-            <!-- {{#eligibleDeliveryModes}}
-              <div class="hide-content" [class]="'{{code}}' == 'home-delivery' ? 'show-content' : 'hide-content'">
-                <p>Standard Shipping</p>
-              </div>
-              <div class="hide-content" [class]="'{{code}}' == 'express-delivery' ? 'show-content' : 'hide-content'">
-                <p>Express Shipping</p>
-              </div>
-              <div class="hide-content" [class]="'{{code}}' == 'click-and-collect' ? 'show-content' : 'hide-content'">
-                <p>CLiQ & PiQ</p>
-              </div>
-            {{/eligibleDeliveryModes}} -->
             {{#deliveryModesATP}}
               <div class="{{key}}-sec">
                 <div class="shipping-inner">
