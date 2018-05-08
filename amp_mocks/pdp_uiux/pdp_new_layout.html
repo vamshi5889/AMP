@@ -24,6 +24,14 @@
 <style amp-custom>
 body{font-family: regular, sans-serif; font-size:14px; background-color: #ececec;}
 
+@font-face{font-family:regular;src:url('https://p2.tatacliq.com/fonts/rubik-v7-latin-regular.woff') format('woff')}
+@font-face{font-family:semibold;src:url('https://p2.tatacliq.com/fonts/rubik-v7-latin-500.woff2') format('woff2'),
+url('https://p2.tatacliq.com/fonts/rubik-v7-latin-500.woff') format('woff')}
+@font-face{font-family:bolder;src:url('https://p2.tatacliq.com/fonts/rubik-v7-latin-700.woff2') format('woff2'),
+url('https://p2.tatacliq.com/fonts/rubik-v7-latin-700.woff') format('woff')}
+@font-face{font-family:light;src:url('https://p2.tatacliq.com/fonts/rubik-v7-latin-300.woff2') format('woff2'),
+url('https://p2.tatacliq.com/fonts/rubik-v7-latin-300.woff2') format('woff')}
+
 .show-content {display: inline;}
 .hide-content {display: none;}
 .no-select {
@@ -38,19 +46,18 @@ body{font-family: regular, sans-serif; font-size:14px; background-color: #ececec
 #product-container amp-list[height] {height: 100%;}
 .image-container {background-color: rgb(245, 245, 245);}
 amp-img.contain img {object-fit: cover;}
-.pd-details-1 {font-weight: 500; margin-bottom: 10px; color: #181818;}
+.pd-details-1 {margin-bottom: 10px; color: #181818;}
 .pd-details-2 {font-weight: 300;}
 .pd-details-3 {margin-top: 20px; font-size: 14px;}
 .pd-details {padding: 15px; font-size: 16px;}
 .pd-winning-price {float: right;}
 .pd-mrp-price {float: right; color: #8d8d8d; text-decoration: line-through; font-size: 14px;}
 .pd-brandname, .pd-productname {width: 70%; display: inline-block; line-height: 22px;}
-
 .potential-promos {background-image: linear-gradient(131deg,#fd2c7a,#ff7255); padding: 20px; color: #fff;}
-.promo-info {position: fixed; width: 100vw; height: 100%; z-index: 101; right: 0;}
-.promo-info table {border-spacing: 0; border: none; height: 100%;}
-.promo-info table td:first-child {width: 10vw; height: 100%; vertical-align: top; }
-.promo-info table td:last-child {width: 90vw; height: 100%; background-color: #f8f8f8; vertical-align: top;}
+.promo-info, .size-info {position: fixed; width: 100vw; height: 100%; z-index: 101; right: 0;}
+.promo-info table, .size-info table {border-spacing: 0; border: none; height: 100%;}
+.promo-info table td:first-child, .size-info table td:first-child {width: 10vw; height: 100%; vertical-align: top; }
+.promo-info table td:last-child, .size-info table td:last-child {width: 90vw; height: 100%; background-color: #f8f8f8; vertical-align: top;}
 .promo-close {width: 40px; height: 40px; left:1vw; top: 1vw; position: absolute; background: url('https://p2.tatacliq.com/static/media/cancel.fea9f12f.svg') no-repeat;}
 .promo-heading, .emi-heading {margin: 0;height: 40px; color: #fff; background-color: #212121; padding: 0 20px; line-height: 40px; font-size: 14px; width: 100%;}
 .promo-body, .emi-body {padding: 20px;}
@@ -77,10 +84,12 @@ height: 33px; position: absolute; background-position: 50%; background-repeat: n
 .pincode-check-box div:last-child span {border-bottom: 2px solid #000; padding-bottom: 3px; vertical-align: -webkit-baseline-middle;}
 .pincode-overlay {position: fixed; width: 100%; height: 100%; z-index: 69;}
 .background-blr {filter: blur(10px);}
-.variant-head {padding: 20px 15px 10px;}
-.color-head {padding: 30px 15px 10px;}
+.variant-body, .color-body {white-space: nowrap; overflow: auto;}
+.variant-body amp-selector [option][selected], .color-body amp-selector [option][selected] {outline: none;}
+.variant-head {padding: 20px 15px;}
+.color-head {padding: 30px 15px 15px;}
 .variant-head span:last-child {float: right; border-bottom: 2px solid #212121; padding-bottom: 5px;}
-.variant-option, .color-option {padding: 0 10px; margin: 0;}
+.variant-option, .color-option {padding: 0 10px; margin: 0; display: inline-block;}
 .variant-option-in, .color-option-in {height: 50px; min-width: 50px; background-color: #fff; border-radius: 25px; text-align: center;}
 .variant-option-active {height: 50px; min-width: 50px; background-color: #000; color: #fff; border-radius: 25px; text-align: center;}
 .variant-option-in span, .variant-option-active span {padding: 15px; line-height: 50px;}
@@ -107,16 +116,23 @@ margin-top: -3px;}
 .sold-by {padding-top: 30px;}
 .sold-by > div {background-color: #fff; padding: 15px 30px 15px 10px;}
 .pd-features {padding-top: 30px;}
+.pd-sizes {max-height: 400px; overflow: auto;}
 .pd-features > amp-accordion {background-color: #fff; padding: 0 15px; }
-.pd-features h4 {font-size: 14px; line-height: 50px; font-weight: 400; border: none; background: transparent; outline: none;}
+.pd-sizes > amp-accordion {background-color: rgb(248, 248, 248); padding: 0; }
+.pd-features h4, .pd-sizes h4 {font-size: 14px; line-height: 50px; font-weight: 400; border: none; background: transparent; outline: none;}
+.pd-sizes h4 {padding: 0 20px; background-color: #fff;}
 .pd-features-desc {border-bottom: 1px solid #ececec; line-height: 24px; padding-bottom: 15px;}
+.pd-size-desc {line-height: 30px; padding: 10px 20px;}
 .pd-features-arrow {background-image: url('https://p2.tatacliq.com/static/media/down-arrow.9b5a45a2.svg'); width: 20px; height: 50px;
 position: absolute; right: 10px; background-position: 50%; background-size: auto 14px; background-repeat: no-repeat; transition: .3s;}
-.pd-features > amp-accordion > section[expanded] .pd-features-arrow {transform: rotate(180deg);}
-.pd-features > amp-accordion > section[expanded] h4 {font-weight: 600;}
+.pd-features > amp-accordion > section[expanded] .pd-features-arrow,
+.pd-sizes > amp-accordion > section[expanded] .pd-features-arrow {transform: rotate(180deg);}
+.pd-sizes > amp-accordion > section[expanded] h4 {background-color: rgb(248, 248, 248);}
 .pd-features-desc ul {padding-left: 20px;}
+.pd-size-txt {width: 40%; float: left;}
+.pd-size-val {width: 60%; float: left;}
 
-.pd-bottom {position: fixed; bottom: 0; width: 100%; z-index: 40; font-size: 14px; font-weight: 600;border-top: 1px solid #efefef;}
+.pd-bottom {position: fixed; bottom: 0; width: 100%; z-index: 40; font-size: 14px; border-top: 1px solid #efefef;}
 .bottom-left-btn {width: 50%; background-color: #fff; color: #8d8d8d; height: 60px; text-align: center;}
 .bottom-left-btn > span {line-height: 60px;}
 .bottom-right-btn > span {line-height: 60px;}
@@ -124,10 +140,22 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 .bottom-left-btn {float: left; box-sizing: border-box; border-right: 1px solid #efefef;}
 .bottom-right-btn {float: right; background-color: rgb(255, 23, 68); color: #fff; width: 50%; height: 60px; text-align: center;}
 .save-icon {width: 20px; height: 20px; display: inline-block; margin-right: 10px; vertical-align: middle;
-  background: url('https://p2.tatacliq.com/static/media/download.fb195dc2.svg'); background-position: 50%; background-size: 20px;}
+  background: url('https://p2.tatacliq.com/static/media/download.868b22af.svg') no-repeat; background-position: 50%; background-size: contain;}
 .bag-icon {width: 20px; height: 20px; display: inline-block; margin-right: 10px; vertical-align: middle;
   background-image: url('https://p2.tatacliq.com/static/media/order-historyWhite.94d80599.svg'); background-position: 50%; background-size: 20px;}
 
+/* NOTE: Recommended products */
+.rec-container {position: relative; background-color: #fff; padding: 30px 0; display: block;}
+.rec-head {padding: 0 15px; margin-bottom: 30px;}
+.rec-body {width: 100%; white-space: nowrap; overflow-x: auto;}
+.rec-body amp-img {border-radius: 4px;}
+.rec-product {width: 45%; padding: 0 10px; display: inline-block; box-sizing: border-box;}
+
+/* NOTE: FONTS */
+.pd-details-1, .potential-promos, .variant-head span:first-child, .color-head-txt, .pd-bottom,
+.shipping-head, .winning-seller, .pd-features > amp-accordion > section[expanded] h4,
+.pd-sizes > amp-accordion > section[expanded] h4 { font-family: semibold;}
+.pd-productname {font-family: light;}
 </style>
 
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -140,7 +168,54 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
     on="tap:AMP.setState({checkPincode:false})" role="check-pincode" tabindex="2">
 
   </div>
-  <amp-list src="/amp_mocks/json/pdp/pdp_multivariant_changed.json" width="auto" height="600" layout="fixed-height">
+
+  <amp-state id="productData">
+    <script type="application/json">
+      {
+        "endpoint2": "/amp_mocks/json/iphone.json",
+        "endpoint": "https://p2.tatacliq.com/marketplacewebservices/v2/mpl/products/productDetails/"
+      }
+    </script>
+  </amp-state>
+
+  <!-- NOTE: Size Guide Popup -->
+  <div class="hide-content" [class]="sizeGuide ? 'promo-overlay' : 'hide-content'">
+
+  </div>
+  <div class="hide-content" [class]="sizeGuide ? 'size-info' : 'hide-content'">
+    <table border="0">
+      <tr>
+        <td><span class="promo-close" on="tap:AMP.setState({sizeGuide : false})" role="check-size" tabindex="1"></span></td>
+        <td>
+          <amp-list src="/amp_mocks/json/pdp/sizeGuide.json" width="auto" height="600" layout="fixed-height">
+            <template type="amp-mustache">
+              <amp-img class="contain" src="{{imageURL}}" width="380" height="200" layout="responsive"></amp-img>
+              <div class="pd-sizes">
+                <amp-accordion id="productSizes">
+                  {{#sizeGuideList}}
+                  <section>
+                    <h4 class="no-select">{{dimensionSize}}<span class="pd-features-arrow"></span></h4>
+                    <div class="pd-size-desc">
+                      {{#dimensionList}}
+                        <div>
+                          <div class="pd-size-txt">{{dimension}}</div>
+                          <div class="pd-size-val"> : {{dimensionValue}}{{dimensionUnit}}</div>
+                        </div>
+                      {{/dimensionList}}
+                    </div>
+                  </section>
+                  {{/sizeGuideList}}
+                </amp-accordion>
+              </div>
+            </template>
+          </amp-list>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <amp-list src="/amp_mocks/json/pdp/pdp_multivariant_changed.json"
+    [src]="productData.endpoint + selectedVariant + '?isPwa=true'" width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
 
       <!-- NOTE: Promotions Popup -->
@@ -214,6 +289,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
         <div class="pd-details">
           <div class="pd-details-1">
             <span class="pd-brandname">{{brandName}}</span>
+            <!-- <p [text]="productData.endpoint"></p> -->
             <span class="pd-winning-price">Rs. {{winningSellerPrice.doubleValue}}</span>
           </div>
           <div class="pd-details-2">
@@ -247,32 +323,36 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
       <div [class]="checkPincode ? 'background-blr' : ''">
         <div class="variant-head">
           <span>Select Size</span>
-          <span>Size guide</span>
+          <span on="tap:AMP.setState({sizeGuide:true})" role="check-size" tabindex="0">Size guide</span>
         </div>
-        <amp-carousel width="380" height="10" layout="responsive">
-          {{#variantOptions.variantSizes}}
-          <div class="variant-option">
-            <div class="variant-option-in" [class]="{{isSelected}} ? 'variant-option-active' : 'variant-option-in'"><span>{{size}}</span></div>
-          </div>
-          {{/variantOptions.variantSizes}}
-        </amp-carousel>
+        <div class="variant-body">
+          <amp-selector layout="container" on="select:AMP.setState({selectedVariant : event.targetOption})">
+            {{#variantOptions.variantSizes}}
+            <div class="variant-option" option="{{productCode}}">
+              <div class="variant-option-in" [class]="{{isSelected}} ? 'variant-option-active' : 'variant-option-in'"><span>{{size}}</span></div>
+            </div>
+            {{/variantOptions.variantSizes}}
+          </amp-selector>
+        </div>
 
         <div class="color-head">
-          <span>Colour -
+          <span><span class="color-head-txt">Colour</span> -
             {{#variantOptions.colorlinks}}
               <span class="hide-content" [class]="{{selected}} ? '' : 'hide-content'">{{color}}</span>
             {{/variantOptions.colorlinks}}
           </span>
         </div>
-        <amp-carousel width="380" height="10" layout="responsive">
-          {{#variantOptions.colorlinks}}
-          <div class="color-option">
-            <div class="color-option-in color-{{colorHexCode}}">
-              <span class="hide-content" [class]="{{selected}} ? 'color-selected' : 'hide-content'"></span>
+        <div class="color-body">
+          <amp-selector layout="container">
+            {{#variantOptions.colorlinks}}
+            <div class="color-option" option="{{colorHexCode}}">
+              <div class="color-option-in color-{{colorHexCode}}">
+                <span class="hide-content" [class]="{{selected}} ? 'color-selected' : 'hide-content'"></span>
+              </div>
             </div>
-          </div>
-          {{/variantOptions.colorlinks}}
-        </amp-carousel>
+            {{/variantOptions.colorlinks}}
+          </amp-selector>
+        </div>
       </div>
 
       <!-- NOTE: Pincode Check -->
@@ -295,7 +375,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
               <div class="{{key}}-sec">
                 <div class="shipping-inner">
                   <span></span>
-                  <p [text]="'{{key}}' == 'home-delivery' ? 'Standard Shipping' : 'Express Shipping'"></p>
+                  <p class="shipping-head" [text]="'{{key}}' == 'home-delivery' ? 'Standard Shipping' : 'Express Shipping'"></p>
                   <p>{{value}}</p>
                 </div>
               </div>
@@ -303,7 +383,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
             <div class="click-and-collect-sec">
               <div class="shipping-inner">
                 <span></span>
-                <p>CLiQ & PiQ</p>
+                <p class="shipping-head">CLiQ & PiQ</p>
               </div>
             </div>
         </div>
@@ -313,7 +393,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
       <div [class]="checkPincode ? 'background-blr' : ''">
         <div class="sold-by">
           <div>
-            <span>Sold by {{winningSellerName}}</span>
+            <span>Sold by <span class="winning-seller">{{winningSellerName}}</span></span>
           </div>
         </div>
       </div>
@@ -385,6 +465,23 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
     </template>
   </amp-list>
 </div>
+<!-- <div class="rec-container">
+  <div class="rec-head">
+    Recommended Products
+  </div>
+  <amp-list src="/amp_mocks/json/pdp/recommendedProducts.json"
+     width="auto" height="300" layout="fixed-height">
+    <template type="amp-mustache">
+      <div class="rec-body">
+        {{#results}}
+        <div class="rec-product">
+          <amp-img class="contain" src="{{imageUrl}}" width="380" height="480" layout="responsive"></amp-img>
+        </div>
+        {{/results}}
+      </div>
+    </template>
+  </amp-list>
+</div> -->
 
 </body>
 

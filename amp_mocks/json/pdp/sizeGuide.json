@@ -1,0 +1,96 @@
+{"items" : [{
+   "type" : "sizeGuideWsDTO",
+   "status" : "Success",
+   "imageURL" : "//assets.tatacliq.com/medias/sys_master/images/8797244325918.jpg",
+   "sizeGuideList" : [ {
+      "dimensionList" : [ {
+         "dimension" : "SLEEVE LENGTH",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "20"
+      }, {
+         "dimension" : "SHOULDER",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "42"
+      }, {
+         "dimension" : "CHEST",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "93"
+      } ],
+      "dimensionSize" : "XS"
+   }, {
+      "dimensionList" : [ {
+         "dimension" : "CHEST",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "97"
+      }, {
+         "dimension" : "SHOULDER",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "43.5"
+      }, {
+         "dimension" : "SLEEVE LENGTH",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "21"
+      } ],
+      "dimensionSize" : "S"
+   }, {
+      "dimensionList" : [ {
+         "dimension" : "SLEEVE LENGTH",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "22"
+      }, {
+         "dimension" : "CHEST",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "102"
+      }, {
+         "dimension" : "SHOULDER",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "45"
+      } ],
+      "dimensionSize" : "M"
+   }, {
+      "dimensionList" : [ {
+         "dimension" : "SHOULDER",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "46.5"
+      }, {
+         "dimension" : "SLEEVE LENGTH",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "23"
+      }, {
+         "dimension" : "CHEST",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "107"
+      } ],
+      "dimensionSize" : "L"
+   }, {
+      "dimensionList" : [ {
+         "dimension" : "SHOULDER",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "48"
+      }, {
+         "dimension" : "SLEEVE LENGTH",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "24"
+      }, {
+         "dimension" : "CHEST",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "112"
+      } ],
+      "dimensionSize" : "XL"
+   }, {
+      "dimensionList" : [ {
+         "dimension" : "CHEST",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "117"
+      }, {
+         "dimension" : "SLEEVE LENGTH",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "25"
+      }, {
+         "dimension" : "SHOULDER",
+         "dimensionUnit" : "Cms",
+         "dimensionValue" : "49.5"
+      } ],
+      "dimensionSize" : "XXL"
+   } ]
+}]}
