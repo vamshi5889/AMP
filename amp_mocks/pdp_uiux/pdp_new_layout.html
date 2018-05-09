@@ -109,19 +109,19 @@ div[class*="0000FF"] {background-color: #0000ff;}
 background-repeat: no-repeat; background-size: contain; height: 30px; width: 30px; position: absolute; left: 20px; margin-top: 10px;}
 .shipping-info .home-delivery-sec span {background-image: url('https://p2.tatacliq.com/static/media/homeDelivery.16bfffbf.svg');}
 .shipping-info .express-delivery-sec span {background-image: url('https://p2.tatacliq.com/static/media/expressDelivery.1ea024e7.svg');}
-.shipping-info .click-and-collect-sec span {background-image: url('https://p2.tatacliq.com/static/media/collect.d4a40190.svg');
-margin-top: -3px;}
+.shipping-info .click-and-collect-sec span {background-image: url('https://p2.tatacliq.com/static/media/collect.d4a40190.svg');}
 .shipping-info p {margin: 0; line-height: 25px;}
 .shipping-info > div {background-color: #fff; padding: 15px 0 15px 70px; margin-bottom: 1px;}
+.shipping-cnc {color: rgb(255, 23, 68); height: 25px; border-bottom: 2px solid rgb(255, 23, 68); width: fit-content;}
 .sold-by {padding-top: 30px;}
 .sold-by > div {background-color: #fff; padding: 15px 30px 15px 10px;}
 .pd-features {padding-top: 30px;}
 .pd-sizes {max-height: 400px; overflow: auto;}
-.pd-features > amp-accordion {background-color: #fff; padding: 0 15px; }
+.pd-features > amp-accordion {background-color: #fff; padding: 0 15px; overflow-x: auto;}
 .pd-sizes > amp-accordion {background-color: rgb(248, 248, 248); padding: 0; }
-.pd-features h4, .pd-sizes h4 {font-size: 14px; line-height: 50px; font-weight: 400; border: none; background: transparent; outline: none;}
-.pd-sizes h4 {padding: 0 20px; background-color: #fff;}
-.pd-features-desc {border-bottom: 1px solid #ececec; line-height: 24px; padding-bottom: 15px;}
+.pd-features h4, .pd-sizes h4 {font-size: 16px; line-height: 50px; font-weight: 400; border: none; background: transparent; outline: none;}
+.pd-sizes h4 {font-size: 14px; padding: 0 20px; background-color: #fff;}
+.pd-features-desc {line-height: 24px; padding-bottom: 15px;}
 .pd-size-desc {line-height: 30px; padding: 10px 20px;}
 .pd-features-arrow {background-image: url('https://p2.tatacliq.com/static/media/down-arrow.9b5a45a2.svg'); width: 20px; height: 50px;
 position: absolute; right: 10px; background-position: 50%; background-size: auto 14px; background-repeat: no-repeat; transition: .3s;}
@@ -131,6 +131,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 .pd-features-desc ul {padding-left: 20px;}
 .pd-size-txt {width: 40%; float: left;}
 .pd-size-val {width: 60%; float: left;}
+#productMoreClassifications {margin-top: 30px;}
 
 .pd-bottom {position: fixed; bottom: 0; width: 100%; z-index: 40; font-size: 14px; border-top: 1px solid #efefef;}
 .bottom-left-btn {width: 50%; background-color: #fff; color: #8d8d8d; height: 60px; text-align: center;}
@@ -154,7 +155,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 /* NOTE: FONTS */
 .pd-details-1, .potential-promos, .variant-head span:first-child, .color-head-txt, .pd-bottom,
 .shipping-head, .winning-seller, .pd-features > amp-accordion > section[expanded] h4,
-.pd-sizes > amp-accordion > section[expanded] h4 { font-family: semibold;}
+.pd-sizes > amp-accordion > section[expanded] h4, .pd-feature-details { font-family: semibold;}
 .pd-productname {font-family: light;}
 </style>
 
@@ -321,6 +322,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 
       <!-- NOTE: Variant Options -->
       <div [class]="checkPincode ? 'background-blr' : ''">
+        {{#variantOptions}}
         <div class="variant-head">
           <span>Select Size</span>
           <span on="tap:AMP.setState({sizeGuide:true})" role="check-size" tabindex="0">Size guide</span>
@@ -353,6 +355,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
             {{/variantOptions.colorlinks}}
           </amp-selector>
         </div>
+        {{/variantOptions}}
       </div>
 
       <!-- NOTE: Pincode Check -->
@@ -384,6 +387,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
               <div class="shipping-inner">
                 <span></span>
                 <p class="shipping-head">CLiQ & PiQ</p>
+                <p class="shipping-cnc">Check for pick up options</p>
               </div>
             </div>
         </div>
@@ -399,7 +403,7 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
       </div>
 
       <!-- NOTE: Features -->
-      <div [class]="checkPincode ? 'background-blr' : ''">
+      <!-- <div [class]="checkPincode ? 'background-blr' : ''">
         <div class="pd-features">
           <amp-accordion id="productFeatures">
             {{#details}}
@@ -412,24 +416,30 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
             {{/details}}
           </amp-accordion>
         </div>
-      </div>
+      </div> -->
 
       <!-- NOTE: More Info -->
       <div [class]="checkPincode ? 'background-blr' : ''">
         <div class="pd-features">
           <amp-accordion id="productMoreFeatures">
-            {{#classifications}}
             <section>
-              <h4 class="no-select">{{key}}<span class="pd-features-arrow"></span></h4>
-              <div class="pd-features-desc">
-                {{value}}
-              </div>
-            </section>
-            {{/classifications}}
-            <section>
-              <h4 class="no-select">Style Note<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">Product Description<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 {{styleNote}}
+              </div>
+            </section>
+
+            <section>
+              <h4 class="no-select">Product Details<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                {{#details}}
+                <div>
+                  <div class="pd-feature-details">{{key}}</div>
+                  <div class="pd-features-desc">
+                    {{value}}
+                  </div>
+                </div>
+                {{/details}}
               </div>
             </section>
             <section>
@@ -443,11 +453,29 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
               </div>
             </section>
             <section>
-              <h4 class="no-select">Brand Name<span class="pd-features-arrow"></span></h4>
+              <h4 class="no-select">Brand Info<span class="pd-features-arrow"></span></h4>
               <div class="pd-features-desc">
                 {{brandInfo}}
               </div>
             </section>
+          </amp-accordion>
+
+          <amp-accordion id="productMoreClassifications">
+            {{#classifications}}
+            <section>
+              <h4 class="no-select">{{groupName}}<span class="pd-features-arrow"></span></h4>
+              <div class="pd-features-desc">
+                {{#specifications}}
+                <div>
+                  <div class="pd-feature-details">{{key}}</div>
+                  <div class="pd-features-desc">
+                    {{value}}
+                  </div>
+                </div>
+                {{/specifications}}
+              </div>
+            </section>
+            {{/classifications}}
           </amp-accordion>
         </div>
       </div>
