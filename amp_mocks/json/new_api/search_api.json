@@ -1,0 +1,778 @@
+{
+  "type": "ampProductSearchPageWsDto",
+  "items": [
+    {
+      "status": "Success",
+      "currentQuery": {
+        "appliedFilters": " ",
+        "appliedSort": "relevance",
+        "query": {
+          "value": "shirt:relevance"
+        },
+        "searchQuery": "shirt",
+        "url": "/search/page-{pageNo}?q=shirt%3Arelevance"
+      },
+      "pagination": {
+        "currentPage": 0,
+        "pageSize": 20,
+        "totalPages": 2,
+        "totalResults": 36
+      },
+      "searchresult": [
+        {
+          "brandname": "Westside",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": false,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005488",
+          "productname": "Westside Pink Shirt",
+          "ussid": "500112300593866001"
+        },
+        {
+          "brandname": "Westside",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005503",
+          "productname": "Westside Green Shirt",
+          "ussid": "500112300595299004"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005500",
+          "productname": "Westport Navy T shirt",
+          "ussid": "500112300594584008"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005501",
+          "productname": "Westport White T shirt",
+          "ussid": "500112300605180027"
+        },
+        {
+          "brandname": "Biba",
+          "compareProductType": "MSH2110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "20.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 600,
+              "formattedValue": "₹600.00",
+              "formattedValueNoDecimal": "₹600"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 480,
+              "formattedValue": "₹480.00",
+              "formattedValueNoDecimal": "₹480"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP963215280",
+          "productname": "yellow T-shirts & Polos- Van Heusen",
+          "ussid": "400001WT127556"
+        },
+        {
+          "brandname": "Biba",
+          "compareProductType": "MSH2110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "20.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 600,
+              "formattedValue": "₹600.00",
+              "formattedValueNoDecimal": "₹600"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 480,
+              "formattedValue": "₹480.00",
+              "formattedValueNoDecimal": "₹480"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP963215281",
+          "productname": "red T-shirts & Polos- Van Heusen",
+          "ussid": "400001WT127656"
+        },
+        {
+          "brandname": "Biba",
+          "compareProductType": "MSH2110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "20.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 600,
+              "formattedValue": "₹600.00",
+              "formattedValueNoDecimal": "₹600"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 480,
+              "formattedValue": "₹480.00",
+              "formattedValueNoDecimal": "₹480"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP963215282",
+          "productname": "blue T-shirts & Polos- Van Heusen",
+          "ussid": "400001WT127756"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005511",
+          "productname": "Westport Black T shirt",
+          "ussid": "500112300594584004"
+        },
+        {
+          "brandname": "Westside",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005595",
+          "productname": "Westside Navy Shirt",
+          "ussid": "500112300594955001"
+        },
+        {
+          "brandname": "Oak & Keel",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005606",
+          "productname": "Oak & Keel Red T shirt",
+          "ussid": "500112300590375004"
+        },
+        {
+          "brandname": "Redmi",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "product",
+                  "value": "//pcmint.tataunistore.com/images/437Wx649H/MP100000000005654_437Wx649H_20151212193802.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//pcmint.tataunistore.com/images/252Wx374H/MP100000000005654_252Wx374H_20151212193802.jpeg",
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005654",
+          "productname": "ETA Orange T shirt",
+          "ussid": "500112300593915002"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1111100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "product",
+                  "value": "//pcmint1.tataunistore.com/images/437Wx649H/MP100000000005801_437Wx649H_20151212201011.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//pcmint1.tataunistore.com/images/252Wx374H/MP100000000005801_252Wx374H_20151212201011.jpeg",
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005801",
+          "productname": "Westport Red T shirt",
+          "ussid": "500112300594583032"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1111100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "product",
+                  "value": "//pcmint3.tataunistore.com/images/437Wx649H/MP100000000005803_437Wx649H_20151212201051.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//pcmint3.tataunistore.com/images/252Wx374H/MP100000000005803_252Wx374H_20151212201051.jpeg",
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005803",
+          "productname": "Westport White T shirt",
+          "ussid": "500112300594584014"
+        },
+        {
+          "brandname": "Nuon Men",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005486",
+          "productname": "Nuon Men Oat T shirt",
+          "ussid": "500112300593928004"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005520",
+          "productname": "Westport Black T shirt",
+          "ussid": "500112300594582005"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1110100",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005539",
+          "productname": "Westport White T shirt",
+          "ussid": "500112300594582007"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1115103",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "product",
+                  "value": "//pcmint1.tataunistore.com/images/437Wx649H/MP100000000005551_437Wx649H_20151212192121.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//pcmint1.tataunistore.com/images/252Wx374H/MP100000000005551_252Wx374H_20151212192121.jpeg",
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005551",
+          "productname": "Westport Orange T shirt",
+          "ussid": "500112300594583046"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1115103",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "product",
+                  "value": "//pcmint2.tataunistore.com/images/437Wx649H/MP100000000005566_437Wx649H_20151212192336.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//pcmint2.tataunistore.com/images/252Wx374H/MP100000000005566_252Wx374H_20151212192336.jpeg",
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005566",
+          "productname": "Westport Black T shirt",
+          "ussid": "500112300602509001"
+        },
+        {
+          "brandname": "S.Oliver",
+          "compareProductType": "MSH1115103",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+              "galleryImages": [
+                {
+                  "key": "product",
+                  "value": "//pcmint1.tataunistore.com/images/437Wx649H/MP100000000005571_437Wx649H_20151212192440.jpeg"
+                }
+              ],
+              "mediaType": "Image"
+            }
+          ],
+          "imageURL": "//pcmint1.tataunistore.com/images/252Wx374H/MP100000000005571_252Wx374H_20151212192440.jpeg",
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005571",
+          "productname": "Westport Anthra T shirt",
+          "ussid": "500112300594582043"
+        },
+        {
+          "brandname": "Westside",
+          "compareProductType": "MSH1115103",
+          "cumulativeStockLevel": true,
+          "discountPercent": "10.0",
+          "galleryImagesList": [
+            {
+
+            }
+          ],
+          "isOfferExisting": false,
+          "onlineExclusive": false,
+          "price": {
+            "isRange": false,
+            "mrpPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 299,
+              "formattedValue": "₹299.00",
+              "formattedValueNoDecimal": "₹299"
+            },
+            "sellingPrice": {
+              "currencyIso": "INR",
+              "currencySymbol": "₹",
+              "doubleValue": 269,
+              "formattedValue": "₹269.00",
+              "formattedValueNoDecimal": "₹269"
+            }
+          },
+          "productCategoryType": "Apparel",
+          "productId": "MP100000000005599",
+          "productname": "Westside Navy T shirt",
+          "ussid": "500112300602230007"
+        }
+      ],
+      "sorts": [
+        {
+          "code": "relevance",
+          "name": "Relevance",
+          "selected": true
+        },
+        {
+          "code": "name-asc",
+          "name": "Brands A-Z",
+          "selected": false
+        },
+        {
+          "code": "price-asc",
+          "name": "Price Low to High",
+          "selected": false
+        },
+        {
+          "code": "price-desc",
+          "name": "Price High to Low",
+          "selected": false
+        },
+        {
+          "code": "isDiscountedPrice",
+          "selected": false
+        },
+        {
+          "code": "isProductNew",
+          "name": "Brand New",
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

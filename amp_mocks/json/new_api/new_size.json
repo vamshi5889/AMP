@@ -1,0 +1,66 @@
+{
+    "type": "ampSizeGuideWsDTO",
+    "items": [
+        {
+            "status": "Success",
+            "imageURL": "//assets.tatacliq.com/medias/sys_master/images/8797255204894.jpg",
+            "sizeGuideList": [
+                {
+                    "dimensionList": [
+                        {
+                            "dimension": "HIP",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "30"
+                        },
+                        {
+                            "dimension": "WAIST",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "30"
+                        }
+                    ],
+                    "dimensionSize": "XS"
+                },
+                {
+                    "dimensionList": [
+                        {
+                            "dimension": "HIP",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "34"
+                        },
+                        {
+                            "dimension": "WAIST",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "34"
+                        }
+                    ],
+                    "dimensionSize": "S"
+                },
+                {
+                    "dimensionList": [
+                        {
+                            "dimension": "HIP",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "38"
+                        },
+                        {
+                            "dimension": "WAIST",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "38"
+                        }
+                    ],
+                    "dimensionSize": "M"
+                },
+                {
+                    "dimensionList": [
+                        {
+                            "dimension": "NECK",
+                            "dimensionUnit": "Inches",
+                            "dimensionValue": "40"
+                        }
+                    ],
+                    "dimensionSize": "2XL"
+                }
+            ]
+        }
+    ]
+}

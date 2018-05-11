@@ -169,8 +169,11 @@
       "mediaType" : "Image"
    } ],
    "isCOD" : "Y",
+   "isClickAndCollect": "N",
    "isEMIEligible" : "Y",
    "isExchangeAvailable" : false,
+   "isExpressShipping": "Y",
+   "isStandardShipping": "Y",
    "isOnlineExclusive" : "N",
    "isProductNew" : "N",
    "knowMore" : [ {
@@ -228,7 +231,7 @@
    "sharedText" : "Wow!Check out this amazing find http://p2.tatacliq.com/westsport-casual-by-westside-mustard-tailored-fit-polo-t-shirt/p-mp000000002285151 . Like or  comment to tell me what you think, or share for warm fuzzies.",
    "showSizeGuide" : true,
    "styleNote" : "Add a classic design to your casual repertoire with this mustard polo t-shirt from Westsport Casual. Rendered from a stretch pique cotton fabric to lend you all-day comfort and breathability, this smart apparel is retailed with ribbed trims and features a slim fit.",
-   "variantOptions": {
+   "variantOptionsAMP": {
     "variantSizes": [
       {
         "isAvailable": true,
@@ -273,7 +276,7 @@
         "url": "/westsport-casual-by-westside-blue-tailored-fit-polo-t-shirt/p-mp000000002285137"
       }
     ],
-    "colorlinks": [
+    "colorlink": [
       {
         "color": "Blue",
         "colorHexCode": "#0000FF",
@@ -312,7 +315,7 @@
       }
     ]
   },
-   "winningSellerAvailableStock" : "95",
+   "winningSellerAvailableStock" : "1",
    "winningSellerName" : "Westside",
    "winningSellerPrice" : {
       "currencyIso" : "INR",

@@ -1,0 +1,196 @@
+{
+    "type": "ampMplNewProductDetailMobileWsData",
+    "items": [
+        {
+            "status": "SUCCESS",
+            "allOOStock": false,
+            "averageRating": 4,
+            "brandInfo": "Westside",
+            "brandName": "Westside",
+            "brandURL": "/westside/c-mbh11a00004",
+            "categoryHierarchy": [
+                {
+                    "category_id": "MSH11",
+                    "category_name": "Men"
+                },
+                {
+                    "category_id": "MSH1110",
+                    "category_name": "What's New!"
+                },
+                {
+                    "category_id": "MSH1110100",
+                    "category_name": "Apparel"
+                }
+            ],
+            "deliveryModesATP": [
+                {
+                    "key": "home-delivery",
+                    "value": "Delivered in 7-8 business days."
+                },
+                {
+                    "key": "express-delivery",
+                    "value": "Delivered in 1-2 business days."
+                }
+            ],
+            "details": [
+                {
+                    "key": "Fit",
+                    "value": "Loose fit"
+                },
+                {
+                    "key": "Pattern",
+                    "value": "Aztec"
+                },
+                {
+                    "key": "Color",
+                    "value": "Blue"
+                },
+                {
+                    "key": "Model fit",
+                    "value": "casc"
+                },
+                {
+                    "key": "Wash Care",
+                    "value": "NO"
+                },
+                {
+                    "key": "Sleeve",
+                    "value": "3/4th sleeve"
+                },
+                {
+                    "key": "Feature",
+                    "value": "12"
+                },
+                {
+                    "key": "Fabric",
+                    "value": "wqd"
+                }
+            ],
+            "discount": "2",
+            "eligibleDeliveryModes": [
+                {
+                    "code": "home-delivery",
+                    "displayCost": "₹0.00",
+                    "name": "Home Delivery"
+                },
+                {
+                    "code": "express-delivery",
+                    "displayCost": "₹0.00",
+                    "name": "Express Delivery"
+                },
+                {
+                    "code": "click-and-collect",
+                    "displayCost": "₹0.00",
+                    "name": "Click and Collect"
+                }
+            ],
+            "fulfillmentType": "sship",
+            "isCOD": "Y",
+            "isClickAndCollect": "Y",
+            "isEMIEligible": "N",
+            "isExchangeAvailable": false,
+            "isExpressShipping": "Y",
+            "isOnlineExclusive": "N",
+            "isProductNew": "N",
+            "isStandardShipping": "Y",
+            "knowMore": [
+                {
+                    "knowMoreItem": "An order, once placed, can be cancelled until the seller processes it."
+                },
+                {
+                    "knowMoreItem": "This product can be returned within 30 day(s) of delivery,subject to the Return Policy."
+                },
+                {
+                    "knowMoreItem": "For any other queries, do reach out to CliQ Care at 1800-208-8282 or hello@tatacliq.com"
+                }
+            ],
+            "knowMoreEmail": "hello@tatacliq.com",
+            "knowMorePhoneNo": "1800-208-8282",
+            "maxQuantityAllowed": "10",
+            "mrpPrice": {
+                "currencyIso": "INR",
+                "doubleValue": 501,
+                "formattedValue": "₹501.00",
+                "formattedValueNoDecimal": "₹501",
+                "priceType": "BUY",
+                "value": 501
+            },
+            "numberOfReviews": 1,
+            "productDescription": "Utsa by Westside Indigo High-low Kurta",
+            "productListingId": "MP000000000112345",
+            "productName": "Utsa by Westside Indigo High-low Kurta",
+            "rootCategory": "Clothing",
+            "sellerAssociationstatus": "Y",
+            "seo": {
+                "alternateURL": "/utsa-by-westside-indigo-high-low-kurta/p-mp000000000112345",
+                "breadcrumbs": [
+                    {
+                        "name": "Utsa by Westside Indigo High-low Kurta",
+                        "url": "/utsa-by-westside-indigo-high-low-kurta/p-mp000000000112345"
+                    },
+                    {
+                        "name": "Apparel",
+                        "url": "/men-whats-new-apparel/c-msh1110100"
+                    },
+                    {
+                        "name": "What's New!",
+                        "url": "/men-whats-new/c-msh1110"
+                    },
+                    {
+                        "name": "Men",
+                        "url": "/men/c-msh11"
+                    }
+                ],
+                "canonicalURL": "/utsa-by-westside-indigo-high-low-kurta/p-mp000000000112345",
+                "description": "Utsa by Westside Indigo High-low Kurta",
+                "title": "Utsa by Westside Indigo High-low Kurta"
+            },
+            "sharedText": "Wow!Check out this amazing find http://localhost:9001/utsa-by-westside-indigo-high-low-kurta/p-mp000000000112345 . Like or  comment to tell me what you think, or share for warm fuzzies.",
+            "showSizeGuide": true,
+            "styleNote": "Utsa by Westside Indigo High-low Kurta",
+            "variantOptionsAMP": {
+                "colorlink": [
+                    {
+                        "color": "Red",
+                        "colorHexCode": "#FF0000",
+                        "colorurl": "/utsa-by-westside-indigo-high-low-kurta/p-mp000000000112345",
+                        "selected": true
+                    },
+                    {
+                        "color": "Blue",
+                        "colorHexCode": "#0000FF",
+                        "colorurl": "/utsa-by-westside-indigo-a-line-kurta/p-mp000000000212345",
+                        "selected": false
+                    }
+                ],
+                "variantSizes": [
+                    {
+                        "isAvailable": true,
+                        "isSelected": true,
+                        "productCode": "MP000000000112345",
+                        "size": "XS",
+                        "url": "/utsa-by-westside-indigo-high-low-kurta/p-mp000000000112345"
+                    },
+                    {
+                        "isAvailable": true,
+                        "isSelected": false,
+                        "productCode": "MP000000000212345",
+                        "size": "S",
+                        "url": "/utsa-by-westside-indigo-a-line-kurta/p-mp000000000212345"
+                    }
+                ]
+            },
+            "winningSellerAvailableStock": "100",
+            "winningSellerName": "Westside",
+            "winningSellerPrice": {
+                "currencyIso": "INR",
+                "doubleValue": 490,
+                "formattedValue": "₹490.00",
+                "formattedValueNoDecimal": "₹490",
+                "priceType": "BUY",
+                "value": 490
+            },
+            "winningUssID": "100216WT620CFSRed"
+        }
+    ]
+}
