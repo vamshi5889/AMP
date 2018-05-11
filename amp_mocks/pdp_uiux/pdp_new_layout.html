@@ -42,7 +42,7 @@ url('https://p2.tatacliq.com/fonts/rubik-v7-latin-300.woff2') format('woff')}
     user-select: none;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
-#product-container amp-list {padding-bottom: 100px;}
+#product-container #productContainerMain {padding-bottom: 100px;}
 #product-container amp-list[height] {height: 100%;}
 .image-container {background-color: rgb(245, 245, 245);}
 .product-nostock {position: absolute; z-index: 4; color: #fff; padding: 10px 20px; height: 40px; width: 150px;
@@ -77,8 +77,8 @@ amp-img.contain img {object-fit: cover;}
 .pincode-check {width: 100%; height: auto; padding: 0 130px 0 15px; position: relative; margin: 30px 0 20px; display: inline-flex;}
 .pincode-check span:first-child {width: 60%; float: left;}
 .pincode-check span:last-child {color: rgb(255, 23, 68); float: right; border-bottom: 2px solid rgb(255, 23, 68); height: 20px;}
-.pincode-check-box {position: fixed; bottom: 0; z-index: 70; width: -webkit-fill-available; height: auto; padding: 30px 10px 0px; background-color: #fff;}
-.pincode-check-box div:first-child {width: 80%; float: left; padding-bottom: 40px;}
+.pincode-check-box {position: fixed; bottom: 0; z-index: 70; width: -webkit-fill-available; height: auto; padding: 30px 10px 30px; background-color: #fff;}
+.pincode-check-box div:first-child {width: 80%; float: left;}
 .pincode-check-box div:first-child input {height: 33px; padding: 0 30px 0 10px; width: -webkit-fill-available;
   border: 1px solid rgb(210, 210, 210); font-size: 14px;}
 .pincode-check-box div:first-child span {background-image: url('https://p2.tatacliq.com/static/media/GPS.a869c173.svg'); width: 18px;
@@ -86,7 +86,9 @@ height: 33px; position: absolute; background-position: 50%; background-repeat: n
 .pin-check-btn {width:20%; float: left; text-align: center;}
 .pin-check-btn span {border-bottom: 2px solid #000; padding-bottom: 3px; vertical-align: -webkit-baseline-middle;}
 .pincode-overlay {position: fixed; width: 100%; height: 100%; z-index: 69;}
-.pincode-info > amp-list {display: inline;}
+.pincode-info > amp-list {display: inline; width: 100%;}
+.pincode-info .text-red {color: red;}
+.pincode-info .text-green {color: green;}
 .background-blr {filter: blur(10px);}
 .variant-body, .color-body {white-space: nowrap; overflow: auto;}
 .variant-body amp-selector [option][selected], .color-body amp-selector [option][selected] {outline: none;}
@@ -222,23 +224,32 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
     </table>
   </div>
 
+<!-- [src]="accessPincode ? productData.pinCode + 'MP000000001320773' + '&pin=' + pinCodeValue : '/amp_mocks/json/pdp/pinCode.json'" -->
+
   <div class="hide-content" [class]="checkPincode ? 'pincode-check-box' : 'hide-content'">
-    <div><input type="number" placeholder="Enter a pincode/zipcode"
-      on="input-debounced: AMP.setState({pinCodeValue: event.value})" /><span></span></div>
-    <div class="pin-check-btn"><span on="tap:AMP.setState({accessPincode:true })" role="check-pincode" tabindex="1">Check</span></div>
+    <div><input type="number" placeholder="Enter a pincode/zipcode" maxlength="6"
+      on="input-debounced: AMP.setState({pinCodeValue: event.value})" />
+    </div>
+    <div class="pin-check-btn"><span on="tap:AMP.setState({accessPincode:true, selectedPincode: pinCodeValue})" role="check-pincode" tabindex="1">Check</span></div>
     <div class="hide-content" [class]="accessPincode ? 'pincode-info' : 'hide-content'">
-      <amp-list src="/amp_mocks/json/pdp/pinCode.json" [src]="accessPincode ? productData.pinCode + 'MP000000001320773' + '&pin=' + pinCodeValue : '/amp_mocks/json/pdp/pinCode.json'"
-        items="listOfDataList" width="auto" height="50" layout="fixed-height">
+      <amp-list src="/amp_mocks/json/pdp/pinCode.json" width="auto" height="10" layout="fixed-height">
         <template type="amp-mustache">
-          <!-- {{#value.pincodeListResponse.0.validDeliveryModes}}
-            {{type}}
-          {{/value.pincodeListResponse.0.validDeliveryModes}} -->
+          <div>
+            <p [text]="'{{isServiceable}}' == 'Y' ? 'Deliverable to this pincode' : 'Not Deliverable to this pincode'"
+              class="text-red" [class]="'{{isServiceable}}' == 'Y' ? 'text-green' : 'text-red'"></p>
+              <div>
+                <p [text]="'{{isCOD}}' == 'Y' ? 'Cash on delivery available' : 'Cash on delivery not available'"></p>
+                <p [text]="'{{isStandardShipping}}' == 'Y' ? 'Standard shipping available' : 'Standard shipping not available'"></p>
+                <p [text]="'{{isExpressShipping}}' == 'Y' ? 'Express shipping available' : 'Express shipping not available'"></p>
+                <p [text]="'{{isClickAndCollect}}' == 'Y' ? 'Eligible for CLiQ & PiQ' : 'Not eligible for CLiQ & PiQ'"></p>
+              </div>
+          </div>
         </template>
       </amp-list>
     </div>
   </div>
 
-  <amp-list src="/amp_mocks/json/pdp/pdp_multivariant_changed.json"
+  <amp-list id="productContainerMain" src="/amp_mocks/json/pdp/pdp_multivariant_changed.json"
     width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
 
