@@ -398,7 +398,10 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
       <!-- NOTE: Pincode Check -->
       <div [class]="checkPincode ? 'background-blr' : ''">
         <div class="pincode-check">
+          <!-- <span [text]="selectedPincode ? selectedPincode : 'Click to enter pincode & check delivery options'"></span> -->
           <span>Click to enter pincode & check delivery options</span>
+          <!-- <span on="tap:AMP.setState({checkPincode:true, productId : '{{productListingId}}'})" role="check-pincode" tabindex="0"
+          [text]="selectedPincode ? 'Change Pincode' : 'Check Pincode'"></span> -->
           <span on="tap:AMP.setState({checkPincode:true, productId : '{{productListingId}}'})" role="check-pincode" tabindex="0">Check Pincode</span>
         </div>
       </div>

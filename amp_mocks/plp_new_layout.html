@@ -186,7 +186,7 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
     <div id="searchClose" class="hide-content" [class]="searchClicked ? 'page-search-close' : 'hide-content'"
     on="tap:AMP.setState({searchClicked : false}),searchClose.hide" role="search-close" tabindex="0"></div>
   </div>
-  <amp-list src="/amp_mocks/json/plp_new_response2.json" width="auto" height="600" layout="fixed-height">
+  <amp-list src="/amp_mocks/json/new_api/search_api.json" width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
       <div class="hide-content" [class]="sortVisible ? 'sort-overlay' : 'hide-content'"
       on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="0"></div>
