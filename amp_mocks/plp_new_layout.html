@@ -40,7 +40,7 @@ body{font-family: regular, sans-serif; font-size:14px; background-color: #ececec
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/arrowBack.1607a455.svg');}
 .page-right-search {z-index: 11; position: fixed; right: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/search.a4309640.svg');}
-.page-header {z-index: 10; line-height: 50px; background-color: #000; color: #fff; text-align: center; font-family: 500; position: fixed; width: 100%;}
+.page-header {z-index: 10; line-height: 50px; height: 50px; background-color: #000; color: #fff; text-align: center; font-family: 500; position: fixed; width: 100%;}
 .page-header span {text-transform: capitalize;}
 .page-search-close {z-index: 12; position: fixed; right: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/cancel.fea9f12f.svg');
@@ -127,6 +127,9 @@ background-color: #000;}
 background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/arrowBack.1607a455.svg');}
 .sort-header {width: 100%; height: 50px; background-color: #000; text-align: center;
   color: #fff; font-size: 14px; line-height: 50px;}
+
+.show-more-products {padding: 15px 0; width: 100%; text-align: center; margin-bottom: 100px; position: relative;
+color: #fff; background-color: #000;}
 </style>
 
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -171,6 +174,14 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
      </script>
    </amp-animation>
 
+   <amp-state id="productList">
+     <script type="application/json">
+       {
+         "endpoint": ""
+       }
+     </script>
+   </amp-state>
+
    <div id="plp-marker">
      <amp-position-observer
         on="enter:hideAnim.start; exit:showAnim.start"
@@ -186,7 +197,7 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
     <div id="searchClose" class="hide-content" [class]="searchClicked ? 'page-search-close' : 'hide-content'"
     on="tap:AMP.setState({searchClicked : false}),searchClose.hide" role="search-close" tabindex="0"></div>
   </div>
-  <amp-list src="/amp_mocks/json/new_api/search_api.json" width="auto" height="600" layout="fixed-height">
+  <amp-list src="/amp_mocks/json/new_api/search_api.json" [src]="productListLoad ? productListLoad : '/amp_mocks/json/new_api/search_api.json'" width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
       <div class="hide-content" [class]="sortVisible ? 'sort-overlay' : 'hide-content'"
       on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="0"></div>
@@ -238,7 +249,6 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
           </div>
         </div>
     {{/searchresult}}
-
     <!-- <p class="pagination-links">
       <span class="showing-pages">Pages <span [text]="{{pagination.currentPage}}+1"></span> of {{pagination.totalPages}}</span>
       <a class="disable-link" [class]="{{pagination.previousPage}} != 0 ? '' : 'disable-link'"
@@ -277,6 +287,10 @@ background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.c
   </div>
   </template>
   </amp-list>
+
+  <div id="scrollToTopButton" class="show-more-products" on="tap:AMP.setState({productListLoad:'/amp_mocks/json/bag_plp.json'}),productsListContainer.scrollTo(duration=200)" role="load-list" tabindex="0">
+    <span>SHOW MORE</span>
+  </div>
 
 </div>
 <!-- Scroll to Top -->
