@@ -13,6 +13,8 @@
 <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
 <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
 <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+<script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
+<script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
 <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 <!--AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.-->
 <link rel="canonical" href="/pwamp">
@@ -42,6 +44,31 @@ url('https://p2.tatacliq.com/fonts/rubik-v7-latin-300.woff2') format('woff')}
     user-select: none;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
+
+#pdp-marker {position: absolute; top: 0px; width: 0px; height: 0px;}
+.header-content {height: 50px; position: fixed; width: 100%; z-index: 1; top: 0;}
+.header-content-black {height: 50px; position: fixed; width: 100%; z-index: 12; top: 0;
+  color: #fff; background-color: #000; opacity: 0; visibility: hidden;}
+.header-content .left-back, .header-content .right-save , .header-content .right-bag {
+  background-size: contain;  width: 30px; height: 30px; background-repeat: no-repeat; display: inline-block;
+}
+.header-content-black .left-back, .header-content-black .right-save, .header-content-black .right-bag {
+  background-size: contain;  width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;
+}
+.header-content .left-logo, .header-content-black .left-logo {
+  background-size: contain;  width: 35px; height: 35px; background-repeat: no-repeat; display: inline-block;
+}
+.header-content .left-back {margin: 10px; margin-right: 5px; background-image: url('https://p2.tatacliq.com/static/media/back-with-bg.3bb6fef7.svg');}
+.header-content-black .left-back {margin: 15px; margin-right: 5px; background-image: url('https://p2.tatacliq.com/static/media/arrowBack.1607a455.svg');}
+.header-content .left-logo {background-image: url('https://p2.tatacliq.com/static/media/companylogo.9f68b29c.svg');}
+.header-content-black .left-logo {background-image: url('https://p2.tatacliq.com/static/media/group.ccb1a969.svg');}
+.header-content .right-save {float: right; margin: 10px 10px 10px 5px; background-image: url('https://p2.tatacliq.com/static/media/save-with-bg.2aadebe5.svg');}
+.header-content-black .right-save {float: right; margin: 15px; background-image: url('https://p2.tatacliq.com/static/media/downloadWhite.04850b89.svg');}
+.header-content .right-bag {float: right; margin: 10px 0; background-image: url('https://p2.tatacliq.com/static/media/cart-with-bg.9bdb35e6.svg');}
+.header-content-black .right-bag {float: right; margin: 15px 0; background-image: url('https://p2.tatacliq.com/static/media/orderhistorywhite.90cdf30a.svg');}
+.header-content-black .middle-title {
+  margin: 0 90px; position: absolute; top: 0; line-height: 50px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: -webkit-fill-available;
+}
 #product-container #productContainerMain {padding-bottom: 100px;}
 #product-container amp-list[height] {height: 100%;}
 .image-container {background-color: rgb(245, 245, 245);}
@@ -57,6 +84,7 @@ amp-img.contain img {object-fit: cover;}
 .pd-mrp-price {float: right; color: #8d8d8d; text-decoration: line-through; font-size: 14px;}
 .pd-brandname, .pd-productname {width: 70%; display: inline-block; line-height: 22px;}
 .potential-promos {background-image: linear-gradient(131deg,#fd2c7a,#ff7255); padding: 20px; color: #fff;}
+.product-offer-title {margin-top: 10px; padding-top: 10px; display: inline-block; width: 100%; border-top: 1px solid #fff;}
 .promo-info, .size-info {position: fixed; width: 100vw; height: 100%; z-index: 101; right: 0;}
 .promo-info table, .size-info table {border-spacing: 0; border: none; height: 100%;}
 .promo-info table td:first-child, .size-info table td:first-child {width: 10vw; height: 100%; vertical-align: top; }
@@ -64,13 +92,14 @@ amp-img.contain img {object-fit: cover;}
 .promo-close {width: 40px; height: 40px; left:1vw; top: 1vw; position: absolute; background: url('https://p2.tatacliq.com/static/media/cancel.fea9f12f.svg') no-repeat;}
 .promo-heading, .emi-heading {margin: 0;height: 40px; color: #fff; background-color: #212121; padding: 0 20px; line-height: 40px; font-size: 14px; width: 100%;}
 .promo-body, .emi-body {padding: 20px;}
+.promo-body:last-child {border-top: 2px solid rgb(151, 151, 151);}
 .emi-body > span {line-height: 22px; padding: 20px 0;}
 .emi-list {padding-top: 20px;}
 .emi-terms {line-height: 24px; padding-top: 20px}
 .emi-terms > span {border-bottom: 2px solid #212121; font-size: 12px; padding-bottom: 4px; line-height: 22px; font-weight: 600;}
 .promo-valid {padding: 20px 0; display: inline-block;}
-.promo-desc {line-height: 24px;}
-.valid-from, .valid-to {width: 50%; float: left;}
+.promo-desc {line-height: 24px; margin-top: 20px;}
+.valid-from, .valid-to {width: 50%; float: left; line-height: 22px;}
 .pd-emi {margin-bottom: 20px; padding-left: 15px; font-size: 14px;}
 .pd-emi span:last-child {color: rgb(255, 23, 68);}
 .promo-overlay {width: 100%; height: 100%; position: absolute; z-index: 100; display: block; filter: blur(10px); background: #ddd;}
@@ -162,7 +191,8 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 /* NOTE: FONTS */
 .pd-details-1, .potential-promos, .variant-head span:first-child, .color-head-txt, .pd-bottom,
 .shipping-head, .winning-seller, .pd-features > amp-accordion > section[expanded] h4,
-.pd-sizes > amp-accordion > section[expanded] h4, .pd-feature-details { font-family: semibold;}
+.pd-sizes > amp-accordion > section[expanded] h4, .pd-feature-details, .promo-body > span,
+.valid-from span:first-child, .valid-to span:first-child { font-family: semibold;}
 .pd-productname {font-family: light;}
 </style>
 
@@ -170,6 +200,44 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
 </head>
 
 <body>
+  <amp-animation id="showFixedHeader" layout="nodisplay">
+    <script type="application/json">
+      {
+        "duration": "200ms",
+         "fill": "both",
+         "iterations": "1",
+         "direction": "alternate",
+         "animations": [
+           {
+             "selector": "#headerContentBlack",
+             "keyframes": [
+               { "opacity": "1", "visibility": "visible" }
+             ]
+           }
+         ]
+      }
+    </script>
+  </amp-animation>
+
+  <amp-animation id="hideFixedHeader" layout="nodisplay">
+     <script type="application/json">
+       {
+         "duration": "200ms",
+           "fill": "both",
+           "iterations": "1",
+           "direction": "alternate",
+           "animations": [
+             {
+               "selector": "#headerContentBlack",
+               "keyframes": [
+                 { "opacity": "0", "visibility": "hidden" }
+               ]
+             }
+           ]
+       }
+     </script>
+   </amp-animation>
+
 
 <div id="product-container">
   <div class="hide-content" [class]="checkPincode ? 'pincode-overlay' : 'hide-content'"
@@ -253,6 +321,11 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
     width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
 
+      <div id="pdp-marker">
+        <amp-position-observer on="enter:hideFixedHeader.start;exit:showFixedHeader.start" layout="nodisplay">
+        </amp-position-observer>
+      </div>
+
       <!-- NOTE: Promotions Popup -->
       <div class="hide-content" [class]="showPotentialPromo ? 'promo-overlay' : 'hide-content'">
 
@@ -265,20 +338,38 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
               <p class="promo-heading">Offers</p>
               <div class="promo-body">
                 <span>{{potentialPromotions.title}}</span>
-                <div class="promo-valid">
-                  <div class="valid-from">
-                    Valid From<br />
-                    <span>{{potentialPromotions.startDate}}</span>
-                  </div>
-                  <div class="valid-to">
-                    Valid Till<br />
-                    <span>{{potentialPromotions.endDate}}</span>
-                  </div>
-                </div>
                 <div class="promo-desc">
                   <span>{{{potentialPromotions.description}}}</span>
                 </div>
+                <div class="promo-valid">
+                  <div class="valid-from">
+                    <span>Valid From</span><br />
+                    <span>{{potentialPromotions.startDate}}</span>
+                  </div>
+                  <div class="valid-to">
+                    <span>Valid Till</span><br />
+                    <span>{{potentialPromotions.endDate}}</span>
+                  </div>
+                </div>
               </div>
+              {{#productOfferMsg}}
+              <div class="promo-body">
+                <span>{{productOfferMsg.messageID}}</span>
+                <div class="promo-desc">
+                  <span>{{{productOfferMsg.messageDetails}}}</span>
+                </div>
+                <div class="promo-valid">
+                  <div class="valid-from">
+                    <span>Valid From</span><br />
+                    <span>{{productOfferMsg.startDate}}</span>
+                  </div>
+                  <div class="valid-to">
+                    <span>Valid Till</span><br />
+                    <span>{{productOfferMsg.endDate}}</span>
+                  </div>
+                </div>
+              </div>
+              {{/productOfferMsg}}
             </td>
           </tr>
         </table>
@@ -306,6 +397,42 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
             </td>
           </tr>
         </table>
+      </div>
+
+      <!-- NOTE: Header Content -->
+
+      <div [class]="checkPincode ? 'background-blr' : ''">
+        <div class="header-content">
+          <div class="left-back">
+            <span></span>
+          </div>
+          <div class="left-logo">
+            <span></span>
+          </div>
+          <div class="right-save">
+            <span></span>
+          </div>
+          <div class="right-bag">
+            <span></span>
+          </div>
+        </div>
+        <div id="headerContentBlack" class="header-content-black">
+          <div class="left-back">
+            <span></span>
+          </div>
+          <div class="left-logo">
+            <span></span>
+          </div>
+          <div class="middle-title">
+            {{productName}}
+          </div>
+          <div class="right-save">
+            <span></span>
+          </div>
+          <div class="right-bag">
+            <span></span>
+          </div>
+        </div>
       </div>
 
       <!-- NOTE: Product Images -->
@@ -353,6 +480,10 @@ position: absolute; right: 10px; background-position: 50%; background-size: auto
         {{#potentialPromotions}}
         <div class="potential-promos" on="tap:AMP.setState({showPotentialPromo : true})" role="show-promo" tabindex="0">
           <span>{{potentialPromotions.title}}</span>
+          {{#productOfferMsg}}
+          <br />
+          <span class="product-offer-title">{{productOfferMsg.messageID}}</span>
+          {{/productOfferMsg}}
         </div>
         {{/potentialPromotions}}
       </div>
