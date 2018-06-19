@@ -2,7 +2,156 @@
 <html ⚡>
 <head>
 <meta charset="utf-8">
+<link rel="canonical" href="<%= canonicalPwaUrl %>">
+<meta name="keywords" content="<%= metaKeywords %>" />
+<meta name="description" content="<%= metaDescription %>" />
+<link rel="manifest" href="/manifest.json">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta itemprop="name" content="Search results - Tata CLiQ ">
+<meta itemprop="description" content="<%= metaDescription %>">
+<meta itemprop="image" content="https://assets.tatacliq.com/medias/sys_master/images/10963640156190.jpg" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Search results - Tata CLiQ ">
+<meta name="twitter:image:src" content="https://assets.tatacliq.com/medias/sys_master/images/10963640156190.jpg" />
+
+<meta property="og:title" content="Search results - Tata CLiQ " />
+<meta property="og:url" content="" />
+<meta property="og:image" content="https://assets.tatacliq.com/medias/sys_master/images/10963640156190.jpg" />
+<meta property="og:description" content="<%= metaDescription %>" />
+<meta property="og:site_name" content="Tata CLiQ" />
+
+<meta property="fb:app_id" content="484004418446735"/>
+<meta property="og:site_name" content="Tata CLiQ" />
+
+<meta property="al:ios:app_store_id" content="1101619385" />
+<meta property="al:ios:url" content="" />
+<meta property="al:ios:app_name" content="Tata Cliq" />
+
+<meta property="al:android:package" content="com.tul.tatacliq" />
+<meta property="al:android:url" content="" />
+<meta property="al:android:app_name" content="Tata Cliq" />
+
+<link rel="shortcut icon" type="image/x-icon" media="all" href="https://www.tatacliq.com/favicon.ico" />
+
 <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+<style amp-custom>
+body{font-family: regular, sans-serif; font-size:14px; background-color: #ececec;;}
+
+.show-content {display: inline;}
+.hide-content {display: none;}
+.products-list amp-list > div {
+  /* overflow: auto; */
+}
+
+#productsListContainer amp-list[height] {position: inherit;}
+.products-list-blr {filter: blur(10px);}
+.no-products {padding: 10px 20px 0; line-height: 20px;}
+
+/*Page Header*/
+.page-left-back {z-index: 11; position: fixed; left: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
+background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/arrowBack.1607a455.svg');}
+.page-right-search {z-index: 11; position: fixed; right: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
+background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/search.a4309640.svg');}
+.page-header {z-index: 10; line-height: 50px; height: 50px; background-color: #000; color: #fff; text-align: center; font-family: 500; position: fixed; width: 100%;}
+.page-header span {text-transform: capitalize;}
+.page-search-close {z-index: 12; position: fixed; right: 0; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
+background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/cancel.fea9f12f.svg');
+background-color: #000;}
+.page-search-box {z-index: 12; position: fixed; top: 0; left: 50px; background-color: #000; height: 50px; width: 70%;}
+.page-search-box input {width: 100%; background: transparent; margin: 10px 0; border: none;
+  outline: none; font-size: 14px; color: #fff; height: 28px;}
+.page-search-box-ic {z-index: 12; position: fixed; left: 0px; top: 0; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
+background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/searchRed.950023de.svg');
+background-color: #000;}
+
+.inner-top-section {position: relative; padding: 10px 20px 0; margin-top: 20px; height: 30px;}
+.switch-layout {float:right; width: 20px; height: 20px; outline: none;}
+.grid-view-btn, .list-view-btn {width: 20px; height: 20px; display: inline-block; background-repeat: no-repeat;}
+.list-view-btn {background-image: url('https://uat2.tataunistore.com/static/media/list.341c3565.svg');}
+.grid-view-btn {background-image: url('https://uat2.tataunistore.com/static/media/grid.d0566263.svg');}
+/*PLP Body*/
+.products_container, .lv-products_container {padding: 15px 0; background-color: #ececec;}
+.products_container a, .lv-products_container a {text-decoration: none; color: #000;}
+.lv-products_container .lv-product-img {width: 30%; display: inline-block; float: left;}
+.products_container a amp-img, .lv-products_container a amp-img {background-color: #fff; border-radius: 4px;}
+.product-tile {width: 50%; float: left; margin-bottom: 20px;}
+.product-tile-link {outline: none; -webkit-tap-highlight-color: transparent;}
+/* .product-tile:last-child {margin-bottom: 80px;} */
+.lv-product-tile {width: 100%; float: left; margin-bottom: 10px;}
+.product-tile-inner {padding: 16px 16px 30px;}
+/* .product-tile-inner {box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);} */
+.product-disc {color: #fff; position: absolute; z-index: 5; margin-top: 10px; font-size: 10px; height: 20px; line-height: 20px;
+  background-size: 100% 24px; background-repeat: no-repeat; background-position: 50%; text-align: center; padding: 0 15px 0 10px;
+  background-image: url('https://uat2.tataunistore.com/static/media/offer.f6ced31c.svg');}
+/* .product-nostock span {margin: 25% 5%; font-size: 12px; font-weight: 600; position: absolute; padding: 3px 5px; z-index: 4;
+    text-align: center; border: 1px solid #e4e4e4; background-color: #fff; color: #ff1c47; display: block; max-width: 105px; width: 100%;} */
+/* .product-nostock {width: 100%; height: 100%; position: absolute; background: rgba(0,0,0,.3);} */
+.product-nostock, .product-new {background: url('https://uat2.tataunistore.com/static/media/new.27aaa13d.svg');position: absolute;
+    z-index: 8; font-size: 10px; line-height: 18px; margin-top: 10px;
+    background-repeat: no-repeat; background-position: 50%; background-size: 100%; padding: 0 15px 0 10px; color: #fff;}
+.overlay-opaque {opacity: 0.3;}
+.product-info {margin-top: 20px;}
+.lv-product-info {width: 70%; display: inline-block; float: left;}
+.brand-name, .product-name, .product-price {
+  margin: 4px 0;
+  /* padding: 0 5px; */
+}
+.brand-name {font-weight: bold; font-size: 16px; line-height: 1.5;}
+.lv-brand-name {font-weight: bold; font-size: 16px; line-height: normal; margin: 0; padding-left: 20px;}
+.product-name, .lv-product-name {font-size: 14px; line-height: 1.43; font-weight: 300; height: 40px; overflow: hidden;}
+.lv-product-name {padding-left: 20px; margin: 5px 0 0;}
+.product-price, .lv-product-price {font-size: 14px; line-height: 1.71; font-weight: 300;}
+.lv-product-price {padding-left: 20px; margin: 5px 0 0;}
+.product-price .price-mrp {float: left;}
+.price-strikeoff {text-decoration: line-through; color: #969696;}
+.product-price .price-mop, .lv-product-price .price-mop {float: left; margin-right: 10px;}
+.product-price .price-discount {color: #a91f3d;}
+.pagination-links a {color: #000; padding: 5px 10px;}
+.showing-pages {margin-right: 20px;}
+.page-numbers span {background-color: #fff; width: 29px; height: 29px; display: inline-block; text-align: center; line-height: 29px; border-radius: 15px;}
+.page-numbers span:first-child {background-color: #a91f3d; color: #fff;}
+.disable-link {pointer-events: none; opacity: 0.5;}
+.bottom-space {height: 60px;}
+
+/*Scroll To Top - CSS*/
+.scrollToTop {color: #fff; box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+  width: 50px; height: 50px; border-radius: 100px; border: none; outline: none; background: #a91f3d;
+  z-index: 8; bottom: 60px; right: 20px; position: fixed; opacity: 0; visibility: hidden;}
+#plp-marker {position: absolute; top: 100px; width: 0px; height: 0px;}
+
+/*Bottom Actions*/
+.plp-bottom {position: fixed; bottom: 0; width: 100%; z-index: 6; font-size: 14px; font-weight: 600;border-top: 1px solid #efefef;}
+.bottom-left-btn, .bottom-right-btn {outline: none; width: 50%; background-color: #fff; color: #8d8d8d; height: 60px; text-align: center;}
+.bottom-left-btn > a {line-height: 60px; color: #8d8d8d; text-decoration: none; display: block; -webkit-tap-highlight-color: transparent;}
+.bottom-right-btn > span {line-height: 60px;}
+.bottom-right-btn .sort-option {font-size: 9px;}
+.bottom-left-btn {float: left; box-sizing: border-box; border-right: 1px solid #efefef;}
+.bottom-right-btn {float: right;}
+.refine-icon {width: 20px; height: 20px; display: inline-block; margin-right: 10px; vertical-align: middle;
+  background: url('https://uat2.tataunistore.com/static/media/filter.50fe41c7.svg'); background-position: 50%; background-size: 20px;}
+.sort-icon {width: 20px; height: 20px; display: inline-block; margin-right: 10px; vertical-align: middle;
+  background: url('https://uat2.tataunistore.com/static/media/sort.db73365d.svg'); background-position: 50%; background-size: 20px;}
+.sort-overlay {width: 100%; height: 100%; position: absolute; z-index: 14; display: block;}
+.sort-menu {position: fixed; background-color: #ececec; z-index: 15; bottom: 0; width: 100%;}
+.sort-menu ul {padding: 0; margin-bottom: 0;}
+.sort-menu li {list-style: none; font-size: 16px; font-weight: 300; line-height: 40px; height: 40px; text-align: center;}
+.sort-menu li a {color: #212121; text-decoration: none;}
+.sort-left-back {position: absolute; float: left; background-color: #000; z-index: 12; width: 50px; height: 50px; background-size: 16px; background-position: 50%;
+background-repeat: no-repeat; background-image: url('https://uat2.tataunistore.com/static/media/arrowBack.1607a455.svg');}
+.sort-header {width: 100%; height: 50px; background-color: #000; text-align: center;
+  color: #fff; font-size: 14px; line-height: 50px;}
+
+.show-more-products {padding: 15px 0; width: 100%; text-align: center; margin-bottom: 100px; position: relative;
+color: #fff; background-color: #000;}
+
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+<!-- NOTE: AMP Scripts -->
 <script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
 <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
@@ -15,91 +164,21 @@
 <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
 <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
 <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
 <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
 <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
-<!--AMP HTML files require a canonical link pointing to the regular HTML. If no HTML version exists, it should point to itself.-->
-<link rel="canonical" href="/pwamp">
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
-<link rel="manifest" href="/manifest.json">
-<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-<style amp-custom>
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFFFFF;}
-
-.show-content {display: inline;}
-.hide-content {display: none;}
-.products-list amp-list > div {
-  /* overflow: auto; */
-}
-.products_container {padding: 15px 10px 20px;}
-.products_container a {text-decoration: none; color: #000;}
-.total-results {text-align: center;}
-.total-results span {color: #a9133d;}
-.product-tile {width: 45%; float: left; padding: 7px 7px 30px;}
-/* .product-tile-inner {box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);} */
-.whishlist-box {width: 42%; position: absolute; z-index: 1;}
-.whishlist-icon {margin-right: 5px; margin-top: 5px; float: right; height: 20px; width: 20px; background: url('data:image/svg+xml;utf8,<svg fill="#a91f3d" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>');}
-.product-new, .product-inoffer {text-align: center; line-height: 12px; font-size: 10px; color: #fff; padding: 3px; position: absolute;}
-.product-new { background-color: #a9143c; z-index: 1;}
-.product-inoffer {background-color: #f4c300; z-index: 2;}
-.product-nostock span {margin: 25% 5%; font-size: 12px; font-weight: 600; position: absolute; padding: 3px 5px; z-index: 4;
-    text-align: center; border: 1px solid #e4e4e4; background-color: #fff; color: #ff1c47; display: block; max-width: 105px; width: 100%;}
-.overlay-opaque {opacity: 0.3;}
-.product-info {margin-top: 20px;}
-.brand-name, .product-name, .product-price {
-  margin: 4px 0;
-  /* padding: 0 5px; */
-}
-.brand-name {color: #999; font-size: 14px;}
-.product-name {font-size: 12px; height: 32px; overflow: hidden; color: #000;}
-.product-price {font-size: 12px;}
-.product-price .price-mrp {float: left; margin-right: 10px;}
-.price-strikeoff {text-decoration: line-through; color: #969696;}
-.product-price .price-mop {float: right; color: #a91f3d; padding-left: 10px;}
-.product-price .price-discount {color: #a91f3d;}
-.pagination-links a {color: #000; padding: 5px 10px;}
-.showing-pages {margin-right: 20px;}
-.page-numbers span {background-color: #fff; width: 29px; height: 29px; display: inline-block; text-align: center; line-height: 29px; border-radius: 15px;}
-.page-numbers span:first-child {background-color: #a91f3d; color: #fff;}
-.disable-link {pointer-events: none; opacity: 0.5;}
-
-/*Scroll To Top - CSS*/
-.scrollToTop {
-  color: #fff;
-  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
-  width: 50px;
-  height: 50px;
-  border-radius: 100px;
-  border: none;
-  outline: none;
-  background: #a91f3d;
-  z-index: 9999;
-  bottom: 60px;
-  right: 20px;
-  position: fixed;
-  opacity: 0;
-  visibility: hidden;
-}
-#plp-marker {
-  position: absolute;
-  top: 100px;
-  width: 0px;
-  height: 0px;
-}
-</style>
-
-<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 
 <body>
+
+  <!-- NOTE: AMP SERVICE WORKER -->
+   <!-- <amp-install-serviceworker
+         src="/sw.js"
+         data-iframe-src="/sw.js"
+         layout="nodisplay">
+     </amp-install-serviceworker> -->
+
   <amp-animation id="showAnim" layout="nodisplay">
     <script type="application/json">
       {
@@ -145,47 +224,71 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
       </amp-position-observer>
   </div>
 <div id="productsListContainer" class="products-list">
-  <amp-list src="/json/bag_plp_modified.json" width="auto" height="600" layout="fixed-height">
+  <div class="" [class]="sortVisible ? 'products-list-blr' : ''">
+    <div class="hide-content" [class]="searchClicked ? 'page-search-box-ic' : 'hide-content'"></div>
+    <div class="hide-content" [class]="searchClicked ? 'page-search-box' : 'hide-content'">
+      <input id="searchInput" placeholder="What are you looking for?" class="search-input" name="search" type="text" />
+    </div>
+    <div id="searchClose" class="hide-content" [class]="searchClicked ? 'page-search-close' : 'hide-content'"
+    on="tap:AMP.setState({searchClicked : false}),searchClose.hide" role="search-close" tabindex="0"></div>
+  </div>
+  <amp-list src="<%= searchService %><%= searchTerm %><%= middleUrlPart %><%= pageNo %><%= tailUrlPart %>"
+    [src]="'<%= searchService %><%= searchTerm %><%= middleUrlPart %>' + pageNumber + '<%= tailUrlPart %>'" width="auto" height="600" layout="fixed-height">
     <template type="amp-mustache">
-  <div class="products_container">
-    <p class="total-results">Showing <span>"{{pagination.totalResults}}"</span> items for <span class="">"Bag"</span></p>
+      <div class="hide-content" [class]="sortVisible ? 'sort-overlay' : 'hide-content'"
+      on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="0"></div>
+      <div class="" [class]="sortVisible ? 'products-list-blr' : ''">
+        <div class="page-left-back" on="tap:AMP.goBack" role="go-back" tabindex="0"></div>
+        <div class="page-right-search" role="search-open" tabindex="0"
+          on="tap:AMP.setState({searchClicked : true}),searchClose.show,searchInput.focus"></div>
+        <div class="page-header">
+          <span>{{currentQuery.searchQuery}}</span>
+        </div>
+  <div class="products_container" [class]="switchLayout ? 'lv-products_container' : 'products_container'">
+    <p class="total-results">&nbsp;</p>
+    <div class="inner-top-section">{{pagination.totalResults}} Products
+      <span class="switch-layout" on="tap:AMP.setState({switchLayout: !switchLayout})" role="switch-layout" tabindex="0">
+        <span class="list-view-btn" [class]="switchLayout ? 'grid-view-btn' : 'list-view-btn'"></span>
+      <span>
+    </div>
     {{#searchresult}}
-        <div class="product-tile">
+      <a class="product-tile-link" href="/amp/p-{{productId}}">
+        <div class="product-tile" [class]="switchLayout ? 'lv-product-tile' : 'product-tile'">
           <div class="product-tile-inner">
-            <div class="whishlist-box">
-              <span class="whishlist-icon">
-                &nbsp;
-              </span>
+            <!-- Labels on tiles -->
+            <div class="hide-content" [class]="{{cumulativeStockLevel}} ? 'hide-content' : 'product-nostock'">
+              <span>Out of Stock</span>
             </div>
-            <div class="hide-content" [class]="{{inStockFlag}} ? 'hide-content' : 'product-nostock'">
-              <span>Not Available</span>
+            <div [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">
+              <div class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'product-disc' : 'hide-content'">
+                {{discountPercent}}% off
+              </div>
             </div>
-            <div class="hide-content" [class]="{{isOfferExisting}} ? 'product-inoffer' : 'hide-content'">ON <br />OFFER</div>
-            <div class="hide-content" [class]="{{productTag.newProduct}} ? 'product-new' : 'hide-content'">NEW</div>
-            <a href="https://www.tatacliq.com/p-{{productId}}">
-              <amp-img src="{{imageURL}}" class="" [class]="{{inStockFlag}} ? '' : 'overlay-opaque'" width="252" height="374"
+            <!-- <div class="hide-content" [class]="{{isOfferExisting}} ? 'product-inoffer' : 'hide-content'">ON <br />OFFER</div> -->
+            <div [class]="{{cumulativeStockLevel}} ? '' : 'hide-content'">
+              <div class="hide-content" [class]="{{newProduct}} ? 'product-new' : 'hide-content'">
+                  <span [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'hide-content' : ''">New</span>
+              </div>
+            </div>
+            <!-- Labels on tiles -->
+            <div class="lv-product-img">
+            <amp-img src="{{imageURL}}" class="" [class]="{{inStockFlag}} ? '' : 'overlay-opaque'" width="252" height="374"
                 layout="responsive"></amp-img>
-            </a>
-            <div class="product-info">
-                <!-- {{#variantOptions}}
-                  <a href="{{colorcode}}">{{colorname}}
-                  <svg width="15" height="15">
-                    <rect width="15" height="15" style= "fill:#0000FF;stroke-width:3;stroke:rgb(204, 211, 217)" />
-                  </svg>
-                  </a>
-                {{/variantOptions}} -->
-              <p class="brand-name">{{brandname}}</p>
-              <p class="product-name">{{productname}}</p>
-              <p class="product-price">
-                <span class="price-mrp" [class]="{{mrpPrice.doubleValue}} != {{sellingPrice.doubleValue}} ? 'price-mrp price-strikeoff' : 'price-mrp'">{{mrpPrice.formattedValueNoDecimal}}</span>
-                <span class="hide-content" [class]="{{mrpPrice.doubleValue}} != {{sellingPrice.doubleValue}} ? 'price-mop' : 'hide-content'">{{sellingPrice.formattedValueNoDecimal}}</span>
-                <span class="hide-content" [class]="{{mrpPrice.doubleValue}} != {{sellingPrice.doubleValue}} ? 'price-discount' : 'hide-content'">(-{{discountPercent}}%)</span>
+              </div>
+            <div class="product-info" [class]="switchLayout ? 'lv-product-info' : 'product-info'">
+              <p class="brand-name" [class]="switchLayout ? 'lv-brand-name' : 'brand-name'">{{brandname}}</p>
+              <p class="product-name" [class]="switchLayout ? 'lv-product-name' : 'product-name'">{{productname}}</p>
+              <p class="product-price" [class]="switchLayout ? 'lv-product-price' : 'product-price'">
+                <span class="hide-content" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'price-mop' : 'hide-content'">Rs. {{price.sellingPrice.doubleValue}}</span>
+                <span class="price-mrp" [class]="{{price.mrpPrice.doubleValue}} != {{price.sellingPrice.doubleValue}} ? 'price-mrp price-strikeoff' : 'price-mrp'">Rs. {{price.mrpPrice.doubleValue}}</span>
               </p>
             </div>
           </div>
         </div>
+      </a>
     {{/searchresult}}
-    <p class="pagination-links">
+    {{^searchresult}}<div class="no-products">No more products to display for selected criteria. Please click on back button or search for different products.</div>{{/searchresult}}
+    <!-- <p class="pagination-links">
       <span class="showing-pages">Pages <span [text]="{{pagination.currentPage}}+1"></span> of {{pagination.totalPages}}</span>
       <a class="disable-link" [class]="{{pagination.previousPage}} != 0 ? '' : 'disable-link'"
         href="https://www.tatacliq.com/search/page-{{pagination.previousPage}}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse&text=bag&searchCategory=">Prev</a>
@@ -198,14 +301,62 @@ body{font-family:'Montserrat', sans-serif; font-size:14px; background-color:#FFF
         </span>
       <a class="disable-link" [class]="{{pagination.totalPages}} > {{pagination.nextPage}} ? '' : 'disable-link'"
         href="https://www.tatacliq.com/search/page-{{pagination.nextPage}}?q=bag%3Arelevance%3AisLuxuryProduct%3Afalse&text=bag&searchCategory=">Next</a>
-    </p>
+    </p> -->
+  </div>
+</div>
+  <div class="plp-bottom">
+    <span class="bottom-left-btn" on="tap:AMP.setState({filterVisible : true})" role="filter-menu" tabindex="0">
+      <a href="/search/?searchCategory=all&text={{currentQuery.searchQuery}}&filtersOpenAmp=true"><span><span class="refine-icon"></span>Refine</span></a>
+    </span>
+    <span class="bottom-right-btn" on="tap:AMP.setState({sortVisible : !sortVisible})" role="sort-menu" tabindex="0">
+      <span><span class="sort-icon"></span>Sort</span>
+    </span>
+  </div>
+  <div class="hide-content" [class]="sortVisible ? 'sort-menu' : 'hide-content'">
+    <div class="sort-left-back" on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="1"></div>
+    <div class="sort-header">
+      <span>Sort by</span>
+    </div>
+
+    <ul>
+      {{#sorts}}
+        <li><a href="https://www.tatacliq.com/search/?q={{currentQuery.searchQuery}}:{{code}}" on="tap:AMP.setState({sortVisible : false})" role="plp-main" tabindex="2">{{name}}</a></li>
+      {{/sorts}}
+    </ul>
   </div>
   </template>
   </amp-list>
-</div>
 
+  <!-- <amp-iframe height="1" width="1"
+    src="http://localhost:8887/views/stats.ejs?pageName=searchPage" sandbox="allow-scripts allow-same-origin"></amp-iframe> -->
+
+  <amp-analytics type="adobeanalytics_nativeConfig">
+   <script type="application/json">
+   {
+     "requests": {
+       "base": "http://${host}",
+       "iframeMessage": "http://localhost:8887/views/stats.ejs"
+     },
+     "vars": {
+       "host": "localhost:8887"
+     },
+     "extraUrlParams": {
+       "pageType":"PLP",
+       "pageName": "Search Results Page",
+       "searchText": "<%= searchTerm %>",
+       "channel": "mobile_web"
+     }
+   }
+   </script>
+  </amp-analytics>
+
+  <div id="scrollToTopButton" class="show-more-products" on="tap:AMP.setState({pageNumber: pageNumber+1}),productsListContainer.scrollTo(duration=200)" role="load-list" tabindex="0">
+    <span>SHOW MORE</span>
+  </div>
+
+</div>
 <!-- Scroll to Top -->
-<button id="scrollToTopButton" on="tap:productsListContainer.scrollTo(duration=200)" class="scrollToTop">	&#9650; TOP</button>
+<!-- <button id="scrollToTopButton" on="tap:productsListContainer.scrollTo(duration=200)" class="scrollToTop">	&#9650; TOP</button> -->
 </body>
 
 </html>
